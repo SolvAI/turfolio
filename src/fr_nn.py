@@ -12,6 +12,7 @@ Variants by tag: L20 (20-run history), mus (form-string tokens), kdX (training-o
   off (score = residual over the 30-min market, which enters the loss as an offset, never as an input)
 """
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -30,7 +31,7 @@ from racemodel import starts_of  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]
 PROC, RES = ROOT / "data" / "processed", ROOT / "results"
 L, M = 10, 24
-dev = torch.device("cuda")
+dev = torch.device(os.environ.get("TURFOLIO_DEVICE") or ("cuda" if torch.cuda.is_available() else "cpu"))  # training needs a GPU; scoring runs on a CPU
 CFG = dict(d=192, heads=4, layers=2, hd=64, drop=0.1, lr=1e-3, wd=1e-4, bs=256, max_epochs=14, nohist=False)
 
 
@@ -183,22 +184,22 @@ class Net(nn.Module):
 
 
 class Data:
-    """Everything on the GPU; batches gathered by race index."""
+    """Everything on the device (no copy on a CPU); batches gathered by race index."""
     def __init__(self, b):
-        self.X = torch.tensor(b["X"], device=dev)
-        self.C = torch.tensor(b["C"], device=dev)
-        self.y = torch.tensor(b["y"], device=dev)
-        self.pos = torch.tensor(b["pos"], device=dev)
-        self.ti = torch.tensor(b["ti"], device=dev)
-        self.H = torch.tensor(b["H"], device=dev)
-        self.tok = torch.tensor(b["tok"], device=dev)
-        self.info = torch.tensor(b["info"], device=dev)
-        self.RI = torch.tensor(b["RI"], device=dev)
-        self.MU = torch.tensor(b["MU"], device=dev) if b.get("MU") is not None else None
-        self.q = torch.tensor(b["q"], device=dev)
-        self.qv = torch.tensor(b["qv"], device=dev)
-        self.lmr = torch.tensor(b["lmr"], device=dev)
-        self.rv = torch.tensor(b["rv"], device=dev)
+        self.X = torch.as_tensor(b["X"], device=dev)
+        self.C = torch.as_tensor(b["C"], device=dev)
+        self.y = torch.as_tensor(b["y"], device=dev)
+        self.pos = torch.as_tensor(b["pos"], device=dev)
+        self.ti = torch.as_tensor(b["ti"], device=dev)
+        self.H = torch.as_tensor(b["H"], device=dev)
+        self.tok = torch.as_tensor(b["tok"], device=dev)
+        self.info = torch.as_tensor(b["info"], device=dev)
+        self.RI = torch.as_tensor(b["RI"], device=dev)
+        self.MU = torch.as_tensor(b["MU"], device=dev) if b.get("MU") is not None else None
+        self.q = torch.as_tensor(b["q"], device=dev)
+        self.qv = torch.as_tensor(b["qv"], device=dev)
+        self.lmr = torch.as_tensor(b["lmr"], device=dev)
+        self.rv = torch.as_tensor(b["rv"], device=dev)
 
     def offset(self, races):
         ri = self.RI[races]
@@ -271,7 +272,7 @@ def run(data, b, train_idx, eval_idx, epochs, seed, log_val=False):
         perm = np.random.permutation(train_idx)
         for i in range(0, len(perm), CFG["bs"]):
             x, cat, tk, tmask, rmask, y, pos, mu = data.batch(torch.tensor(perm[i:i + CFG["bs"]], device=dev))
-            with torch.autocast("cuda", dtype=torch.bfloat16):
+            with torch.autocast(dev.type, dtype=torch.bfloat16, enabled=dev.type == "cuda"):
                 s = net(x, cat, tk, tmask, rmask, mu)
             s2 = None
             if CFG.get("mt"):
@@ -305,7 +306,7 @@ def predict(net, data, idx):
     S, LL, S2 = [], [], []
     for i in range(0, len(idx), 1024):
         x, cat, tk, tmask, rmask, y, pos, mu = data.batch(torch.tensor(idx[i:i + 1024], device=dev))
-        with torch.autocast("cuda", dtype=torch.bfloat16):
+        with torch.autocast(dev.type, dtype=torch.bfloat16, enabled=dev.type == "cuda"):
             s = net(x, cat, tk, tmask, rmask, mu)
         if CFG.get("mt"):
             s, s2 = s

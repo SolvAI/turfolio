@@ -106,6 +106,26 @@ def people_stats(d, col, tag, base):
     return d.merge(a[[col, "day", f"{tag}_n", f"{tag}_wr", f"{tag}_ae"]], on=[col, "day"], how="left")
 
 
+def read_parts(name, cols):
+    """fr_<name>.parquet (the archive), plus any fr_<name>_extra*.parquet (later races in the same format, e.g. from PMU's API via
+    turfolio.py), concatenated and re-tidied exactly as src/fr_fresh.py build does for the full tables. Races already present are skipped."""
+    import sys
+    import pyarrow.parquet as pq
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from fr_extract import tidy
+    files = [PROC / f"fr_{name}.parquet"] + sorted(PROC.glob(f"fr_{name}_extra*.parquet"))
+    if len(files) == 1:
+        return pd.read_parquet(files[0], columns=cols)
+    parts, seen = [], set()
+    for f in files:
+        have = set(pq.read_schema(f).names)
+        x = pd.read_parquet(f, columns=[c for c in cols if c in have])
+        x = x[~x.raceKey.isin(seen)]
+        seen |= set(x.raceKey.unique())
+        parts.append(x)
+    return tidy(pd.concat(parts, ignore_index=True))[cols]
+
+
 def main():
     cols = ["date", "raceKey", "numPmu", "nom", "age", "sexe", "race", "statut", "placeCorde", "handicapDistance", "driver", "entraineur",
             "proprietaire", "eleveur", "musique", "nombreCourses", "nombreVictoires", "nombrePlaces", "gainsCarriere", "gainsVictoires",
@@ -115,13 +135,13 @@ def main():
             "raw.poidsConditionMonte", "raw.tauxReclamation", "raw.nombrePlacesSecond", "raw.nombrePlacesTroisieme", "raw.handicapValeur",
             "raw.paysEntrainement", "raw.avisEntraineur", "raw.pays", "raw.poidsConditionMonteChange",
             "dernierRapportDirect.rapport", "dernierRapportReference.rapport", "dernierRapportDirect.dateRapport", "dernierRapportReference.dateRapport"]
-    d = pd.read_parquet(PROC / "fr_runners.parquet", columns=cols)
+    d = read_parts("runners", cols)
     d.columns = [c.replace("raw.gainsParticipant.", "").replace("raw.", "").replace("dernierRapportDirect.", "odf_").replace("dernierRapportReference.", "odr_")
                  for c in d.columns]
     rc = ["raceKey", "reunionKey", "heureDepart", "hippodromeCode", "distance", "discipline", "specialite", "categorieParticularite", "conditionAge",
           "conditionSexe", "montantPrix", "nombreDeclaresPartants", "corde", "raw.typePiste", "raw.penetrometre.valeurMesure",
           "raw.penetrometre.intitule", "numReunion", "numCourse", "raw.paris", "conditions", "raw.categorieStatut", "raw.courseTrackee"]
-    r = pd.read_parquet(PROC / "fr_races.parquet", columns=rc)
+    r = read_parts("races", rc)
     r.columns = [c.replace("raw.penetrometre.", "going_").replace("raw.", "") for c in r.columns]
     r = r[r.categorieStatut.ne("ANNULEE")]
     r["quinte"] = r.paris.fillna("").str.contains("QUINTE").astype(np.int8)

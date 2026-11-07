@@ -9,3 +9,6 @@ results/v3_predictions_*.csv
 fresh/results/v3_predictions_*.csv
 __pycache__/
 *.pyc
+.venv/
+bets.csv
+*.part

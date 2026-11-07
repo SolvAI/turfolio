@@ -75,7 +75,8 @@ def race(job, out):
 def download(lo, hi, outdir, workers="8"):
     out = Path(outdir) if Path(outdir).is_absolute() else ROOT / outdir
     out.mkdir(parents=True, exist_ok=True)
-    done = {json.loads(l)["raceKey"] for l in open(out / "status.jsonl")} if (out / "status.jsonl").exists() else set()
+    # a race counts as done once its participants were fetched (a failed fetch is retried; readers keep the last copy of a race)
+    done = {r["raceKey"] for r in map(json.loads, open(out / "status.jsonl")) if r["st"][0] == 200} if (out / "status.jsonl").exists() else set()
     days = [date.fromisoformat(lo) + timedelta(days=i) for i in range((date.fromisoformat(hi) - date.fromisoformat(lo)).days + 1)]
     jobs = []
     for dd in days:

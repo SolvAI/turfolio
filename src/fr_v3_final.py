@@ -119,11 +119,11 @@ def train(through, out):
     print(f"-> {out}", flush=True)
 
 
-def predict(lo, hi, moddir):
+def fundamentals(lo, hi, moddir):
+    """p_fundamental (no odds) for every starter of the races dated lo..hi in fr_feats.parquet; returns (rows, manifest)."""
     import fr_nn
     man = json.load(open(moddir / "manifest.json"))
-    d = pd.read_parquet(PROC / "fr_feats.parquet")
-    d = d[(d.date >= lo) & (d.date <= hi)]
+    d = pd.read_parquet(PROC / "fr_feats.parquet", filters=[("date", ">=", pd.Timestamp(lo)), ("date", "<=", pd.Timestamp(hi))])
     d = d.merge(pd.read_parquet(PROC / "fr_ratings.parquet")[["rid", "numPmu"] + RT_COLS], on=["rid", "numPmu"], how="left")
     d = d.sort_values(["ts", "rid", "numPmu"]).reset_index(drop=True)
     if d.empty:
@@ -141,6 +141,14 @@ def predict(lo, hi, moddir):
                             np.c_[S[:, 0], S[:, 0] * t] @ np.array(man["blend"]["w_first_only"]))
     st, sz = starts_of(d.rid.values)
     d["p_fundamental"] = group_softmax(d.f_score.values, st, sz)
+    return d, man
+
+
+def stack(d, man, moddir):
+    """End model (p_win) and place model (p_place, est_place_payout, place_ev, rule_B) on the 30-min odds (mkt_pr, mkt_overr).
+    d: rows from fundamentals(), sorted by race; races without complete 30-min odds keep p_win = p_fundamental."""
+    d = d.copy()
+    t = d.specialite.astype(str).str.startswith("TROT").astype(float).values
     # end model where the race's 30-min odds are complete
     has = d.mkt_pr.notna().groupby(d.rid).transform("all").values
     d["p_win"], d["used_odds"] = d.p_fundamental, has
@@ -192,6 +200,12 @@ def predict(lo, hi, moddir):
         d.loc[has, "place_ev"] = np.where(ok, P * Ecor - 1, np.nan)
         d.loc[has, "rule_B"] = ok & (P >= pl["rule_B"]["p_place_min"]) & (P * Ecor - 1 > pl["rule_B"]["ev_min"])
     d["horse"] = d.hk.astype(str).str.split("|").str[0]
+    return d
+
+
+def predict(lo, hi, moddir):
+    d, man = fundamentals(lo, hi, moddir)
+    d = stack(d, man, moddir)
     cols = ["date", "raceKey", "numPmu", "horse", "p_fundamental", "p_win", "used_odds", "p_place", "est_place_payout", "place_ev", "rule_B"]
     out = d[cols + ["rid"]].copy()
     f = RES / f"v3_predictions_{lo}_{hi}.csv"

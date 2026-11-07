@@ -1,0 +1,4 @@
+#!/bin/sh
+# Turfolio launcher (macOS / Linux): ./turfolio bets --watch
+DIR="$(cd "$(dirname "$0")" && pwd)"
+exec "$DIR/.venv/bin/python" -I "$DIR/turfolio.py" "$@"
