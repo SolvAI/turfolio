@@ -1,0 +1,7 @@
+{
+ "written": "2026-11-06T18:59:10.046910",
+ "choice_made_on": "dev only: results/value_late_dev.json (fit 2018-21, evaluated 2022-24: +20.8% vs +10.1% for the current payout model)",
+ "rule": "src/fr_value_late.py test: p = end_ref; EV = p * E[final odds | win] - 1 with the winners payout regression of fr_value.py PLUS head 2 of nn_L20_mus_mt (predicted late move, and x trot); fit on 2018-2024 winners; (p_min, tau) chosen on 2018-2024 with >= 2000 bets; bet if tau < EV < 1",
+ "headline": "ROI on 2025-01..2026-05 hold-out at official main-pool dividends, 95% CI by day bootstrap; compared with the same procedure without head 2",
+ "then": "the same frozen rule on the fresh window 2026-05-06..2026-11-05 (fresh/ run, after head 2 is produced there)"
+}

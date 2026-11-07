@@ -1,0 +1,11 @@
+races: 157,142 rows, 72 columns -> fr_races.parquet
+  runners: 200,000 rows
+  runners: 400,000 rows
+  runners: 600,000 rows
+  runners: 800,000 rows
+  runners: 1,000,000 rows
+  runners: 1,200,000 rows
+  runners: 1,400,000 rows
+  runners: 1,600,000 rows
+  runners: 1,800,000 rows
+runners: 1,957,901 rows, 91 columns -> fr_runners.parquet

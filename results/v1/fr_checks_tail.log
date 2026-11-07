@@ -1,0 +1,40 @@
+2 ODDS SEMANTICS
+  direct   : winners with both 142,703; odds/payout median 1.000; within 5 % 0.937; within 20 % 0.983
+  reference: winners with both 130,716; odds/payout median 1.079; within 5 % 0.112; within 20 % 0.427
+  direct   : snapshot time minus scheduled off (minutes) quantiles {0.05: 0.5, 0.25: 1.2, 0.5: 1.8, 0.75: 3.0, 0.95: 7.5}
+  reference: snapshot time minus scheduled off (minutes) quantiles {0.05: -258.9, 0.25: -34.9, 0.5: -30.9, 0.75: -29.9, 0.95: -22.5}
+
+3 ARE CAREER STATS AS OF THE RACE?
+  consecutive starts of the same horse: change in 'nombreCourses' = 0: 0.006, = 1: 0.836, > 1: 0.153, < 0: 0.005
+  earnings never decrease: 0.993
+  next start's form string begins with this race's placing (1-9): 0.870
+  first start in the data: nombreCourses == 0 for 0.490 (horses debuting after 2014 should be 0)
+
+4 MARKET
+  direct: races 125,558; sum 1/odds median 1.197
+    ATTELE        races 57,163 field 14  favourite wins 0.328  market log-loss 1.9852  uniform 2.5667
+    HAIE          races  8,130 field 10  favourite wins 0.305  market log-loss 1.9263  uniform 2.2987
+    MONTE         races 11,040 field 12  favourite wins 0.329  market log-loss 1.9445  uniform 2.4824
+    PLAT          races 43,120 field 11  favourite wins 0.289  market log-loss 1.9952  uniform 2.3330
+    STEEPLECHASE  races  5,290 field 8  favourite wins 0.349  market log-loss 1.7681  uniform 2.1259
+    calibration (all disciplines):
+                   n  market  actual
+pm                                  
+(0.0, 0.02]   340081  0.0118  0.0084
+(0.02, 0.05]  385741  0.0337  0.0311
+(0.05, 0.1]   350599  0.0734  0.0701
+(0.1, 0.15]   177751  0.1223  0.1243
+(0.15, 0.2]    99306  0.1731  0.1756
+(0.2, 0.3]     94555  0.2423  0.2534
+(0.3, 0.4]     33777  0.3440  0.3655
+(0.4, 0.6]     18741  0.4695  0.5152
+(0.6, 1.0]       855  0.6490  0.7240
+  reference: races 109,531; sum 1/odds median 1.199
+    ATTELE        races 45,809 field 14  favourite wins 0.317  market log-loss 2.0387  uniform 2.5671
+    HAIE          races  7,397 field 10  favourite wins 0.293  market log-loss 1.9964  uniform 2.3136
+    MONTE         races  9,966 field 12  favourite wins 0.313  market log-loss 2.0097  uniform 2.4797
+    PLAT          races 41,193 field 11  favourite wins 0.268  market log-loss 2.0747  uniform 2.3432
+    STEEPLECHASE  races  4,516 field 8  favourite wins 0.319  market log-loss 1.8349  uniform 2.1441
+
+5 FIELDS THAT LOOK POST-RACE (never use as features)
+  ['placeCorde', 'nombrePlaces', 'gainsPlace', 'incident', 'dernierRapportDirect', 'dernierRapportReference', 'raw.gainsParticipant.gainsPlace', 'raw.ordreArrivee', 'raw.tempsObtenu', 'raw.reductionKilometrique', 'raw.distanceChevalPrecedent.libelleCourt', 'raw.distanceChevalPrecedent.libelleLong', 'raw.distanceChevalPrecedent.code', 'raw.distanceChevalPrecedent.identifiant', 'dernierRapportDirect.typePari', 'dernierRapportDirect.rapport', 'dernierRapportDirect.typeRapport', 'dernierRapportDirect.indicateurTendance', 'dernierRapportDirect.nombreIndicateurTendance', 'dernierRapportDirect.dateRapport', 'dernierRapportDirect.permutation', 'dernierRapportDirect.favoris', 'dernierRapportDirect.numPmu1', 'dernierRapportDirect.grossePrise', 'dernierRapportReference.typePari', 'dernierRapportReference.rapport', 'dernierRapportReference.typeRapport', 'dernierRapportReference.indicateurTendance', 'dernierRapportReference.nombreIndicateurTendance', 'dernierRapportReference.dateRapport', 'dernierRapportReference.permutation', 'dernierRapportReference.favoris', 'dernierRapportReference.numPmu1', 'dernierRapportReference.grossePrise', 'raw.nombrePlacesSecond', 'raw.nombrePlacesTroisieme', 'raw.commentaireApresCourse.texte', 'raw.commentaireApresCourse.source']

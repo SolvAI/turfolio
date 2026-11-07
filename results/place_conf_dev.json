@@ -1,0 +1,102 @@
+{
+ "rule_A_dev_2019_2024": {
+  "0.50": {
+   "bets": 44718,
+   "hits": 28483,
+   "hit_rate": 0.6369,
+   "avg_payout_when_hit": 1.49,
+   "roi": -0.0484,
+   "share_of_races": 0.753,
+   "mean_P": 0.642
+  },
+  "0.55": {
+   "bets": 35548,
+   "hits": 23648,
+   "hit_rate": 0.6652,
+   "avg_payout_when_hit": 1.44,
+   "roi": -0.0411,
+   "share_of_races": 0.599,
+   "mean_P": 0.672
+  },
+  "0.60": {
+   "bets": 26422,
+   "hits": 18371,
+   "hit_rate": 0.6953,
+   "avg_payout_when_hit": 1.39,
+   "roi": -0.0362,
+   "share_of_races": 0.445,
+   "mean_P": 0.705
+  },
+  "0.65": {
+   "bets": 18159,
+   "hits": 13275,
+   "hit_rate": 0.731,
+   "avg_payout_when_hit": 1.33,
+   "roi": -0.0259,
+   "share_of_races": 0.306,
+   "mean_P": 0.742
+  },
+  "0.70": {
+   "bets": 11509,
+   "hits": 8803,
+   "hit_rate": 0.7649,
+   "avg_payout_when_hit": 1.28,
+   "roi": -0.0217,
+   "share_of_races": 0.194,
+   "mean_P": 0.781
+  },
+  "0.75": {
+   "bets": 6817,
+   "hits": 5458,
+   "hit_rate": 0.8006,
+   "avg_payout_when_hit": 1.23,
+   "roi": -0.0119,
+   "share_of_races": 0.115,
+   "mean_P": 0.821
+  },
+  "0.80": {
+   "bets": 3798,
+   "hits": 3144,
+   "hit_rate": 0.8278,
+   "avg_payout_when_hit": 1.2,
+   "roi": -0.01,
+   "share_of_races": 0.064,
+   "mean_P": 0.859
+  },
+  "0.85": {
+   "bets": 1868,
+   "hits": 1595,
+   "hit_rate": 0.8539,
+   "avg_payout_when_hit": 1.16,
+   "roi": -0.0059,
+   "share_of_races": 0.031,
+   "mean_P": 0.895
+  },
+  "0.90": {
+   "bets": 730,
+   "hits": 640,
+   "hit_rate": 0.8767,
+   "avg_payout_when_hit": 1.14,
+   "roi": -0.0034,
+   "share_of_races": 0.012,
+   "mean_P": 0.931
+  },
+  "0.95": {
+   "bets": 151,
+   "hits": 138,
+   "hit_rate": 0.9139,
+   "avg_payout_when_hit": 1.11,
+   "roi": 0.0099,
+   "share_of_races": 0.003,
+   "mean_P": 0.967
+  }
+ },
+ "chosen_c": "0.80",
+ "rule_B_dev": {
+  "bets": 2841,
+  "hits": 1893,
+  "hit_rate": 0.6663,
+  "avg_payout_when_hit": 1.56,
+  "roi": 0.04
+ }
+}

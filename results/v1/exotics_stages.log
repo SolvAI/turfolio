@@ -1,0 +1,67 @@
+992,443 starters, 84,039 races, 2018-01-01 .. 2026-05-05
+[100]	valid_0's race_ll: 2.03057
+[200]	valid_0's race_ll: 2.02953
+[300]	valid_0's race_ll: 2.02948
+  rounds ref stage 2: 246
+[100]	valid_0's race_ll: 2.00695
+[200]	valid_0's race_ll: 2.00487
+[300]	valid_0's race_ll: 2.00418
+[400]	valid_0's race_ll: 2.00381
+[500]	valid_0's race_ll: 2.00367
+[600]	valid_0's race_ll: 2.00346
+  rounds ref stage 3: 597
+[100]	valid_0's race_ll: 2.00833
+[200]	valid_0's race_ll: 2.0072
+[300]	valid_0's race_ll: 2.00683
+[400]	valid_0's race_ll: 2.00665
+  rounds final stage 2: 375
+[100]	valid_0's race_ll: 1.99231
+[200]	valid_0's race_ll: 1.98979
+[300]	valid_0's race_ll: 1.98915
+[400]	valid_0's race_ll: 1.98882
+[500]	valid_0's race_ll: 1.98872
+  rounds final stage 3: 489
+  ref stage 2 2019: train rows 119,861 (1s)
+  ref stage 2 2020: train rows 227,908 (2s)
+  ref stage 2 2021: train rows 324,425 (3s)
+  ref stage 2 2022: train rows 431,367 (4s)
+  ref stage 2 2023: train rows 538,109 (4s)
+  ref stage 2 2024: train rows 646,355 (5s)
+  ref stage 2 2025: train rows 757,588 (6s)
+    ref s2 mdisc weights (last fold): [0.894, -0.02]
+    ref s2 disc weights (last fold): [0.829, -0.111]
+    ref s2 full weights (last fold): [0.693, 0.33, 0.142, -0.244, 0.011, -0.304]
+  ref stage 2 2026: train rows 868,528 (6s)
+  ref stage 3 2019: train rows 108,704 (2s)
+  ref stage 3 2020: train rows 206,866 (4s)
+  ref stage 3 2021: train rows 294,461 (5s)
+  ref stage 3 2022: train rows 391,136 (6s)
+  ref stage 3 2023: train rows 487,439 (7s)
+  ref stage 3 2024: train rows 585,127 (9s)
+  ref stage 3 2025: train rows 685,794 (10s)
+    ref s3 mdisc weights (last fold): [0.779, -0.12]
+    ref s3 disc weights (last fold): [0.69, -0.172]
+    ref s3 full weights (last fold): [0.68, 0.291, 0.068, -0.259, -0.067, -0.353]
+  ref stage 3 2026: train rows 786,209 (11s)
+  final stage 2 2019: train rows 119,861 (2s)
+  final stage 2 2020: train rows 227,908 (3s)
+  final stage 2 2021: train rows 324,425 (4s)
+  final stage 2 2022: train rows 431,367 (5s)
+  final stage 2 2023: train rows 538,109 (6s)
+  final stage 2 2024: train rows 646,355 (6s)
+  final stage 2 2025: train rows 757,588 (8s)
+    final s2 mdisc weights (last fold): [0.902, -0.094]
+    final s2 disc weights (last fold): [0.822, -0.121]
+    final s2 full weights (last fold): [0.508, 0.119, 0.083, -0.059, 0.281, -0.214]
+  final stage 2 2026: train rows 868,528 (8s)
+  final stage 3 2019: train rows 108,704 (2s)
+  final stage 3 2020: train rows 206,866 (4s)
+  final stage 3 2021: train rows 294,461 (5s)
+  final stage 3 2022: train rows 391,136 (7s)
+  final stage 3 2023: train rows 487,439 (7s)
+  final stage 3 2024: train rows 585,127 (8s)
+  final stage 3 2025: train rows 685,794 (9s)
+    final s3 mdisc weights (last fold): [0.754, -0.165]
+    final s3 disc weights (last fold): [0.675, -0.173]
+    final s3 full weights (last fold): [0.386, 0.25, 0.103, -0.123, 0.239, -0.385]
+  final stage 3 2026: train rows 786,209 (10s)

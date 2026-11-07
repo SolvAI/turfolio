@@ -1,0 +1,16 @@
+hk win+rt: 92 features, best iteration 175 -> 192
+[LightGBM] [Warning] Met categorical feature which contains sparse values. Consider renumbering to consecutive integers started from zero
+[LightGBM] [Warning] Met categorical feature which contains sparse values. Consider renumbering to consecutive integers started from zero
+-> exp/hk_win+rt.parquet (52s)
+hk pl3+rt: 92 features, best iteration 534 -> 587
+[LightGBM] [Warning] Met categorical feature which contains sparse values. Consider renumbering to consecutive integers started from zero
+[LightGBM] [Warning] Met categorical feature which contains sparse values. Consider renumbering to consecutive integers started from zero
+-> exp/hk_pl3+rt.parquet (244s)
+hk pl3: 83 features, best iteration 381 -> 419
+[LightGBM] [Warning] Met categorical feature which contains sparse values. Consider renumbering to consecutive integers started from zero
+[LightGBM] [Warning] Met categorical feature which contains sparse values. Consider renumbering to consecutive integers started from zero
+-> exp/hk_pl3.parquet (137s)
+hk win: 83 features, best iteration 368 -> 404
+[LightGBM] [Warning] Met categorical feature which contains sparse values. Consider renumbering to consecutive integers started from zero
+[LightGBM] [Warning] Met categorical feature which contains sparse values. Consider renumbering to consecutive integers started from zero
+-> exp/hk_win.parquet (91s)

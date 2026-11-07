@@ -1,0 +1,1 @@
+{"epochs": 10, "val_by_epochs": {"10": 1.9981580972671509}, "cfg": {"d": 192, "heads": 4, "layers": 2, "hd": 64, "drop": 0.1, "lr": 0.001, "wd": 0.0001, "bs": 256, "max_epochs": 14, "nohist": false, "mus": true, "mt": true}}

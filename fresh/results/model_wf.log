@@ -1,0 +1,11 @@
+1,971,521 starters, 162,904 races, 157 features
+  2017: train 328,463 rows -> race log-loss 2.1084, top-1 0.2667
+  2018: train 493,343 rows -> race log-loss 2.0572, top-1 0.2770
+  2019: train 655,247 rows -> race log-loss 2.0859, top-1 0.2662
+  2020: train 794,915 rows -> race log-loss 2.0581, top-1 0.2809
+  2021: train 921,678 rows -> race log-loss 2.0658, top-1 0.2723
+  2022: train 1,063,986 rows -> race log-loss 2.0413, top-1 0.2809
+  2023: train 1,215,450 rows -> race log-loss 2.0404, top-1 0.2843
+  2024: train 1,366,344 rows -> race log-loss 2.0527, top-1 0.2747
+  2025: train 1,521,567 rows -> race log-loss 2.0352, top-1 0.2809
+  2026: train 1,676,106 rows -> race log-loss 1.9998, top-1 0.2894

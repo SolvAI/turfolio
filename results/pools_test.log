@@ -1,0 +1,354 @@
+{
+ "range": [
+  "2025-01-01",
+  "2026-05-31"
+ ],
+ "races": 13545,
+ "runners": 159042,
+ "net_win_pool_eur_median": {
+  "main": 132684,
+  "internet": 16950,
+  "internet_share_median": 0.117
+ },
+ "overround_median": {
+  "main_ref": 1.195,
+  "main_final": 1.194,
+  "e_ref": 1.161,
+  "e_final": 1.16
+ },
+ "winner_logloss": {
+  "main_ref": 2.0216,
+  "e_ref": 2.0361,
+  "main_final": 1.9303,
+  "e_final": 1.9432,
+  "both_ref_geo_mean": 2.0138,
+  "both_final_geo_mean": 1.9329,
+  "model_end_ref": 1.9527
+ },
+ "gap_by_main_ref_odds": [
+  {
+   "odds": "[1.0, 2.0)",
+   "n": 2115,
+   "mean_log_gap_final": -0.002,
+   "share_e_pays_more_final": 0.39,
+   "mean_log_gap_ref": 0.223,
+   "winners": 1035,
+   "mean_log_official_gap_winners": 0.006
+  },
+  {
+   "odds": "[2.0, 3.0)",
+   "n": 3850,
+   "mean_log_gap_final": 0.003,
+   "share_e_pays_more_final": 0.439,
+   "mean_log_gap_ref": 0.166,
+   "winners": 1342,
+   "mean_log_official_gap_winners": 0.007
+  },
+  {
+   "odds": "[3.0, 5.0)",
+   "n": 11719,
+   "mean_log_gap_final": 0.018,
+   "share_e_pays_more_final": 0.515,
+   "mean_log_gap_ref": 0.104,
+   "winners": 2763,
+   "mean_log_official_gap_winners": 0.029
+  },
+  {
+   "odds": "[5.0, 8.0)",
+   "n": 20773,
+   "mean_log_gap_final": 0.031,
+   "share_e_pays_more_final": 0.563,
+   "mean_log_gap_ref": 0.062,
+   "winners": 3024,
+   "mean_log_official_gap_winners": 0.048
+  },
+  {
+   "odds": "[8.0, 13.0)",
+   "n": 31700,
+   "mean_log_gap_final": 0.038,
+   "share_e_pays_more_final": 0.553,
+   "mean_log_gap_ref": 0.039,
+   "winners": 2826,
+   "mean_log_official_gap_winners": 0.053
+  },
+  {
+   "odds": "[13.0, 21.0)",
+   "n": 34632,
+   "mean_log_gap_final": 0.04,
+   "share_e_pays_more_final": 0.543,
+   "mean_log_gap_ref": 0.033,
+   "winners": 1667,
+   "mean_log_official_gap_winners": 0.063
+  },
+  {
+   "odds": "[21.0, 40.0)",
+   "n": 32312,
+   "mean_log_gap_final": 0.032,
+   "share_e_pays_more_final": 0.533,
+   "mean_log_gap_ref": 0.044,
+   "winners": 736,
+   "mean_log_official_gap_winners": 0.037
+  },
+  {
+   "odds": "[40.0, 1000000000.0)",
+   "n": 21941,
+   "mean_log_gap_final": 0.101,
+   "share_e_pays_more_final": 0.626,
+   "mean_log_gap_ref": -0.013,
+   "winners": 176,
+   "mean_log_official_gap_winners": -0.002
+  }
+ ],
+ "gap_ref_predicts_gap_final": {
+  "corr": 0.279,
+  "sign_agreement": 0.528
+ },
+ "strategies": {
+  "all_runners": {
+   "main": {
+    "bets": 159042,
+    "hits": 13569,
+    "hit_rate": 0.0853,
+    "avg_payout_when_hit": 8.72,
+    "roi": -0.2558,
+    "roi_ci95": [
+     -0.2719,
+     -0.2407
+    ]
+   },
+   "internet": {
+    "bets": 159042,
+    "hits": 13569,
+    "hit_rate": 0.0853,
+    "avg_payout_when_hit": 9.12,
+    "roi": -0.2218,
+    "roi_ci95": [
+     -0.2384,
+     -0.2063
+    ]
+   },
+   "higher_at_30min": {
+    "bets": 159042,
+    "hits": 13569,
+    "hit_rate": 0.0853,
+    "avg_payout_when_hit": 9.1,
+    "roi": -0.2233,
+    "roi_ci95": [
+     -0.2386,
+     -0.2066
+    ]
+   },
+   "oracle_higher_final_odds": {
+    "bets": 159042,
+    "hits": 13569,
+    "hit_rate": 0.0853,
+    "avg_payout_when_hit": 9.66,
+    "roi": -0.1762,
+    "roi_ci95": [
+     -0.194,
+     -0.1587
+    ]
+   }
+  },
+  "value_rule": {
+   "main": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.41,
+    "roi": 0.0385,
+    "roi_ci95": [
+     -0.1148,
+     0.244
+    ]
+   },
+   "internet": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.42,
+    "roi": 0.0406,
+    "roi_ci95": [
+     -0.1085,
+     0.2115
+    ]
+   },
+   "higher_at_30min": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.55,
+    "roi": 0.066,
+    "roi_ci95": [
+     -0.097,
+     0.2784
+    ]
+   },
+   "oracle_higher_final_odds": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.86,
+    "roi": 0.1263,
+    "roi_ci95": [
+     -0.0465,
+     0.3235
+    ]
+   }
+  },
+  "favourite_main_ref": {
+   "main": {
+    "bets": 13776,
+    "hits": 4163,
+    "hit_rate": 0.3022,
+    "avg_payout_when_hit": 2.88,
+    "roi": -0.1285,
+    "roi_ci95": [
+     -0.1508,
+     -0.1047
+    ]
+   },
+   "internet": {
+    "bets": 13776,
+    "hits": 4163,
+    "hit_rate": 0.3022,
+    "avg_payout_when_hit": 2.94,
+    "roi": -0.1102,
+    "roi_ci95": [
+     -0.1346,
+     -0.0869
+    ]
+   },
+   "higher_at_30min": {
+    "bets": 13776,
+    "hits": 4163,
+    "hit_rate": 0.3022,
+    "avg_payout_when_hit": 2.94,
+    "roi": -0.1127,
+    "roi_ci95": [
+     -0.1357,
+     -0.09
+    ]
+   },
+   "oracle_higher_final_odds": {
+    "bets": 13776,
+    "hits": 4163,
+    "hit_rate": 0.3022,
+    "avg_payout_when_hit": 3.07,
+    "roi": -0.0724,
+    "roi_ci95": [
+     -0.0965,
+     -0.0487
+    ]
+   }
+  }
+ },
+ "value_rule_with_own_stake": {
+  "2eur": {
+   "main": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.4,
+    "roi": 0.0373,
+    "roi_ci95": [
+     -0.1326,
+     0.2256
+    ]
+   },
+   "internet": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.41,
+    "roi": 0.0396,
+    "roi_ci95": [
+     -0.1113,
+     0.2148
+    ]
+   }
+  },
+  "10eur": {
+   "main": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.38,
+    "roi": 0.0333,
+    "roi_ci95": [
+     -0.1293,
+     0.2241
+    ]
+   },
+   "internet": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.39,
+    "roi": 0.0358,
+    "roi_ci95": [
+     -0.1214,
+     0.199
+    ]
+   }
+  },
+  "50eur": {
+   "main": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.31,
+    "roi": 0.0203,
+    "roi_ci95": [
+     -0.147,
+     0.2234
+    ]
+   },
+   "internet": {
+    "bets": 1234,
+    "hits": 237,
+    "hit_rate": 0.1921,
+    "avg_payout_when_hit": 5.3,
+    "roi": 0.0178,
+    "roi_ci95": [
+     -0.136,
+     0.1793
+    ]
+   }
+  }
+ },
+ "value_rule_by_year": {
+  "2025": {
+   "main": {
+    "bets": 780,
+    "hits": 164,
+    "hit_rate": 0.2103,
+    "avg_payout_when_hit": 5.15,
+    "roi": 0.0821
+   },
+   "internet": {
+    "bets": 780,
+    "hits": 164,
+    "hit_rate": 0.2103,
+    "avg_payout_when_hit": 5.18,
+    "roi": 0.0899
+   }
+  },
+  "2026": {
+   "main": {
+    "bets": 454,
+    "hits": 73,
+    "hit_rate": 0.1608,
+    "avg_payout_when_hit": 5.99,
+    "roi": -0.0363
+   },
+   "internet": {
+    "bets": 454,
+    "hits": 73,
+    "hit_rate": 0.1608,
+    "avg_payout_when_hit": 5.95,
+    "roi": -0.0441
+   }
+  }
+ }
+}

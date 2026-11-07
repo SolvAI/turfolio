@@ -1,0 +1,123 @@
+{
+ "coverage": {
+  "our_races": 8506,
+  "with_page": 7284,
+  "with_series": 6675,
+  "share_with_series": 0.785
+ },
+ "runner_name_match": 0.9929,
+ "last_point_minutes_before_scheduled_start": {
+  "0.05": -28.0,
+  "0.25": -24.0,
+  "0.5": -20.0,
+  "0.75": -15.0,
+  "0.95": -12.0
+ },
+ "points_per_horse": {
+  "12": 78487,
+  "11": 229,
+  "10": 96,
+  "9": 76,
+  "7": 68
+ },
+ "missing_values_share": 0.0,
+ "races_with_duplicated_series": 0.0008,
+ "at_ref_time": {
+  "n": 75713,
+  "median_abs_log_diff": 0.2766,
+  "share_within_10pct": 0.197,
+  "corr_log": 0.8596
+ },
+ "last_point_vs_final": {
+  "n": 76212,
+  "median_abs_log_diff_last_final": 0.1431,
+  "median_abs_log_diff_ref_final": 0.2877,
+  "share_of_ref_to_final_move_in_last_point": 0.963
+ },
+ "winner_logloss_by_point": {
+  "0": {
+   "median_mins_to_off": 90.0,
+   "races": 6207,
+   "canalturf": 2.0991,
+   "ref": 2.0329,
+   "final": 1.9493
+  },
+  "1": {
+   "median_mins_to_off": 80.0,
+   "races": 6207,
+   "canalturf": 2.0944,
+   "ref": 2.0329,
+   "final": 1.9493
+  },
+  "2": {
+   "median_mins_to_off": 70.0,
+   "races": 6207,
+   "canalturf": 2.0885,
+   "ref": 2.0331,
+   "final": 1.9495
+  },
+  "3": {
+   "median_mins_to_off": 60.0,
+   "races": 6201,
+   "canalturf": 2.0846,
+   "ref": 2.0331,
+   "final": 1.9495
+  },
+  "4": {
+   "median_mins_to_off": 50.0,
+   "races": 6166,
+   "canalturf": 2.0806,
+   "ref": 2.0331,
+   "final": 1.9492
+  },
+  "5": {
+   "median_mins_to_off": 40.0,
+   "races": 6145,
+   "canalturf": 2.0732,
+   "ref": 2.0325,
+   "final": 1.9483
+  },
+  "6": {
+   "median_mins_to_off": 30.0,
+   "races": 6123,
+   "canalturf": 2.0684,
+   "ref": 2.0328,
+   "final": 1.9488
+  },
+  "7": {
+   "median_mins_to_off": 20.0,
+   "races": 6089,
+   "canalturf": 2.0602,
+   "ref": 2.0317,
+   "final": 1.9478
+  },
+  "8": {
+   "median_mins_to_off": 10.0,
+   "races": 6061,
+   "canalturf": 2.0432,
+   "ref": 2.0321,
+   "final": 1.9479
+  },
+  "9": {
+   "median_mins_to_off": 0.0,
+   "races": 6023,
+   "canalturf": 2.0316,
+   "ref": 2.0321,
+   "final": 1.9481
+  },
+  "10": {
+   "median_mins_to_off": -10.0,
+   "races": 5971,
+   "canalturf": 1.9689,
+   "ref": 2.0318,
+   "final": 1.9474
+  },
+  "11": {
+   "median_mins_to_off": -20.0,
+   "races": 5911,
+   "canalturf": 1.9596,
+   "ref": 2.0335,
+   "final": 1.9498
+  }
+ }
+}

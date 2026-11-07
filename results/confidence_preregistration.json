@@ -1,0 +1,8 @@
+{
+ "written": "2026-11-07T00:23:33.880560",
+ "choice_made_on": "2018-2024 only (results/confidence_dev.json)",
+ "rule": "each race: back the top pick of end_ref (v3 end model, 30 min out) if its probability >= 0.60; else skip. Main-pool win bet at the official dividend; flat EUR 10, paper bank EUR 1000",
+ "threshold": 0.6,
+ "selection": "best dev ROI among thresholds with >= 2000 dev bets",
+ "headline": "ROI with 95% day-bootstrap CI on the hold-out 2025-01..2026-05-05 and, separately, the fresh window 2026-05-06..11-05"
+}

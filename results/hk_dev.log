@@ -1,0 +1,29 @@
+[100]	valid_0's race_ll: 2.17646
+[200]	valid_0's race_ll: 2.16778
+[300]	valid_0's race_ll: 2.1691
+83 features; best iteration 261
+h_avg_pos3_dm       26392.0
+h_last_pos          13979.0
+jky_wr_dm           11221.0
+h_avg_pos3_rk        8092.0
+h_n                  7320.0
+gears                6891.0
+h_avg_mkt3_dm        6889.0
+jky_wr               4065.0
+h_n_dm               3644.0
+jky_wr_rk            3613.0
+h_last_mkt           2992.0
+days_since_first     2943.0
+days_since           2834.0
+h_last_mkt_dm        2760.0
+h_avg_mkt3           2525.0
+h_last_bl            2435.0
+h_avg_bl3_dm         2406.0
+course               2161.0
+h_best_tbw3          2156.0
+h_last_tbw           2148.0
+draw_dm              2008.0
+draw_rk              1883.0
+jt_wr                1856.0
+rating               1773.0
+rating_dm            1718.0

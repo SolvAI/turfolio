@@ -1,0 +1,49 @@
+runner columns: ['date', 'ddmmyyyy', 'raceKey', 'numReunion', 'numExterneReunion', 'numCourse', 'hippodrome', 'numPmu', 'nom', 'idCheval', 'age', 'sexe', 'race', 'statut', 'placeCorde', 'poids', 'handicapDistance', 'driver', 'jockey', 'entraineur', 'proprietaire', 'eleveur', 'musique', 'nombreCourses', 'nombreVictoires', 'nombrePlaces', 'gainsCarriere', 'gainsVictoires', 'gainsPlace', 'deferre', 'oeilleres', 'incident', 'dernierRapportDirect', 'dernierRapportReference', 'raw.driverChange', 'raw.robe.code', 'raw.robe.libelleCourt', 'raw.robe.libelleLong', 'raw.indicateurInedit', 'raw.gainsParticipant.gainsCarriere', 'raw.gainsParticipant.gainsVictoires', 'raw.gainsParticipant.gainsPlace', 'raw.gainsParticipant.gainsAnneeEnCours', 'raw.gainsParticipant.gainsAnneePrecedente', 'raw.nomPere', 'raw.nomMere', 'raw.ordreArrivee', 'raw.jumentPleine', 'raw.engagement', 'raw.supplement', 'raw.poidsConditionMonteChange', 'raw.tempsObtenu', 'raw.reductionKilometrique', 'raw.allure', 'raw.nomPereMere', 'raw.handicapPoids', 'raw.distanceChevalPrecedent.libelleCourt', 'raw.distanceChevalPrecedent.libelleLong', 'raw.distanceChevalPrecedent.code', 'raw.distanceChevalPrecedent.identifiant', 'raw.ecurie', 'raw.poidsConditionMonte', 'raw.tauxReclamation', 'dernierRapportDirect.typePari', 'dernierRapportDirect.rapport', 'dernierRapportDirect.typeRapport', 'dernierRapportDirect.indicateurTendance', 'dernierRapportDirect.nombreIndicateurTendance', 'dernierRapportDirect.dateRapport', 'dernierRapportDirect.permutation', 'dernierRapportDirect.favoris', 'dernierRapportDirect.numPmu1', 'dernierRapportDirect.grossePrise', 'dernierRapportReference.typePari', 'dernierRapportReference.rapport', 'dernierRapportReference.typeRapport', 'dernierRapportReference.indicateurTendance', 'dernierRapportReference.nombreIndicateurTendance', 'dernierRapportReference.dateRapport', 'dernierRapportReference.permutation', 'dernierRapportReference.favoris', 'dernierRapportReference.numPmu1', 'dernierRapportReference.grossePrise', 'raw.nombrePlacesSecond', 'raw.nombrePlacesTroisieme', 'raw.handicapValeur', 'raw.paysEntrainement', 'raw.avisEntraineur', 'raw.pays', 'raw.commentaireApresCourse.texte', 'raw.commentaireApresCourse.source']
+race columns: ['date', 'ddmmyyyy', 'raceKey', 'reunionKey', 'numReunion', 'numExterneReunion', 'numCourse', 'numOrdre', 'heureDepart', 'libelle', 'libelleCourt', 'hippodromeCode', 'hippodrome', 'montantPrix', 'distance', 'distanceUnit', 'corde', 'discipline', 'specialite', 'categorieParticularite', 'conditionAge', 'conditionSexe', 'nombreDeclaresPartants', 'statut', 'arriveeDefinitive', 'ordreArrivee', 'incidents', 'rapportsDefinitifsDisponibles', 'conditions', 'raw.cached', 'raw.departImminent', 'raw.timezoneOffset', 'raw.numExterne', 'raw.parcours', 'raw.grandPrixNationalTrot', 'raw.numSocieteMere', 'raw.pariMultiCourses', 'raw.pariSpecial', 'raw.montantTotalOffert', 'raw.montantOffert1er', 'raw.montantOffert2eme', 'raw.montantOffert3eme', 'raw.montantOffert4eme', 'raw.montantOffert5eme', 'raw.numCourseDedoublee', 'raw.paris', 'raw.categorieStatut', 'raw.dureeCourse', 'raw.participants', 'raw.ecuries', 'raw.isArriveeDefinitive', 'raw.isDepartImminent', 'raw.isDepartAJPlusUn', 'raw.cagnottes', 'raw.pronosticsExpires', 'raw.replayDisponible', 'raw.hippodrome.codeHippodrome', 'raw.hippodrome.libelleCourt', 'raw.hippodrome.libelleLong', 'raw.epcPourTousParis', 'raw.courseTrackee', 'raw.courseExclusiveInternet', 'raw.formuleChampLibreIndisponible', 'raw.hasEParis', 'raw.penetrometre.valeurMesure', 'raw.penetrometre.intitule', 'raw.penetrometre.heureMesure', 'raw.typePiste', 'raw.penetrometre.commentaire', 'raw.indicateurEvenementArriveeProvisoire', 'raw.detailsIndicateurEvenementArriveeProvisoire', 'raw.poolIds']
+
+1 COVERAGE
+      runners  races  odds_direct  odds_ref  placing
+year                                                
+2014   170893  13683        0.513     0.385    0.785
+2015   164636  13163        0.893     0.860    0.784
+2016   165484  13157        0.982     0.805    0.792
+2017   165426  13382        0.852     0.809    0.806
+2018   162750  13405        0.819     0.817    0.813
+2019   140157  11458        0.887     0.857    0.824
+2020   127570  10473        0.975     0.874    0.823
+2021   143311  12150        0.983     0.871    0.826
+2022   151963  13040        0.992     0.850    0.831
+2023   151423  12956        0.991     0.864    0.831
+2024   156341  13065        0.990     0.862    0.828
+2025   155383  13021        0.990     0.870    0.831
+2026    49698   4189        0.987     0.874    0.827
+statut values: {'PARTANT': 1905035, 'NON_PARTANT': 52866}
+
+2 ODDS SEMANTICS
+  direct   : winners with both 142,703; odds/payout median 1.000; within 5 % 0.937; within 20 % 0.983
+  reference: winners with both 130,716; odds/payout median 1.079; within 5 % 0.112; within 20 % 0.427
+  direct   : snapshot time minus scheduled off (minutes) quantiles {0.05: nan, 0.25: nan, 0.5: nan, 0.75: nan, 0.95: nan}
+  reference: snapshot time minus scheduled off (minutes) quantiles {0.05: nan, 0.25: nan, 0.5: nan, 0.75: nan, 0.95: nan}
+
+3 ARE CAREER STATS AS OF THE RACE?
+  consecutive starts of the same horse: change in 'nombreCourses' = 0: 0.006, = 1: 0.836, > 1: 0.153, < 0: 0.005
+  earnings never decrease: 0.993
+  next start's form string begins with this race's placing (1-9): 0.870
+  first start in the data: nombreCourses == 0 for 0.490 (horses debuting after 2014 should be 0)
+
+4 MARKET
+Traceback (most recent call last):
+  File "src/fr_checks.py", line 112, in <module>
+    main()
+  File "src/fr_checks.py", line 80, in main
+    full = s.groupby("raceKey").size() == ru[st].groupby("raceKey").size().reindex(s.raceKey.unique())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site-packages>/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "<site-packages>/pandas/core/arraylike.py", line 40, in __eq__
+    return self._cmp_method(other, operator.eq)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<site-packages>/pandas/core/series.py", line 6114, in _cmp_method
+    raise ValueError("Can only compare identically-labeled Series objects")
+ValueError: Can only compare identically-labeled Series objects

@@ -1,0 +1,22 @@
+win+rt: 1,895,775 rows, 166 features
+  best iteration 401 (2022 race log-loss 2.0241) -> 441 rounds (38s)
+  2017: race log-loss 2.1020, top-1 0.2677 (48s)
+  2018: race log-loss 2.0497, top-1 0.2795 (62s)
+  2019: race log-loss 2.0730, top-1 0.2686 (84s)
+  2020: race log-loss 2.0428, top-1 0.2851 (106s)
+  2021: race log-loss 2.0537, top-1 0.2794 (134s)
+  2022: race log-loss 2.0247, top-1 0.2872 (164s)
+  2023: race log-loss 2.0255, top-1 0.2930 (207s)
+  2024: race log-loss 2.0417, top-1 0.2795 (259s)
+  top features (last fold): rt_sum_dm 0.188, hippodromeCode 0.102, rt_sum_rk 0.061, rt_p 0.052, deferre 0.024, categorieParticularite 0.019, h_class_change 0.015, trn_wr_dm 0.014, drv_n 0.013, earn_per_start_rk 0.013, earn_per_start_dm 0.013, mus_avg3_dm 0.012, mus_avg5_dm 0.012, drv_wr_dm 0.011, days_since_dm 0.010
+-> exp/win+rt.parquet (390s)
+pl3: 1,895,775 rows, 157 features
+  best iteration 914 (2022 race log-loss 2.0353) -> 1005 rounds (174s)
+  2017: race log-loss 2.1075, top-1 0.2643 (224s)
+  2018: race log-loss 2.0570, top-1 0.2750 (296s)
+  2019: race log-loss 2.0806, top-1 0.2702 (348s)
+  2020: race log-loss 2.0552, top-1 0.2779 (402s)
+  2021: race log-loss 2.0593, top-1 0.2753 (465s)
+  2022: race log-loss 2.0359, top-1 0.2864 (538s)
+  2023: race log-loss 2.0396, top-1 0.2868 (623s)
+  2024: race log-loss 2.0558, top-1 0.2753 (720s)

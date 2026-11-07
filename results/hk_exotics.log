@@ -1,0 +1,8 @@
+stage weights (last fold): {'mdisc_2': [0.865], 'disc_2': [0.82], 'full_2': [0.271, 0.166, 0.46], 'mdisc_3': [0.741], 'disc_3': [0.701], 'full_3': [0.278, 0.174, 0.32]}
+QIN: test log-loss mkt_harv 3.4061 mkt_disc 3.4075 end_full 3.4054; top hit 0.1363 vs 0.1395
+  pool test {"races": 1269, "median_payout": 21.85, "pool_logloss_at_assumed_takeout": 3.3982, "mkt_harv": {"logloss": 3.4044, "growth_bet_all_combos_in_proportion": -0.1985, "growth_ci95": [-0.2122, -0.1855], "implied_return_to_players_ipw": 0.7928}, "end_full": {"logloss": 3.4033, "growth_bet_all_combos_in_proportion": -0.1975, "growth_ci95": [-0.2113, -0.1851], "implied_return_to_players_ipw": 0.7958}}
+  value rule p>=0.005,ev>0.3: {'bets': 4, 'hits': 2, 'hit_rate': 0.5, 'avg_payout_when_hit': 3.35, 'roi': 0.675}
+TCE: test log-loss mkt_harv 6.1766 mkt_disc 6.1485 end_full 6.1412; top hit 0.0159 vs 0.0135
+  pool test {"races": 1269, "median_payout": 331.2, "pool_logloss_at_assumed_takeout": 6.1448, "mkt_harv": {"logloss": 6.1673, "growth_bet_all_combos_in_proportion": -0.3102, "growth_ci95": [-0.3366, -0.282], "implied_return_to_players_ipw": 0.6539}, "end_full": {"logloss": 6.1329, "growth_bet_all_combos_in_proportion": -0.2758, "growth_ci95": [-0.2978, -0.2527], "implied_return_to_players_ipw": 0.7054}}
+  value rule p>=0.001,ev>0: {'bets': 11240, 'hits': 97, 'hit_rate': 0.0086, 'avg_payout_when_hit': 113.38, 'roi': -0.0215, 'roi_ci95': [-0.3201, 0.3351]}
+HK_DONE

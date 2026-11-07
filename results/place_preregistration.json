@@ -1,0 +1,9 @@
+{
+ "written": "2026-11-07T08:34:09.968789",
+ "choice_made_on": "2019-2024 only (results/place_conf_dev.json; rule B from fr_place.py's dev choice)",
+ "rule_A": "each race: back the horse with the highest P(place) (end_stage_ref, 30 min out) if P >= 0.80; else skip",
+ "threshold_A": 0.8,
+ "rule_B": "P(place) >= 0.6 and EV > 0.1 (fr_place.py value rule as chosen on dev; payout model refit by the same code in the fresh/ run)",
+ "bet": "main-pool simple plac\u00e9 at the official dividend, flat EUR 10, paper bank EUR 1000; also with our own EUR 10 in the pool",
+ "headline": "ROI with 95% day-bootstrap CI on the fresh window 2026-05-06..2026-11-05 (fresh/ run), rules A and B; 2025-01..2026-05-05 reported for reference only (already seen)"
+}

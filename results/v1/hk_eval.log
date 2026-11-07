@@ -1,0 +1,189 @@
+[100]	valid_0's race_ll: 2.02779
+[200]	valid_0's race_ll: 2.02695
+[300]	valid_0's race_ll: 2.02663
+residual booster rounds (dev 2010): 260
+
+dev_1996_2016
+  mkt_final  races 13,980  log-loss 2.0506  top-1 0.2929  top-3 0.5928
+  mkt_cal    races 13,980  log-loss 2.0503  top-1 0.2929  top-3 0.5928
+  fund       races 13,980  log-loss 2.1897  top-1 0.2454  top-3 0.5329
+  combo      races 13,980  log-loss 2.0499  top-1 0.2936  top-3 0.5966
+  end        races 13,980  log-loss 2.0480  top-1 0.2944  top-3 0.5965
+  fund       vs market: log-loss +0.1390 [0.1294, 0.1478]  top-1 -0.0476 [-0.0547, -0.0399]
+  combo      vs market: log-loss -0.0007 [-0.002, 0.0007]  top-1 +0.0006 [-0.0022, 0.0034]
+  end        vs market: log-loss -0.0026 [-0.0051, -0.0]  top-1 +0.0015 [-0.0023, 0.0054]
+  mkt_cal    vs market: log-loss -0.0003 [-0.0006, -0.0001]  top-1 +0.0000 [0.0, 0.0]
+
+test_2017_2018
+  mkt_final  races  1,270  log-loss 2.0013  top-1 0.2992  top-3 0.6228
+  mkt_cal    races  1,270  log-loss 1.9997  top-1 0.2992  top-3 0.6228
+  fund       races  1,270  log-loss 2.1705  top-1 0.2559  top-3 0.5268
+  combo      races  1,270  log-loss 2.0020  top-1 0.3016  top-3 0.6157
+  end        races  1,270  log-loss 1.9990  top-1 0.2937  top-3 0.6228
+  fund       vs market: log-loss +0.1692 [0.1377, 0.202]  top-1 -0.0433 [-0.0683, -0.0183]
+  combo      vs market: log-loss +0.0007 [-0.0019, 0.0034]  top-1 +0.0024 [-0.0055, 0.0102]
+  end        vs market: log-loss -0.0023 [-0.0071, 0.0027]  top-1 -0.0055 [-0.0168, 0.0048]
+  mkt_cal    vs market: log-loss -0.0016 [-0.003, -0.0002]  top-1 +0.0000 [0.0, 0.0]
+{
+"1996-2000": {
+"mkt_final": {
+"races": 3097,
+"logloss": 2.1566,
+"top1": 0.2603,
+"top3": 0.5457
+},
+"mkt_cal": {
+"races": 3097,
+"logloss": 2.1568,
+"top1": 0.2603,
+"top3": 0.5457
+},
+"fund": {
+"races": 3097,
+"logloss": 2.2788,
+"top1": 0.2144,
+"top3": 0.4998
+},
+"combo": {
+"races": 3097,
+"logloss": 2.1532,
+"top1": 0.2609,
+"top3": 0.5518
+},
+"end": {
+"races": 3097,
+"logloss": 2.1558,
+"top1": 0.2583,
+"top3": 0.5544
+}
+},
+"2001-2005": {
+"mkt_final": {
+"races": 2665,
+"logloss": 1.946,
+"top1": 0.3126,
+"top3": 0.6233
+},
+"mkt_cal": {
+"races": 2665,
+"logloss": 1.946,
+"top1": 0.3126,
+"top3": 0.6233
+},
+"fund": {
+"races": 2665,
+"logloss": 2.0688,
+"top1": 0.2705,
+"top3": 0.5719
+},
+"combo": {
+"races": 2665,
+"logloss": 1.9436,
+"top1": 0.3133,
+"top3": 0.6289
+},
+"end": {
+"races": 2665,
+"logloss": 1.9394,
+"top1": 0.3144,
+"top3": 0.6308
+}
+},
+"2006-2010": {
+"mkt_final": {
+"races": 3570,
+"logloss": 2.0462,
+"top1": 0.2938,
+"top3": 0.5913
+},
+"mkt_cal": {
+"races": 3570,
+"logloss": 2.0459,
+"top1": 0.2938,
+"top3": 0.5913
+},
+"fund": {
+"races": 3570,
+"logloss": 2.1957,
+"top1": 0.2462,
+"top3": 0.5269
+},
+"combo": {
+"races": 3570,
+"logloss": 2.0477,
+"top1": 0.2978,
+"top3": 0.5978
+},
+"end": {
+"races": 3570,
+"logloss": 2.0442,
+"top1": 0.3011,
+"top3": 0.593
+}
+},
+"2011-2016": {
+"mkt_final": {
+"races": 4648,
+"logloss": 2.0433,
+"top1": 0.3027,
+"top3": 0.6078
+},
+"mkt_cal": {
+"races": 4648,
+"logloss": 2.0425,
+"top1": 0.3027,
+"top3": 0.6078
+},
+"fund": {
+"races": 4648,
+"logloss": 2.195,
+"top1": 0.2509,
+"top3": 0.5372
+},
+"combo": {
+"races": 4648,
+"logloss": 2.0438,
+"top1": 0.3008,
+"top3": 0.6071
+},
+"end": {
+"races": 4648,
+"logloss": 2.0415,
+"top1": 0.3019,
+"top3": 0.6076
+}
+},
+"2017-2018": {
+"mkt_final": {
+"races": 1270,
+"logloss": 2.0013,
+"top1": 0.2992,
+"top3": 0.6228
+},
+"mkt_cal": {
+"races": 1270,
+"logloss": 1.9997,
+"top1": 0.2992,
+"top3": 0.6228
+},
+"fund": {
+"races": 1270,
+"logloss": 2.1705,
+"top1": 0.2559,
+"top3": 0.5268
+},
+"combo": {
+"races": 1270,
+"logloss": 2.002,
+"top1": 0.3016,
+"top3": 0.6157
+},
+"end": {
+"races": 1270,
+"logloss": 1.999,
+"top1": 0.2937,
+"top3": 0.6228
+}
+}
+}
+{"dev": {"0.0": {"bets": 21036, "roi": 0.0461}, "0.1": {"bets": 10805, "roi": 0.1346}, "0.2": {"bets": 5908, "roi": 0.2025}, "0.3": {"bets": 3449, "roi": 0.3476}}, "test": {"0.0": {"bets": 322, "roi": -0.1714}, "0.1": {"bets": 37, "roi": 0.2514}, "0.2": {"bets": 13, "roi": 1.8462}, "0.3": {"bets": 6, "roi": 3.3333}}}

@@ -1,0 +1,2937 @@
+{
+ "rounds": {
+  "combo_ref": 310,
+  "combo_final": 476
+ },
+ "dev_2018_2024": {
+  "overall": {
+   "mkt_final": {
+    "races": 70279,
+    "logloss": 1.9494,
+    "top1": 0.318,
+    "top3": 0.6385
+   },
+   "mkt_ref": {
+    "races": 70279,
+    "logloss": 2.0223,
+    "top1": 0.2996,
+    "top3": 0.6127
+   },
+   "mkt_ref_cal": {
+    "races": 70279,
+    "logloss": 2.0186,
+    "top1": 0.2996,
+    "top3": 0.6127
+   },
+   "mkt_final_cal": {
+    "races": 70279,
+    "logloss": 1.9455,
+    "top1": 0.318,
+    "top3": 0.6385
+   },
+   "fund": {
+    "races": 70279,
+    "logloss": 1.9929,
+    "top1": 0.2965,
+    "top3": 0.6133
+   },
+   "combo_ref": {
+    "races": 70279,
+    "logloss": 1.9645,
+    "top1": 0.3089,
+    "top3": 0.6279
+   },
+   "end_ref": {
+    "races": 70279,
+    "logloss": 1.96,
+    "top1": 0.3092,
+    "top3": 0.6285
+   },
+   "combo_final": {
+    "races": 70279,
+    "logloss": 1.9345,
+    "top1": 0.3189,
+    "top3": 0.6411
+   },
+   "end_final": {
+    "races": 70279,
+    "logloss": 1.9296,
+    "top1": 0.3212,
+    "top3": 0.6437
+   }
+  },
+  "vs_market_final": {
+   "fund": {
+    "logloss_diff": 0.0435,
+    "ll_ci95": [
+     0.0401,
+     0.0466
+    ],
+    "top1_diff": -0.0216,
+    "top1_ci95": [
+     -0.0245,
+     -0.0184
+    ]
+   },
+   "end_ref": {
+    "logloss_diff": 0.0106,
+    "ll_ci95": [
+     0.0082,
+     0.0129
+    ],
+    "top1_diff": -0.0088,
+    "top1_ci95": [
+     -0.0111,
+     -0.0065
+    ]
+   },
+   "end_final": {
+    "logloss_diff": -0.0198,
+    "ll_ci95": [
+     -0.0212,
+     -0.0182
+    ],
+    "top1_diff": 0.0032,
+    "top1_ci95": [
+     0.0013,
+     0.005
+    ]
+   },
+   "combo_ref": {
+    "logloss_diff": 0.0151,
+    "ll_ci95": [
+     0.0125,
+     0.0176
+    ],
+    "top1_diff": -0.0091,
+    "top1_ci95": [
+     -0.0116,
+     -0.0069
+    ]
+   }
+  },
+  "vs_market_ref": {
+   "fund": {
+    "logloss_diff": -0.0295,
+    "ll_ci95": [
+     -0.0338,
+     -0.0257
+    ],
+    "top1_diff": -0.0031,
+    "top1_ci95": [
+     -0.0064,
+     -0.0
+    ]
+   },
+   "end_ref": {
+    "logloss_diff": -0.0623,
+    "ll_ci95": [
+     -0.0647,
+     -0.06
+    ],
+    "top1_diff": 0.0096,
+    "top1_ci95": [
+     0.0074,
+     0.0117
+    ]
+   },
+   "mkt_ref_cal": {
+    "logloss_diff": -0.0037,
+    "ll_ci95": [
+     -0.0043,
+     -0.0031
+    ],
+    "top1_diff": 0.0,
+    "top1_ci95": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "by_specialite": {
+   "OBSTACLE": {
+    "mkt_final": {
+     "races": 7890,
+     "logloss": 1.8613,
+     "top1": 0.3207,
+     "top3": 0.6561
+    },
+    "mkt_ref": {
+     "races": 7890,
+     "logloss": 1.917,
+     "top1": 0.3094,
+     "top3": 0.6351
+    },
+    "fund": {
+     "races": 7890,
+     "logloss": 1.8843,
+     "top1": 0.3117,
+     "top3": 0.6463
+    },
+    "end_ref": {
+     "races": 7890,
+     "logloss": 1.8623,
+     "top1": 0.3199,
+     "top3": 0.6561
+    },
+    "end_final": {
+     "races": 7890,
+     "logloss": 1.8431,
+     "top1": 0.3278,
+     "top3": 0.6617
+    }
+   },
+   "PLAT": {
+    "mkt_final": {
+     "races": 26643,
+     "logloss": 2.0002,
+     "top1": 0.2863,
+     "top3": 0.6045
+    },
+    "mkt_ref": {
+     "races": 26643,
+     "logloss": 2.0646,
+     "top1": 0.2693,
+     "top3": 0.5776
+    },
+    "fund": {
+     "races": 26643,
+     "logloss": 2.0258,
+     "top1": 0.2702,
+     "top3": 0.588
+    },
+    "end_ref": {
+     "races": 26643,
+     "logloss": 2.0052,
+     "top1": 0.2791,
+     "top3": 0.5975
+    },
+    "end_final": {
+     "races": 26643,
+     "logloss": 1.9827,
+     "top1": 0.2878,
+     "top3": 0.6123
+    }
+   },
+   "TROT_ATTELE": {
+    "mkt_final": {
+     "races": 29441,
+     "logloss": 1.9388,
+     "top1": 0.3407,
+     "top3": 0.6579
+    },
+    "mkt_ref": {
+     "races": 29441,
+     "logloss": 2.0226,
+     "top1": 0.3193,
+     "top3": 0.6312
+    },
+    "fund": {
+     "races": 29441,
+     "logloss": 1.9997,
+     "top1": 0.3122,
+     "top3": 0.6232
+    },
+    "end_ref": {
+     "races": 29441,
+     "logloss": 1.9542,
+     "top1": 0.3292,
+     "top3": 0.6436
+    },
+    "end_final": {
+     "races": 29441,
+     "logloss": 1.9166,
+     "top1": 0.3442,
+     "top3": 0.6606
+    }
+   },
+   "TROT_MONTE": {
+    "mkt_final": {
+     "races": 6305,
+     "logloss": 1.8944,
+     "top1": 0.3426,
+     "top3": 0.6695
+    },
+    "mkt_ref": {
+     "races": 6305,
+     "logloss": 1.9742,
+     "top1": 0.3234,
+     "top3": 0.6466
+    },
+    "fund": {
+     "races": 6305,
+     "logloss": 1.9578,
+     "top1": 0.3148,
+     "top3": 0.6324
+    },
+    "end_ref": {
+     "races": 6305,
+     "logloss": 1.9184,
+     "top1": 0.3299,
+     "top3": 0.6539
+    },
+    "end_final": {
+     "races": 6305,
+     "logloss": 1.8739,
+     "top1": 0.3469,
+     "top3": 0.675
+    }
+   }
+  }
+ },
+ "test_2025_2026": {
+  "overall": {
+   "mkt_final": {
+    "races": 13760,
+    "logloss": 1.9321,
+    "top1": 0.3297,
+    "top3": 0.6482
+   },
+   "mkt_ref": {
+    "races": 13760,
+    "logloss": 2.023,
+    "top1": 0.3041,
+    "top3": 0.6178
+   },
+   "mkt_ref_cal": {
+    "races": 13760,
+    "logloss": 2.0199,
+    "top1": 0.3041,
+    "top3": 0.6178
+   },
+   "mkt_final_cal": {
+    "races": 13760,
+    "logloss": 1.928,
+    "top1": 0.3297,
+    "top3": 0.6482
+   },
+   "fund": {
+    "races": 13760,
+    "logloss": 1.9796,
+    "top1": 0.3016,
+    "top3": 0.6176
+   },
+   "combo_ref": {
+    "races": 13760,
+    "logloss": 1.9588,
+    "top1": 0.3086,
+    "top3": 0.6362
+   },
+   "end_ref": {
+    "races": 13760,
+    "logloss": 1.9521,
+    "top1": 0.3112,
+    "top3": 0.638
+   },
+   "combo_final": {
+    "races": 13760,
+    "logloss": 1.921,
+    "top1": 0.3289,
+    "top3": 0.6486
+   },
+   "end_final": {
+    "races": 13760,
+    "logloss": 1.9147,
+    "top1": 0.3281,
+    "top3": 0.652
+   }
+  },
+  "vs_market_final": {
+   "fund": {
+    "logloss_diff": 0.0475,
+    "ll_ci95": [
+     0.041,
+     0.054
+    ],
+    "top1_diff": -0.0281,
+    "top1_ci95": [
+     -0.0348,
+     -0.0211
+    ]
+   },
+   "end_ref": {
+    "logloss_diff": 0.02,
+    "ll_ci95": [
+     0.0142,
+     0.0255
+    ],
+    "top1_diff": -0.0185,
+    "top1_ci95": [
+     -0.0241,
+     -0.0126
+    ]
+   },
+   "end_final": {
+    "logloss_diff": -0.0174,
+    "ll_ci95": [
+     -0.0201,
+     -0.0145
+    ],
+    "top1_diff": -0.0016,
+    "top1_ci95": [
+     -0.0056,
+     0.0027
+    ]
+   },
+   "combo_ref": {
+    "logloss_diff": 0.0267,
+    "ll_ci95": [
+     0.0212,
+     0.0322
+    ],
+    "top1_diff": -0.021,
+    "top1_ci95": [
+     -0.0268,
+     -0.0148
+    ]
+   }
+  },
+  "vs_market_ref": {
+   "fund": {
+    "logloss_diff": -0.0434,
+    "ll_ci95": [
+     -0.0512,
+     -0.0353
+    ],
+    "top1_diff": -0.0025,
+    "top1_ci95": [
+     -0.0092,
+     0.0043
+    ]
+   },
+   "end_ref": {
+    "logloss_diff": -0.0708,
+    "ll_ci95": [
+     -0.0762,
+     -0.0659
+    ],
+    "top1_diff": 0.007,
+    "top1_ci95": [
+     0.0017,
+     0.0123
+    ]
+   },
+   "mkt_ref_cal": {
+    "logloss_diff": -0.003,
+    "ll_ci95": [
+     -0.0043,
+     -0.0018
+    ],
+    "top1_diff": 0.0,
+    "top1_ci95": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "by_specialite": {
+   "OBSTACLE": {
+    "mkt_final": {
+     "races": 1540,
+     "logloss": 1.8786,
+     "top1": 0.3227,
+     "top3": 0.6481
+    },
+    "mkt_ref": {
+     "races": 1540,
+     "logloss": 1.9543,
+     "top1": 0.2968,
+     "top3": 0.6214
+    },
+    "fund": {
+     "races": 1540,
+     "logloss": 1.9009,
+     "top1": 0.3175,
+     "top3": 0.6253
+    },
+    "end_ref": {
+     "races": 1540,
+     "logloss": 1.882,
+     "top1": 0.3182,
+     "top3": 0.6338
+    },
+    "end_final": {
+     "races": 1540,
+     "logloss": 1.8594,
+     "top1": 0.3279,
+     "top3": 0.6539
+    }
+   },
+   "PLAT": {
+    "mkt_final": {
+     "races": 5160,
+     "logloss": 2.0116,
+     "top1": 0.2928,
+     "top3": 0.6
+    },
+    "mkt_ref": {
+     "races": 5160,
+     "logloss": 2.1033,
+     "top1": 0.2665,
+     "top3": 0.5661
+    },
+    "fund": {
+     "races": 5160,
+     "logloss": 2.0696,
+     "top1": 0.2624,
+     "top3": 0.575
+    },
+    "end_ref": {
+     "races": 5160,
+     "logloss": 2.0428,
+     "top1": 0.2715,
+     "top3": 0.5971
+    },
+    "end_final": {
+     "races": 5160,
+     "logloss": 2.0037,
+     "top1": 0.2901,
+     "top3": 0.6085
+    }
+   },
+   "TROT_ATTELE": {
+    "mkt_final": {
+     "races": 5908,
+     "logloss": 1.8919,
+     "top1": 0.3577,
+     "top3": 0.6813
+    },
+    "mkt_ref": {
+     "races": 5908,
+     "logloss": 1.9887,
+     "top1": 0.3306,
+     "top3": 0.6517
+    },
+    "fund": {
+     "races": 5908,
+     "logloss": 1.9353,
+     "top1": 0.3255,
+     "top3": 0.6437
+    },
+    "end_ref": {
+     "races": 5908,
+     "logloss": 1.9049,
+     "top1": 0.3392,
+     "top3": 0.6671
+    },
+    "end_final": {
+     "races": 5908,
+     "logloss": 1.8659,
+     "top1": 0.3563,
+     "top3": 0.6814
+    }
+   },
+   "TROT_MONTE": {
+    "mkt_final": {
+     "races": 1152,
+     "logloss": 1.8543,
+     "top1": 0.3602,
+     "top3": 0.6944
+    },
+    "mkt_ref": {
+     "races": 1152,
+     "logloss": 1.9309,
+     "top1": 0.3472,
+     "top3": 0.671
+    },
+    "fund": {
+     "races": 1152,
+     "logloss": 1.9088,
+     "top1": 0.3333,
+     "top3": 0.6641
+    },
+    "end_ref": {
+     "races": 1152,
+     "logloss": 1.8823,
+     "top1": 0.3359,
+     "top3": 0.678
+    },
+    "end_final": {
+     "races": 1152,
+     "logloss": 1.8408,
+     "top1": 0.3533,
+     "top3": 0.6936
+    }
+   }
+  }
+ },
+ "top_pick": {
+  "dev_2018_2024": {
+   "mkt_final": {
+    "all": {
+     "n": 70279,
+     "hit_rate": 0.318,
+     "avg_odds": 3.09,
+     "breakeven_hit_rate": 0.3609,
+     "roi": -0.1315
+    },
+    "agrees_with_market_favourite": {
+     "n": 70279,
+     "hit_rate": 0.318,
+     "avg_odds": 3.09,
+     "breakeven_hit_rate": 0.3609,
+     "roi": -0.1315
+    },
+    "differs_from_market_favourite": {
+     "n": 0
+    },
+    "share_agreeing": 1.0,
+    "by_odds": {
+     "1-2": {
+      "n": 8997,
+      "hit_rate": 0.5616,
+      "avg_odds": 1.69,
+      "breakeven_hit_rate": 0.5987,
+      "roi": -0.0639
+     },
+     "2-3": {
+      "n": 25455,
+      "hit_rate": 0.3619,
+      "avg_odds": 2.48,
+      "breakeven_hit_rate": 0.4096,
+      "roi": -0.1175
+     },
+     "3-5": {
+      "n": 32237,
+      "hit_rate": 0.2347,
+      "avg_odds": 3.69,
+      "breakeven_hit_rate": 0.2761,
+      "roi": -0.1532
+     },
+     "5-10": {
+      "n": 3590,
+      "hit_rate": 0.1446,
+      "avg_odds": 5.58,
+      "breakeven_hit_rate": 0.1809,
+      "roi": -0.2061
+     },
+     "10-20": {
+      "n": 0
+     },
+     "20-1e+09": {
+      "n": 0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 1450,
+      "hit_rate": 0.1234,
+      "avg_odds": 6.11,
+      "breakeven_hit_rate": 0.1647,
+      "roi": -0.257
+     },
+     "0.15-0.25": {
+      "n": 23965,
+      "hit_rate": 0.2113,
+      "avg_odds": 4.07,
+      "breakeven_hit_rate": 0.2501,
+      "roi": -0.1586
+     },
+     "0.25-0.35": {
+      "n": 26486,
+      "hit_rate": 0.3085,
+      "avg_odds": 2.85,
+      "breakeven_hit_rate": 0.3544,
+      "roi": -0.1312
+     },
+     "0.35-0.50": {
+      "n": 15112,
+      "hit_rate": 0.4511,
+      "avg_odds": 2.03,
+      "breakeven_hit_rate": 0.4984,
+      "roi": -0.0966
+     },
+     "0.50-0.70": {
+      "n": 3232,
+      "hit_rate": 0.6467,
+      "avg_odds": 1.49,
+      "breakeven_hit_rate": 0.6749,
+      "roi": -0.0416
+     },
+     "0.70-1.00": {
+      "n": 34,
+      "hit_rate": 0.8824,
+      "avg_odds": 1.11,
+      "breakeven_hit_rate": 0.9002,
+      "roi": -0.0176
+     }
+    }
+   },
+   "mkt_ref": {
+    "all": {
+     "n": 70279,
+     "hit_rate": 0.2996,
+     "avg_odds": 3.44,
+     "breakeven_hit_rate": 0.3432,
+     "roi": -0.1423
+    },
+    "agrees_with_market_favourite": {
+     "n": 52936,
+     "hit_rate": 0.3389,
+     "avg_odds": 2.89,
+     "breakeven_hit_rate": 0.3851,
+     "roi": -0.1348
+    },
+    "differs_from_market_favourite": {
+     "n": 17343,
+     "hit_rate": 0.1796,
+     "avg_odds": 5.13,
+     "breakeven_hit_rate": 0.2152,
+     "roi": -0.1652
+    },
+    "share_agreeing": 0.7532,
+    "by_odds": {
+     "1-2": {
+      "n": 8893,
+      "hit_rate": 0.5622,
+      "avg_odds": 1.69,
+      "breakeven_hit_rate": 0.5991,
+      "roi": -0.0636
+     },
+     "2-3": {
+      "n": 22390,
+      "hit_rate": 0.3621,
+      "avg_odds": 2.46,
+      "breakeven_hit_rate": 0.4123,
+      "roi": -0.1232
+     },
+     "3-5": {
+      "n": 29569,
+      "hit_rate": 0.2267,
+      "avg_odds": 3.76,
+      "breakeven_hit_rate": 0.2714,
+      "roi": -0.1668
+     },
+     "5-10": {
+      "n": 9069,
+      "hit_rate": 0.1353,
+      "avg_odds": 6.2,
+      "breakeven_hit_rate": 0.1658,
+      "roi": -0.1823
+     },
+     "10-20": {
+      "n": 346,
+      "hit_rate": 0.0549,
+      "avg_odds": 11.44,
+      "breakeven_hit_rate": 0.0895,
+      "roi": -0.3555
+     },
+     "20-1e+09": {
+      "n": 12,
+      "hit_rate": 0.0833,
+      "avg_odds": 32.25,
+      "breakeven_hit_rate": 0.0345,
+      "roi": 2.5
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 4972,
+      "hit_rate": 0.1418,
+      "avg_odds": 5.95,
+      "breakeven_hit_rate": 0.1832,
+      "roi": -0.2273
+     },
+     "0.15-0.25": {
+      "n": 26828,
+      "hit_rate": 0.2207,
+      "avg_odds": 4.17,
+      "breakeven_hit_rate": 0.261,
+      "roi": -0.1599
+     },
+     "0.25-0.35": {
+      "n": 19831,
+      "hit_rate": 0.3047,
+      "avg_odds": 3.05,
+      "breakeven_hit_rate": 0.3495,
+      "roi": -0.1305
+     },
+     "0.35-0.50": {
+      "n": 12180,
+      "hit_rate": 0.3979,
+      "avg_odds": 2.34,
+      "breakeven_hit_rate": 0.4509,
+      "roi": -0.126
+     },
+     "0.50-0.70": {
+      "n": 5688,
+      "hit_rate": 0.5274,
+      "avg_odds": 1.82,
+      "breakeven_hit_rate": 0.5688,
+      "roi": -0.0794
+     },
+     "0.70-1.00": {
+      "n": 780,
+      "hit_rate": 0.6923,
+      "avg_odds": 1.46,
+      "breakeven_hit_rate": 0.7019,
+      "roi": -0.011
+     }
+    }
+   },
+   "mkt_ref_cal": {
+    "all": {
+     "n": 70279,
+     "hit_rate": 0.2996,
+     "avg_odds": 3.44,
+     "breakeven_hit_rate": 0.3432,
+     "roi": -0.1423
+    },
+    "agrees_with_market_favourite": {
+     "n": 52936,
+     "hit_rate": 0.3389,
+     "avg_odds": 2.89,
+     "breakeven_hit_rate": 0.3851,
+     "roi": -0.1348
+    },
+    "differs_from_market_favourite": {
+     "n": 17343,
+     "hit_rate": 0.1796,
+     "avg_odds": 5.13,
+     "breakeven_hit_rate": 0.2152,
+     "roi": -0.1652
+    },
+    "share_agreeing": 0.7532,
+    "by_odds": {
+     "1-2": {
+      "n": 8893,
+      "hit_rate": 0.5622,
+      "avg_odds": 1.69,
+      "breakeven_hit_rate": 0.5991,
+      "roi": -0.0636
+     },
+     "2-3": {
+      "n": 22390,
+      "hit_rate": 0.3621,
+      "avg_odds": 2.46,
+      "breakeven_hit_rate": 0.4123,
+      "roi": -0.1232
+     },
+     "3-5": {
+      "n": 29569,
+      "hit_rate": 0.2267,
+      "avg_odds": 3.76,
+      "breakeven_hit_rate": 0.2714,
+      "roi": -0.1668
+     },
+     "5-10": {
+      "n": 9069,
+      "hit_rate": 0.1353,
+      "avg_odds": 6.2,
+      "breakeven_hit_rate": 0.1658,
+      "roi": -0.1823
+     },
+     "10-20": {
+      "n": 346,
+      "hit_rate": 0.0549,
+      "avg_odds": 11.44,
+      "breakeven_hit_rate": 0.0895,
+      "roi": -0.3555
+     },
+     "20-1e+09": {
+      "n": 12,
+      "hit_rate": 0.0833,
+      "avg_odds": 32.25,
+      "breakeven_hit_rate": 0.0345,
+      "roi": 2.5
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 4320,
+      "hit_rate": 0.1396,
+      "avg_odds": 6.02,
+      "breakeven_hit_rate": 0.1804,
+      "roi": -0.2302
+     },
+     "0.15-0.25": {
+      "n": 23359,
+      "hit_rate": 0.2117,
+      "avg_odds": 4.32,
+      "breakeven_hit_rate": 0.2515,
+      "roi": -0.1636
+     },
+     "0.25-0.35": {
+      "n": 19638,
+      "hit_rate": 0.2882,
+      "avg_odds": 3.22,
+      "breakeven_hit_rate": 0.3315,
+      "roi": -0.1317
+     },
+     "0.35-0.50": {
+      "n": 13949,
+      "hit_rate": 0.3708,
+      "avg_odds": 2.51,
+      "breakeven_hit_rate": 0.4231,
+      "roi": -0.1329
+     },
+     "0.50-0.70": {
+      "n": 7334,
+      "hit_rate": 0.4902,
+      "avg_odds": 1.94,
+      "breakeven_hit_rate": 0.537,
+      "roi": -0.0941
+     },
+     "0.70-1.00": {
+      "n": 1679,
+      "hit_rate": 0.6444,
+      "avg_odds": 1.55,
+      "breakeven_hit_rate": 0.6633,
+      "roi": -0.0338
+     }
+    }
+   },
+   "mkt_final_cal": {
+    "all": {
+     "n": 70279,
+     "hit_rate": 0.318,
+     "avg_odds": 3.09,
+     "breakeven_hit_rate": 0.3609,
+     "roi": -0.1315
+    },
+    "agrees_with_market_favourite": {
+     "n": 70279,
+     "hit_rate": 0.318,
+     "avg_odds": 3.09,
+     "breakeven_hit_rate": 0.3609,
+     "roi": -0.1315
+    },
+    "differs_from_market_favourite": {
+     "n": 0
+    },
+    "share_agreeing": 1.0,
+    "by_odds": {
+     "1-2": {
+      "n": 8997,
+      "hit_rate": 0.5616,
+      "avg_odds": 1.69,
+      "breakeven_hit_rate": 0.5987,
+      "roi": -0.0639
+     },
+     "2-3": {
+      "n": 25455,
+      "hit_rate": 0.3619,
+      "avg_odds": 2.48,
+      "breakeven_hit_rate": 0.4096,
+      "roi": -0.1175
+     },
+     "3-5": {
+      "n": 32237,
+      "hit_rate": 0.2347,
+      "avg_odds": 3.69,
+      "breakeven_hit_rate": 0.2761,
+      "roi": -0.1532
+     },
+     "5-10": {
+      "n": 3590,
+      "hit_rate": 0.1446,
+      "avg_odds": 5.58,
+      "breakeven_hit_rate": 0.1809,
+      "roi": -0.2061
+     },
+     "10-20": {
+      "n": 0
+     },
+     "20-1e+09": {
+      "n": 0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 996,
+      "hit_rate": 0.1094,
+      "avg_odds": 6.3,
+      "breakeven_hit_rate": 0.1595,
+      "roi": -0.3165
+     },
+     "0.15-0.25": {
+      "n": 19510,
+      "hit_rate": 0.2004,
+      "avg_odds": 4.25,
+      "breakeven_hit_rate": 0.2388,
+      "roi": -0.1637
+     },
+     "0.25-0.35": {
+      "n": 25873,
+      "hit_rate": 0.2849,
+      "avg_odds": 3.05,
+      "breakeven_hit_rate": 0.3314,
+      "roi": -0.1406
+     },
+     "0.35-0.50": {
+      "n": 17894,
+      "hit_rate": 0.4116,
+      "avg_odds": 2.21,
+      "breakeven_hit_rate": 0.4575,
+      "roi": -0.0999
+     },
+     "0.50-0.70": {
+      "n": 5819,
+      "hit_rate": 0.5931,
+      "avg_odds": 1.62,
+      "breakeven_hit_rate": 0.6239,
+      "roi": -0.0508
+     },
+     "0.70-1.00": {
+      "n": 187,
+      "hit_rate": 0.7754,
+      "avg_odds": 1.21,
+      "breakeven_hit_rate": 0.8294,
+      "roi": -0.0642
+     }
+    }
+   },
+   "fund": {
+    "all": {
+     "n": 70279,
+     "hit_rate": 0.2965,
+     "avg_odds": 3.95,
+     "breakeven_hit_rate": 0.3203,
+     "roi": -0.0646
+    },
+    "agrees_with_market_favourite": {
+     "n": 43858,
+     "hit_rate": 0.3591,
+     "avg_odds": 2.83,
+     "breakeven_hit_rate": 0.3934,
+     "roi": -0.0933
+    },
+    "differs_from_market_favourite": {
+     "n": 26421,
+     "hit_rate": 0.1924,
+     "avg_odds": 5.81,
+     "breakeven_hit_rate": 0.1989,
+     "roi": -0.0169
+    },
+    "share_agreeing": 0.6241,
+    "by_odds": {
+     "1-2": {
+      "n": 8215,
+      "hit_rate": 0.5704,
+      "avg_odds": 1.68,
+      "breakeven_hit_rate": 0.6015,
+      "roi": -0.0534
+     },
+     "2-3": {
+      "n": 19005,
+      "hit_rate": 0.3712,
+      "avg_odds": 2.46,
+      "breakeven_hit_rate": 0.4126,
+      "roi": -0.1011
+     },
+     "3-5": {
+      "n": 27480,
+      "hit_rate": 0.2462,
+      "avg_odds": 3.8,
+      "breakeven_hit_rate": 0.2685,
+      "roi": -0.0834
+     },
+     "5-10": {
+      "n": 13875,
+      "hit_rate": 0.1563,
+      "avg_odds": 6.5,
+      "breakeven_hit_rate": 0.1592,
+      "roi": -0.0112
+     },
+     "10-20": {
+      "n": 1593,
+      "hit_rate": 0.0948,
+      "avg_odds": 12.07,
+      "breakeven_hit_rate": 0.0855,
+      "roi": 0.108
+     },
+     "20-1e+09": {
+      "n": 111,
+      "hit_rate": 0.0721,
+      "avg_odds": 26.74,
+      "breakeven_hit_rate": 0.0406,
+      "roi": 0.8649
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 2721,
+      "hit_rate": 0.1378,
+      "avg_odds": 7.55,
+      "breakeven_hit_rate": 0.1561,
+      "roi": -0.0898
+     },
+     "0.15-0.25": {
+      "n": 25949,
+      "hit_rate": 0.2098,
+      "avg_odds": 5.07,
+      "breakeven_hit_rate": 0.2331,
+      "roi": -0.0773
+     },
+     "0.25-0.35": {
+      "n": 23847,
+      "hit_rate": 0.2944,
+      "avg_odds": 3.48,
+      "breakeven_hit_rate": 0.3249,
+      "roi": -0.0761
+     },
+     "0.35-0.50": {
+      "n": 13657,
+      "hit_rate": 0.4122,
+      "avg_odds": 2.55,
+      "breakeven_hit_rate": 0.4322,
+      "roi": -0.0344
+     },
+     "0.50-0.70": {
+      "n": 3719,
+      "hit_rate": 0.5601,
+      "avg_odds": 1.86,
+      "breakeven_hit_rate": 0.5688,
+      "roi": -0.0075
+     },
+     "0.70-1.00": {
+      "n": 386,
+      "hit_rate": 0.7358,
+      "avg_odds": 1.47,
+      "breakeven_hit_rate": 0.7017,
+      "roi": 0.0642
+     }
+    }
+   },
+   "combo_ref": {
+    "all": {
+     "n": 70279,
+     "hit_rate": 0.3089,
+     "avg_odds": 3.42,
+     "breakeven_hit_rate": 0.3434,
+     "roi": -0.1013
+    },
+    "agrees_with_market_favourite": {
+     "n": 52742,
+     "hit_rate": 0.3448,
+     "avg_odds": 2.88,
+     "breakeven_hit_rate": 0.3852,
+     "roi": -0.1133
+    },
+    "differs_from_market_favourite": {
+     "n": 17537,
+     "hit_rate": 0.2008,
+     "avg_odds": 5.03,
+     "breakeven_hit_rate": 0.2176,
+     "roi": -0.0653
+    },
+    "share_agreeing": 0.7505,
+    "by_odds": {
+     "1-2": {
+      "n": 8836,
+      "hit_rate": 0.5633,
+      "avg_odds": 1.69,
+      "breakeven_hit_rate": 0.5994,
+      "roi": -0.0623
+     },
+     "2-3": {
+      "n": 22348,
+      "hit_rate": 0.3653,
+      "avg_odds": 2.46,
+      "breakeven_hit_rate": 0.4119,
+      "roi": -0.1142
+     },
+     "3-5": {
+      "n": 29929,
+      "hit_rate": 0.2387,
+      "avg_odds": 3.76,
+      "breakeven_hit_rate": 0.2713,
+      "roi": -0.1198
+     },
+     "5-10": {
+      "n": 8908,
+      "hit_rate": 0.1573,
+      "avg_odds": 6.16,
+      "breakeven_hit_rate": 0.1667,
+      "roi": -0.0483
+     },
+     "10-20": {
+      "n": 257,
+      "hit_rate": 0.0817,
+      "avg_odds": 11.21,
+      "breakeven_hit_rate": 0.0909,
+      "roi": -0.1518
+     },
+     "20-1e+09": {
+      "n": 1,
+      "hit_rate": 1.0,
+      "avg_odds": 42.0,
+      "breakeven_hit_rate": 0.0238,
+      "roi": 41.0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 2518,
+      "hit_rate": 0.1307,
+      "avg_odds": 6.53,
+      "breakeven_hit_rate": 0.1656,
+      "roi": -0.2083
+     },
+     "0.15-0.25": {
+      "n": 22079,
+      "hit_rate": 0.2098,
+      "avg_odds": 4.49,
+      "breakeven_hit_rate": 0.2404,
+      "roi": -0.1101
+     },
+     "0.25-0.35": {
+      "n": 22033,
+      "hit_rate": 0.2868,
+      "avg_odds": 3.26,
+      "breakeven_hit_rate": 0.3249,
+      "roi": -0.1097
+     },
+     "0.35-0.50": {
+      "n": 15640,
+      "hit_rate": 0.3854,
+      "avg_odds": 2.46,
+      "breakeven_hit_rate": 0.4256,
+      "roi": -0.0896
+     },
+     "0.50-0.70": {
+      "n": 6809,
+      "hit_rate": 0.5269,
+      "avg_odds": 1.86,
+      "breakeven_hit_rate": 0.5528,
+      "roi": -0.0477
+     },
+     "0.70-1.00": {
+      "n": 1200,
+      "hit_rate": 0.6758,
+      "avg_odds": 1.48,
+      "breakeven_hit_rate": 0.6883,
+      "roi": -0.0157
+     }
+    }
+   },
+   "end_ref": {
+    "all": {
+     "n": 70279,
+     "hit_rate": 0.3092,
+     "avg_odds": 3.45,
+     "breakeven_hit_rate": 0.342,
+     "roi": -0.0942
+    },
+    "agrees_with_market_favourite": {
+     "n": 52080,
+     "hit_rate": 0.3464,
+     "avg_odds": 2.88,
+     "breakeven_hit_rate": 0.3861,
+     "roi": -0.1105
+    },
+    "differs_from_market_favourite": {
+     "n": 18199,
+     "hit_rate": 0.2026,
+     "avg_odds": 5.1,
+     "breakeven_hit_rate": 0.2157,
+     "roi": -0.0475
+    },
+    "share_agreeing": 0.741,
+    "by_odds": {
+     "1-2": {
+      "n": 8827,
+      "hit_rate": 0.5633,
+      "avg_odds": 1.69,
+      "breakeven_hit_rate": 0.5994,
+      "roi": -0.0626
+     },
+     "2-3": {
+      "n": 22136,
+      "hit_rate": 0.3661,
+      "avg_odds": 2.46,
+      "breakeven_hit_rate": 0.4121,
+      "roi": -0.1125
+     },
+     "3-5": {
+      "n": 29661,
+      "hit_rate": 0.2411,
+      "avg_odds": 3.76,
+      "breakeven_hit_rate": 0.2712,
+      "roi": -0.1103
+     },
+     "5-10": {
+      "n": 9338,
+      "hit_rate": 0.1574,
+      "avg_odds": 6.21,
+      "breakeven_hit_rate": 0.1656,
+      "roi": -0.0407
+     },
+     "10-20": {
+      "n": 312,
+      "hit_rate": 0.1026,
+      "avg_odds": 11.15,
+      "breakeven_hit_rate": 0.0911,
+      "roi": 0.1122
+     },
+     "20-1e+09": {
+      "n": 5,
+      "hit_rate": 0.2,
+      "avg_odds": 31.8,
+      "breakeven_hit_rate": 0.0366,
+      "roi": 7.4
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 2050,
+      "hit_rate": 0.1263,
+      "avg_odds": 6.73,
+      "breakeven_hit_rate": 0.1617,
+      "roi": -0.2191
+     },
+     "0.15-0.25": {
+      "n": 22702,
+      "hit_rate": 0.2089,
+      "avg_odds": 4.56,
+      "breakeven_hit_rate": 0.2387,
+      "roi": -0.1035
+     },
+     "0.25-0.35": {
+      "n": 24237,
+      "hit_rate": 0.2922,
+      "avg_odds": 3.24,
+      "breakeven_hit_rate": 0.3289,
+      "roi": -0.1021
+     },
+     "0.35-0.50": {
+      "n": 15270,
+      "hit_rate": 0.4041,
+      "avg_odds": 2.38,
+      "breakeven_hit_rate": 0.4414,
+      "roi": -0.0766
+     },
+     "0.50-0.70": {
+      "n": 5320,
+      "hit_rate": 0.5602,
+      "avg_odds": 1.78,
+      "breakeven_hit_rate": 0.5776,
+      "roi": -0.0332
+     },
+     "0.70-1.00": {
+      "n": 700,
+      "hit_rate": 0.7071,
+      "avg_odds": 1.42,
+      "breakeven_hit_rate": 0.7134,
+      "roi": -0.0051
+     }
+    }
+   },
+   "combo_final": {
+    "all": {
+     "n": 70279,
+     "hit_rate": 0.3189,
+     "avg_odds": 3.16,
+     "breakeven_hit_rate": 0.3567,
+     "roi": -0.1118
+    },
+    "agrees_with_market_favourite": {
+     "n": 61638,
+     "hit_rate": 0.332,
+     "avg_odds": 2.97,
+     "breakeven_hit_rate": 0.3735,
+     "roi": -0.1212
+    },
+    "differs_from_market_favourite": {
+     "n": 8641,
+     "hit_rate": 0.2253,
+     "avg_odds": 4.52,
+     "breakeven_hit_rate": 0.2369,
+     "roi": -0.0449
+    },
+    "share_agreeing": 0.877,
+    "by_odds": {
+     "1-2": {
+      "n": 8977,
+      "hit_rate": 0.5617,
+      "avg_odds": 1.69,
+      "breakeven_hit_rate": 0.5988,
+      "roi": -0.064
+     },
+     "2-3": {
+      "n": 24670,
+      "hit_rate": 0.3634,
+      "avg_odds": 2.47,
+      "breakeven_hit_rate": 0.4102,
+      "roi": -0.1148
+     },
+     "3-5": {
+      "n": 31710,
+      "hit_rate": 0.241,
+      "avg_odds": 3.71,
+      "breakeven_hit_rate": 0.2746,
+      "roi": -0.1225
+     },
+     "5-10": {
+      "n": 4912,
+      "hit_rate": 0.1555,
+      "avg_odds": 5.77,
+      "breakeven_hit_rate": 0.176,
+      "roi": -0.1149
+     },
+     "10-20": {
+      "n": 10,
+      "hit_rate": 0.1,
+      "avg_odds": 10.1,
+      "breakeven_hit_rate": 0.0991,
+      "roi": 0.0
+     },
+     "20-1e+09": {
+      "n": 0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 1169,
+      "hit_rate": 0.1095,
+      "avg_odds": 6.45,
+      "breakeven_hit_rate": 0.1591,
+      "roi": -0.2937
+     },
+     "0.15-0.25": {
+      "n": 19385,
+      "hit_rate": 0.2001,
+      "avg_odds": 4.34,
+      "breakeven_hit_rate": 0.2372,
+      "roi": -0.1472
+     },
+     "0.25-0.35": {
+      "n": 25614,
+      "hit_rate": 0.2907,
+      "avg_odds": 3.12,
+      "breakeven_hit_rate": 0.3277,
+      "roi": -0.1069
+     },
+     "0.35-0.50": {
+      "n": 18025,
+      "hit_rate": 0.4046,
+      "avg_odds": 2.26,
+      "breakeven_hit_rate": 0.4511,
+      "roi": -0.0988
+     },
+     "0.50-0.70": {
+      "n": 5777,
+      "hit_rate": 0.5939,
+      "avg_odds": 1.66,
+      "breakeven_hit_rate": 0.6086,
+      "roi": -0.0231
+     },
+     "0.70-1.00": {
+      "n": 309,
+      "hit_rate": 0.767,
+      "avg_odds": 1.28,
+      "breakeven_hit_rate": 0.7865,
+      "roi": -0.0239
+     }
+    }
+   },
+   "end_final": {
+    "all": {
+     "n": 70279,
+     "hit_rate": 0.3212,
+     "avg_odds": 3.21,
+     "breakeven_hit_rate": 0.3542,
+     "roi": -0.0928
+    },
+    "agrees_with_market_favourite": {
+     "n": 58832,
+     "hit_rate": 0.3395,
+     "avg_odds": 2.93,
+     "breakeven_hit_rate": 0.3782,
+     "roi": -0.1094
+    },
+    "differs_from_market_favourite": {
+     "n": 11447,
+     "hit_rate": 0.227,
+     "avg_odds": 4.66,
+     "breakeven_hit_rate": 0.2306,
+     "roi": -0.0078
+    },
+    "share_agreeing": 0.8371,
+    "by_odds": {
+     "1-2": {
+      "n": 8977,
+      "hit_rate": 0.5618,
+      "avg_odds": 1.69,
+      "breakeven_hit_rate": 0.5988,
+      "roi": -0.0639
+     },
+     "2-3": {
+      "n": 24286,
+      "hit_rate": 0.3661,
+      "avg_odds": 2.47,
+      "breakeven_hit_rate": 0.4107,
+      "roi": -0.109
+     },
+     "3-5": {
+      "n": 31099,
+      "hit_rate": 0.2467,
+      "avg_odds": 3.72,
+      "breakeven_hit_rate": 0.274,
+      "roi": -0.0977
+     },
+     "5-10": {
+      "n": 5872,
+      "hit_rate": 0.164,
+      "avg_odds": 5.88,
+      "breakeven_hit_rate": 0.1731,
+      "roi": -0.0449
+     },
+     "10-20": {
+      "n": 45,
+      "hit_rate": 0.0889,
+      "avg_odds": 10.82,
+      "breakeven_hit_rate": 0.0934,
+      "roi": -0.0667
+     },
+     "20-1e+09": {
+      "n": 0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 1501,
+      "hit_rate": 0.1419,
+      "avg_odds": 6.46,
+      "breakeven_hit_rate": 0.1614,
+      "roi": -0.0879
+     },
+     "0.15-0.25": {
+      "n": 20559,
+      "hit_rate": 0.2052,
+      "avg_odds": 4.36,
+      "breakeven_hit_rate": 0.2384,
+      "roi": -0.1263
+     },
+     "0.25-0.35": {
+      "n": 25000,
+      "hit_rate": 0.2958,
+      "avg_odds": 3.12,
+      "breakeven_hit_rate": 0.3289,
+      "roi": -0.0901
+     },
+     "0.35-0.50": {
+      "n": 16422,
+      "hit_rate": 0.4098,
+      "avg_odds": 2.27,
+      "breakeven_hit_rate": 0.449,
+      "roi": -0.0807
+     },
+     "0.50-0.70": {
+      "n": 6259,
+      "hit_rate": 0.5772,
+      "avg_odds": 1.69,
+      "breakeven_hit_rate": 0.5982,
+      "roi": -0.0342
+     },
+     "0.70-1.00": {
+      "n": 538,
+      "hit_rate": 0.7528,
+      "avg_odds": 1.32,
+      "breakeven_hit_rate": 0.7608,
+      "roi": -0.0086
+     }
+    }
+   }
+  },
+  "test_2025_2026": {
+   "mkt_final": {
+    "all": {
+     "n": 13760,
+     "hit_rate": 0.3297,
+     "avg_odds": 3.06,
+     "breakeven_hit_rate": 0.3657,
+     "roi": -0.1063
+    },
+    "agrees_with_market_favourite": {
+     "n": 13760,
+     "hit_rate": 0.3297,
+     "avg_odds": 3.06,
+     "breakeven_hit_rate": 0.3657,
+     "roi": -0.1063
+    },
+    "differs_from_market_favourite": {
+     "n": 0
+    },
+    "share_agreeing": 1.0,
+    "by_odds": {
+     "1-2": {
+      "n": 1898,
+      "hit_rate": 0.5358,
+      "avg_odds": 1.68,
+      "breakeven_hit_rate": 0.6019,
+      "roi": -0.1133
+     },
+     "2-3": {
+      "n": 5094,
+      "hit_rate": 0.3806,
+      "avg_odds": 2.47,
+      "breakeven_hit_rate": 0.4098,
+      "roi": -0.0714
+     },
+     "3-5": {
+      "n": 6060,
+      "hit_rate": 0.2417,
+      "avg_odds": 3.69,
+      "breakeven_hit_rate": 0.2762,
+      "roi": -0.132
+     },
+     "5-10": {
+      "n": 708,
+      "hit_rate": 0.1624,
+      "avg_odds": 5.56,
+      "breakeven_hit_rate": 0.1814,
+      "roi": -0.1175
+     },
+     "10-20": {
+      "n": 0
+     },
+     "20-1e+09": {
+      "n": 0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 257,
+      "hit_rate": 0.1284,
+      "avg_odds": 6.14,
+      "breakeven_hit_rate": 0.1638,
+      "roi": -0.2245
+     },
+     "0.15-0.25": {
+      "n": 4495,
+      "hit_rate": 0.2096,
+      "avg_odds": 4.08,
+      "breakeven_hit_rate": 0.2492,
+      "roi": -0.1587
+     },
+     "0.25-0.35": {
+      "n": 5081,
+      "hit_rate": 0.3261,
+      "avg_odds": 2.86,
+      "breakeven_hit_rate": 0.3526,
+      "roi": -0.0735
+     },
+     "0.35-0.50": {
+      "n": 3177,
+      "hit_rate": 0.4523,
+      "avg_odds": 2.04,
+      "breakeven_hit_rate": 0.4953,
+      "roi": -0.0823
+     },
+     "0.50-0.70": {
+      "n": 742,
+      "hit_rate": 0.6199,
+      "avg_odds": 1.5,
+      "breakeven_hit_rate": 0.6711,
+      "roi": -0.0757
+     },
+     "0.70-1.00": {
+      "n": 8,
+      "hit_rate": 0.875,
+      "avg_odds": 1.12,
+      "breakeven_hit_rate": 0.8902,
+      "roi": -0.0125
+     }
+    }
+   },
+   "mkt_ref": {
+    "all": {
+     "n": 13760,
+     "hit_rate": 0.3041,
+     "avg_odds": 3.5,
+     "breakeven_hit_rate": 0.3428,
+     "roi": -0.1242
+    },
+    "agrees_with_market_favourite": {
+     "n": 9955,
+     "hit_rate": 0.3532,
+     "avg_odds": 2.83,
+     "breakeven_hit_rate": 0.3931,
+     "roi": -0.1076
+    },
+    "differs_from_market_favourite": {
+     "n": 3805,
+     "hit_rate": 0.1758,
+     "avg_odds": 5.24,
+     "breakeven_hit_rate": 0.2113,
+     "roi": -0.1677
+    },
+    "share_agreeing": 0.7235,
+    "by_odds": {
+     "1-2": {
+      "n": 1868,
+      "hit_rate": 0.5375,
+      "avg_odds": 1.68,
+      "breakeven_hit_rate": 0.6026,
+      "roi": -0.1116
+     },
+     "2-3": {
+      "n": 4225,
+      "hit_rate": 0.3796,
+      "avg_odds": 2.45,
+      "breakeven_hit_rate": 0.4132,
+      "roi": -0.0822
+     },
+     "3-5": {
+      "n": 5597,
+      "hit_rate": 0.2298,
+      "avg_odds": 3.78,
+      "breakeven_hit_rate": 0.2703,
+      "roi": -0.154
+     },
+     "5-10": {
+      "n": 1959,
+      "hit_rate": 0.1455,
+      "avg_odds": 6.24,
+      "breakeven_hit_rate": 0.1651,
+      "roi": -0.125
+     },
+     "10-20": {
+      "n": 108,
+      "hit_rate": 0.0556,
+      "avg_odds": 11.35,
+      "breakeven_hit_rate": 0.0902,
+      "roi": -0.4074
+     },
+     "20-1e+09": {
+      "n": 3,
+      "hit_rate": 0.0,
+      "avg_odds": 23.33,
+      "breakeven_hit_rate": 0.044,
+      "roi": -1.0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 942,
+      "hit_rate": 0.1476,
+      "avg_odds": 6.09,
+      "breakeven_hit_rate": 0.183,
+      "roi": -0.2196
+     },
+     "0.15-0.25": {
+      "n": 5367,
+      "hit_rate": 0.229,
+      "avg_odds": 4.25,
+      "breakeven_hit_rate": 0.2598,
+      "roi": -0.1181
+     },
+     "0.25-0.35": {
+      "n": 3760,
+      "hit_rate": 0.3178,
+      "avg_odds": 3.1,
+      "breakeven_hit_rate": 0.3499,
+      "roi": -0.1101
+     },
+     "0.35-0.50": {
+      "n": 2512,
+      "hit_rate": 0.3969,
+      "avg_odds": 2.35,
+      "breakeven_hit_rate": 0.455,
+      "roi": -0.1307
+     },
+     "0.50-0.70": {
+      "n": 1060,
+      "hit_rate": 0.517,
+      "avg_odds": 1.81,
+      "breakeven_hit_rate": 0.5739,
+      "roi": -0.1088
+     },
+     "0.70-1.00": {
+      "n": 119,
+      "hit_rate": 0.6471,
+      "avg_odds": 1.45,
+      "breakeven_hit_rate": 0.7059,
+      "roi": -0.0891
+     }
+    }
+   },
+   "mkt_ref_cal": {
+    "all": {
+     "n": 13760,
+     "hit_rate": 0.3041,
+     "avg_odds": 3.5,
+     "breakeven_hit_rate": 0.3428,
+     "roi": -0.1242
+    },
+    "agrees_with_market_favourite": {
+     "n": 9955,
+     "hit_rate": 0.3532,
+     "avg_odds": 2.83,
+     "breakeven_hit_rate": 0.3931,
+     "roi": -0.1076
+    },
+    "differs_from_market_favourite": {
+     "n": 3805,
+     "hit_rate": 0.1758,
+     "avg_odds": 5.24,
+     "breakeven_hit_rate": 0.2113,
+     "roi": -0.1677
+    },
+    "share_agreeing": 0.7235,
+    "by_odds": {
+     "1-2": {
+      "n": 1868,
+      "hit_rate": 0.5375,
+      "avg_odds": 1.68,
+      "breakeven_hit_rate": 0.6026,
+      "roi": -0.1116
+     },
+     "2-3": {
+      "n": 4225,
+      "hit_rate": 0.3796,
+      "avg_odds": 2.45,
+      "breakeven_hit_rate": 0.4132,
+      "roi": -0.0822
+     },
+     "3-5": {
+      "n": 5597,
+      "hit_rate": 0.2298,
+      "avg_odds": 3.78,
+      "breakeven_hit_rate": 0.2703,
+      "roi": -0.154
+     },
+     "5-10": {
+      "n": 1959,
+      "hit_rate": 0.1455,
+      "avg_odds": 6.24,
+      "breakeven_hit_rate": 0.1651,
+      "roi": -0.125
+     },
+     "10-20": {
+      "n": 108,
+      "hit_rate": 0.0556,
+      "avg_odds": 11.35,
+      "breakeven_hit_rate": 0.0902,
+      "roi": -0.4074
+     },
+     "20-1e+09": {
+      "n": 3,
+      "hit_rate": 0.0,
+      "avg_odds": 23.33,
+      "breakeven_hit_rate": 0.044,
+      "roi": -1.0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 775,
+      "hit_rate": 0.1419,
+      "avg_odds": 6.24,
+      "breakeven_hit_rate": 0.1778,
+      "roi": -0.2166
+     },
+     "0.15-0.25": {
+      "n": 4645,
+      "hit_rate": 0.2205,
+      "avg_odds": 4.43,
+      "breakeven_hit_rate": 0.2492,
+      "roi": -0.1161
+     },
+     "0.25-0.35": {
+      "n": 3813,
+      "hit_rate": 0.2958,
+      "avg_odds": 3.27,
+      "breakeven_hit_rate": 0.3304,
+      "roi": -0.125
+     },
+     "0.35-0.50": {
+      "n": 2767,
+      "hit_rate": 0.3802,
+      "avg_odds": 2.53,
+      "breakeven_hit_rate": 0.4255,
+      "roi": -0.1096
+     },
+     "0.50-0.70": {
+      "n": 1463,
+      "hit_rate": 0.4798,
+      "avg_odds": 1.94,
+      "breakeven_hit_rate": 0.5399,
+      "roi": -0.123
+     },
+     "0.70-1.00": {
+      "n": 297,
+      "hit_rate": 0.569,
+      "avg_odds": 1.57,
+      "breakeven_hit_rate": 0.6557,
+      "roi": -0.1421
+     }
+    }
+   },
+   "mkt_final_cal": {
+    "all": {
+     "n": 13760,
+     "hit_rate": 0.3297,
+     "avg_odds": 3.06,
+     "breakeven_hit_rate": 0.3657,
+     "roi": -0.1063
+    },
+    "agrees_with_market_favourite": {
+     "n": 13760,
+     "hit_rate": 0.3297,
+     "avg_odds": 3.06,
+     "breakeven_hit_rate": 0.3657,
+     "roi": -0.1063
+    },
+    "differs_from_market_favourite": {
+     "n": 0
+    },
+    "share_agreeing": 1.0,
+    "by_odds": {
+     "1-2": {
+      "n": 1898,
+      "hit_rate": 0.5358,
+      "avg_odds": 1.68,
+      "breakeven_hit_rate": 0.6019,
+      "roi": -0.1133
+     },
+     "2-3": {
+      "n": 5094,
+      "hit_rate": 0.3806,
+      "avg_odds": 2.47,
+      "breakeven_hit_rate": 0.4098,
+      "roi": -0.0714
+     },
+     "3-5": {
+      "n": 6060,
+      "hit_rate": 0.2417,
+      "avg_odds": 3.69,
+      "breakeven_hit_rate": 0.2762,
+      "roi": -0.132
+     },
+     "5-10": {
+      "n": 708,
+      "hit_rate": 0.1624,
+      "avg_odds": 5.56,
+      "breakeven_hit_rate": 0.1814,
+      "roi": -0.1175
+     },
+     "10-20": {
+      "n": 0
+     },
+     "20-1e+09": {
+      "n": 0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 166,
+      "hit_rate": 0.1024,
+      "avg_odds": 6.37,
+      "breakeven_hit_rate": 0.1578,
+      "roi": -0.3488
+     },
+     "0.15-0.25": {
+      "n": 3569,
+      "hit_rate": 0.1978,
+      "avg_odds": 4.3,
+      "breakeven_hit_rate": 0.2364,
+      "roi": -0.1602
+     },
+     "0.25-0.35": {
+      "n": 4973,
+      "hit_rate": 0.3063,
+      "avg_odds": 3.07,
+      "breakeven_hit_rate": 0.3285,
+      "roi": -0.071
+     },
+     "0.35-0.50": {
+      "n": 3641,
+      "hit_rate": 0.4092,
+      "avg_odds": 2.24,
+      "breakeven_hit_rate": 0.4521,
+      "roi": -0.0947
+     },
+     "0.50-0.70": {
+      "n": 1367,
+      "hit_rate": 0.5596,
+      "avg_odds": 1.63,
+      "breakeven_hit_rate": 0.6194,
+      "roi": -0.0978
+     },
+     "0.70-1.00": {
+      "n": 44,
+      "hit_rate": 0.7955,
+      "avg_odds": 1.22,
+      "breakeven_hit_rate": 0.8233,
+      "roi": -0.0318
+     }
+    }
+   },
+   "fund": {
+    "all": {
+     "n": 13760,
+     "hit_rate": 0.3016,
+     "avg_odds": 3.81,
+     "breakeven_hit_rate": 0.3277,
+     "roi": -0.0789
+    },
+    "agrees_with_market_favourite": {
+     "n": 8810,
+     "hit_rate": 0.3658,
+     "avg_odds": 2.8,
+     "breakeven_hit_rate": 0.3978,
+     "roi": -0.0882
+    },
+    "differs_from_market_favourite": {
+     "n": 4950,
+     "hit_rate": 0.1873,
+     "avg_odds": 5.6,
+     "breakeven_hit_rate": 0.2029,
+     "roi": -0.0623
+    },
+    "share_agreeing": 0.6403,
+    "by_odds": {
+     "1-2": {
+      "n": 1741,
+      "hit_rate": 0.5485,
+      "avg_odds": 1.67,
+      "breakeven_hit_rate": 0.6052,
+      "roi": -0.0963
+     },
+     "2-3": {
+      "n": 3823,
+      "hit_rate": 0.3866,
+      "avg_odds": 2.46,
+      "breakeven_hit_rate": 0.4131,
+      "roi": -0.0649
+     },
+     "3-5": {
+      "n": 5378,
+      "hit_rate": 0.243,
+      "avg_odds": 3.81,
+      "breakeven_hit_rate": 0.2683,
+      "roi": -0.0978
+     },
+     "5-10": {
+      "n": 2581,
+      "hit_rate": 0.1523,
+      "avg_odds": 6.46,
+      "breakeven_hit_rate": 0.16,
+      "roi": -0.0408
+     },
+     "10-20": {
+      "n": 224,
+      "hit_rate": 0.0759,
+      "avg_odds": 11.86,
+      "breakeven_hit_rate": 0.0868,
+      "roi": -0.1116
+     },
+     "20-1e+09": {
+      "n": 13,
+      "hit_rate": 0.0,
+      "avg_odds": 24.62,
+      "breakeven_hit_rate": 0.0416,
+      "roi": -1.0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 443,
+      "hit_rate": 0.149,
+      "avg_odds": 7.3,
+      "breakeven_hit_rate": 0.1598,
+      "roi": -0.072
+     },
+     "0.15-0.25": {
+      "n": 4957,
+      "hit_rate": 0.2042,
+      "avg_odds": 4.96,
+      "breakeven_hit_rate": 0.2339,
+      "roi": -0.1237
+     },
+     "0.25-0.35": {
+      "n": 4650,
+      "hit_rate": 0.3058,
+      "avg_odds": 3.43,
+      "breakeven_hit_rate": 0.3267,
+      "roi": -0.0551
+     },
+     "0.35-0.50": {
+      "n": 2751,
+      "hit_rate": 0.4086,
+      "avg_odds": 2.51,
+      "breakeven_hit_rate": 0.436,
+      "roi": -0.0463
+     },
+     "0.50-0.70": {
+      "n": 881,
+      "hit_rate": 0.5346,
+      "avg_odds": 1.83,
+      "breakeven_hit_rate": 0.5735,
+      "roi": -0.0641
+     },
+     "0.70-1.00": {
+      "n": 78,
+      "hit_rate": 0.7051,
+      "avg_odds": 1.47,
+      "breakeven_hit_rate": 0.703,
+      "roi": 0.0026
+     }
+    }
+   },
+   "combo_ref": {
+    "all": {
+     "n": 13760,
+     "hit_rate": 0.3086,
+     "avg_odds": 3.4,
+     "breakeven_hit_rate": 0.3466,
+     "roi": -0.1179
+    },
+    "agrees_with_market_favourite": {
+     "n": 10259,
+     "hit_rate": 0.3511,
+     "avg_odds": 2.85,
+     "breakeven_hit_rate": 0.3904,
+     "roi": -0.1095
+    },
+    "differs_from_market_favourite": {
+     "n": 3501,
+     "hit_rate": 0.1842,
+     "avg_odds": 5.0,
+     "breakeven_hit_rate": 0.2181,
+     "roi": -0.1424
+    },
+    "share_agreeing": 0.7456,
+    "by_odds": {
+     "1-2": {
+      "n": 1857,
+      "hit_rate": 0.5385,
+      "avg_odds": 1.68,
+      "breakeven_hit_rate": 0.6029,
+      "roi": -0.1099
+     },
+     "2-3": {
+      "n": 4338,
+      "hit_rate": 0.3813,
+      "avg_odds": 2.46,
+      "breakeven_hit_rate": 0.4126,
+      "roi": -0.0766
+     },
+     "3-5": {
+      "n": 5765,
+      "hit_rate": 0.2297,
+      "avg_odds": 3.77,
+      "breakeven_hit_rate": 0.2709,
+      "roi": -0.1573
+     },
+     "5-10": {
+      "n": 1757,
+      "hit_rate": 0.152,
+      "avg_odds": 6.15,
+      "breakeven_hit_rate": 0.167,
+      "roi": -0.0891
+     },
+     "10-20": {
+      "n": 43,
+      "hit_rate": 0.0465,
+      "avg_odds": 11.19,
+      "breakeven_hit_rate": 0.0907,
+      "roi": -0.5349
+     },
+     "20-1e+09": {
+      "n": 0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 422,
+      "hit_rate": 0.1398,
+      "avg_odds": 6.61,
+      "breakeven_hit_rate": 0.1645,
+      "roi": -0.1533
+     },
+     "0.15-0.25": {
+      "n": 4242,
+      "hit_rate": 0.199,
+      "avg_odds": 4.5,
+      "breakeven_hit_rate": 0.2401,
+      "roi": -0.1707
+     },
+     "0.25-0.35": {
+      "n": 4398,
+      "hit_rate": 0.2881,
+      "avg_odds": 3.28,
+      "breakeven_hit_rate": 0.3241,
+      "roi": -0.1131
+     },
+     "0.35-0.50": {
+      "n": 3086,
+      "hit_rate": 0.3927,
+      "avg_odds": 2.45,
+      "breakeven_hit_rate": 0.4293,
+      "roi": -0.0724
+     },
+     "0.50-0.70": {
+      "n": 1394,
+      "hit_rate": 0.5208,
+      "avg_odds": 1.84,
+      "breakeven_hit_rate": 0.5596,
+      "roi": -0.0686
+     },
+     "0.70-1.00": {
+      "n": 218,
+      "hit_rate": 0.6376,
+      "avg_odds": 1.48,
+      "breakeven_hit_rate": 0.6885,
+      "roi": -0.0794
+     }
+    }
+   },
+   "end_ref": {
+    "all": {
+     "n": 13760,
+     "hit_rate": 0.3112,
+     "avg_odds": 3.41,
+     "breakeven_hit_rate": 0.3464,
+     "roi": -0.1072
+    },
+    "agrees_with_market_favourite": {
+     "n": 10233,
+     "hit_rate": 0.3542,
+     "avg_odds": 2.85,
+     "breakeven_hit_rate": 0.3907,
+     "roi": -0.0986
+    },
+    "differs_from_market_favourite": {
+     "n": 3527,
+     "hit_rate": 0.1863,
+     "avg_odds": 5.02,
+     "breakeven_hit_rate": 0.218,
+     "roi": -0.1321
+    },
+    "share_agreeing": 0.7437,
+    "by_odds": {
+     "1-2": {
+      "n": 1857,
+      "hit_rate": 0.5396,
+      "avg_odds": 1.68,
+      "breakeven_hit_rate": 0.6027,
+      "roi": -0.1076
+     },
+     "2-3": {
+      "n": 4348,
+      "hit_rate": 0.3811,
+      "avg_odds": 2.46,
+      "breakeven_hit_rate": 0.4127,
+      "roi": -0.077
+     },
+     "3-5": {
+      "n": 5730,
+      "hit_rate": 0.2349,
+      "avg_odds": 3.77,
+      "breakeven_hit_rate": 0.2709,
+      "roi": -0.1375
+     },
+     "5-10": {
+      "n": 1773,
+      "hit_rate": 0.1551,
+      "avg_odds": 6.15,
+      "breakeven_hit_rate": 0.167,
+      "roi": -0.0681
+     },
+     "10-20": {
+      "n": 51,
+      "hit_rate": 0.0392,
+      "avg_odds": 10.96,
+      "breakeven_hit_rate": 0.0922,
+      "roi": -0.6078
+     },
+     "20-1e+09": {
+      "n": 1,
+      "hit_rate": 0.0,
+      "avg_odds": 21.0,
+      "breakeven_hit_rate": 0.0476,
+      "roi": -1.0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 335,
+      "hit_rate": 0.1552,
+      "avg_odds": 6.77,
+      "breakeven_hit_rate": 0.1604,
+      "roi": -0.0499
+     },
+     "0.15-0.25": {
+      "n": 4408,
+      "hit_rate": 0.2039,
+      "avg_odds": 4.53,
+      "breakeven_hit_rate": 0.2398,
+      "roi": -0.153
+     },
+     "0.25-0.35": {
+      "n": 4782,
+      "hit_rate": 0.2995,
+      "avg_odds": 3.22,
+      "breakeven_hit_rate": 0.3311,
+      "roi": -0.0921
+     },
+     "0.35-0.50": {
+      "n": 3079,
+      "hit_rate": 0.4063,
+      "avg_odds": 2.35,
+      "breakeven_hit_rate": 0.4479,
+      "roi": -0.0868
+     },
+     "0.50-0.70": {
+      "n": 1056,
+      "hit_rate": 0.5559,
+      "avg_odds": 1.75,
+      "breakeven_hit_rate": 0.5879,
+      "roi": -0.0547
+     },
+     "0.70-1.00": {
+      "n": 100,
+      "hit_rate": 0.61,
+      "avg_odds": 1.4,
+      "breakeven_hit_rate": 0.7288,
+      "roi": -0.183
+     }
+    }
+   },
+   "combo_final": {
+    "all": {
+     "n": 13760,
+     "hit_rate": 0.3289,
+     "avg_odds": 3.12,
+     "breakeven_hit_rate": 0.3624,
+     "roi": -0.0947
+    },
+    "agrees_with_market_favourite": {
+     "n": 12263,
+     "hit_rate": 0.3427,
+     "avg_odds": 2.95,
+     "breakeven_hit_rate": 0.3775,
+     "roi": -0.0961
+    },
+    "differs_from_market_favourite": {
+     "n": 1497,
+     "hit_rate": 0.2158,
+     "avg_odds": 4.47,
+     "breakeven_hit_rate": 0.2384,
+     "roi": -0.0827
+    },
+    "share_agreeing": 0.8912,
+    "by_odds": {
+     "1-2": {
+      "n": 1893,
+      "hit_rate": 0.5362,
+      "avg_odds": 1.68,
+      "breakeven_hit_rate": 0.6021,
+      "roi": -0.113
+     },
+     "2-3": {
+      "n": 4969,
+      "hit_rate": 0.3787,
+      "avg_odds": 2.47,
+      "breakeven_hit_rate": 0.4104,
+      "roi": -0.0776
+     },
+     "3-5": {
+      "n": 5985,
+      "hit_rate": 0.2463,
+      "avg_odds": 3.71,
+      "breakeven_hit_rate": 0.2749,
+      "roi": -0.1088
+     },
+     "5-10": {
+      "n": 912,
+      "hit_rate": 0.1689,
+      "avg_odds": 5.7,
+      "breakeven_hit_rate": 0.1777,
+      "roi": -0.0556
+     },
+     "10-20": {
+      "n": 1,
+      "hit_rate": 0.0,
+      "avg_odds": 10.0,
+      "breakeven_hit_rate": 0.1,
+      "roi": -1.0
+     },
+     "20-1e+09": {
+      "n": 0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 182,
+      "hit_rate": 0.1703,
+      "avg_odds": 6.48,
+      "breakeven_hit_rate": 0.1573,
+      "roi": 0.0654
+     },
+     "0.15-0.25": {
+      "n": 3589,
+      "hit_rate": 0.2001,
+      "avg_odds": 4.37,
+      "breakeven_hit_rate": 0.2353,
+      "roi": -0.1477
+     },
+     "0.25-0.35": {
+      "n": 4986,
+      "hit_rate": 0.302,
+      "avg_odds": 3.11,
+      "breakeven_hit_rate": 0.3272,
+      "roi": -0.0756
+     },
+     "0.35-0.50": {
+      "n": 3615,
+      "hit_rate": 0.408,
+      "avg_odds": 2.27,
+      "breakeven_hit_rate": 0.4498,
+      "roi": -0.0858
+     },
+     "0.50-0.70": {
+      "n": 1326,
+      "hit_rate": 0.5626,
+      "avg_odds": 1.66,
+      "breakeven_hit_rate": 0.6086,
+      "roi": -0.0732
+     },
+     "0.70-1.00": {
+      "n": 62,
+      "hit_rate": 0.7903,
+      "avg_odds": 1.27,
+      "breakeven_hit_rate": 0.7911,
+      "roi": -0.0048
+     }
+    }
+   },
+   "end_final": {
+    "all": {
+     "n": 13760,
+     "hit_rate": 0.3281,
+     "avg_odds": 3.14,
+     "breakeven_hit_rate": 0.361,
+     "roi": -0.0937
+    },
+    "agrees_with_market_favourite": {
+     "n": 11888,
+     "hit_rate": 0.3466,
+     "avg_odds": 2.92,
+     "breakeven_hit_rate": 0.3811,
+     "roi": -0.094
+    },
+    "differs_from_market_favourite": {
+     "n": 1872,
+     "hit_rate": 0.2105,
+     "avg_odds": 4.59,
+     "breakeven_hit_rate": 0.2335,
+     "roi": -0.0918
+    },
+    "share_agreeing": 0.864,
+    "by_odds": {
+     "1-2": {
+      "n": 1896,
+      "hit_rate": 0.5364,
+      "avg_odds": 1.68,
+      "breakeven_hit_rate": 0.602,
+      "roi": -0.1124
+     },
+     "2-3": {
+      "n": 4910,
+      "hit_rate": 0.3798,
+      "avg_odds": 2.47,
+      "breakeven_hit_rate": 0.4109,
+      "roi": -0.0756
+     },
+     "3-5": {
+      "n": 5943,
+      "hit_rate": 0.248,
+      "avg_odds": 3.71,
+      "breakeven_hit_rate": 0.2746,
+      "roi": -0.1011
+     },
+     "5-10": {
+      "n": 1005,
+      "hit_rate": 0.1562,
+      "avg_odds": 5.8,
+      "breakeven_hit_rate": 0.1752,
+      "roi": -0.1073
+     },
+     "10-20": {
+      "n": 6,
+      "hit_rate": 0.1667,
+      "avg_odds": 10.17,
+      "breakeven_hit_rate": 0.0985,
+      "roi": 0.6667
+     },
+     "20-1e+09": {
+      "n": 0
+     }
+    },
+    "by_model_prob": {
+     "0.00-0.15": {
+      "n": 232,
+      "hit_rate": 0.1379,
+      "avg_odds": 6.48,
+      "breakeven_hit_rate": 0.1595,
+      "roi": -0.1366
+     },
+     "0.15-0.25": {
+      "n": 3814,
+      "hit_rate": 0.1977,
+      "avg_odds": 4.35,
+      "breakeven_hit_rate": 0.2374,
+      "roi": -0.1599
+     },
+     "0.25-0.35": {
+      "n": 4862,
+      "hit_rate": 0.3091,
+      "avg_odds": 3.1,
+      "breakeven_hit_rate": 0.3294,
+      "roi": -0.0558
+     },
+     "0.35-0.50": {
+      "n": 3307,
+      "hit_rate": 0.407,
+      "avg_odds": 2.27,
+      "breakeven_hit_rate": 0.4477,
+      "roi": -0.0832
+     },
+     "0.50-0.70": {
+      "n": 1411,
+      "hit_rate": 0.5549,
+      "avg_odds": 1.7,
+      "breakeven_hit_rate": 0.5966,
+      "roi": -0.0665
+     },
+     "0.70-1.00": {
+      "n": 134,
+      "hit_rate": 0.7164,
+      "avg_odds": 1.33,
+      "breakeven_hit_rate": 0.7547,
+      "roi": -0.0537
+     }
+    }
+   }
+  }
+ },
+ "per_year": {
+  "2018": {
+   "mkt_final": {
+    "races": 10878,
+    "logloss": 1.9599,
+    "top1": 0.3155,
+    "top3": 0.6351
+   },
+   "mkt_ref": {
+    "races": 10878,
+    "logloss": 2.0244,
+    "top1": 0.3025,
+    "top3": 0.612
+   },
+   "fund": {
+    "races": 10878,
+    "logloss": 1.9951,
+    "top1": 0.2977,
+    "top3": 0.6124
+   },
+   "end_ref": {
+    "races": 10878,
+    "logloss": 1.9606,
+    "top1": 0.3115,
+    "top3": 0.6335
+   },
+   "end_final": {
+    "races": 10878,
+    "logloss": 1.9389,
+    "top1": 0.3183,
+    "top3": 0.6424
+   }
+  },
+  "2019": {
+   "mkt_final": {
+    "races": 9691,
+    "logloss": 1.9705,
+    "top1": 0.3121,
+    "top3": 0.6314
+   },
+   "mkt_ref": {
+    "races": 9691,
+    "logloss": 2.0396,
+    "top1": 0.2998,
+    "top3": 0.6128
+   },
+   "fund": {
+    "races": 9691,
+    "logloss": 2.0156,
+    "top1": 0.2851,
+    "top3": 0.6098
+   },
+   "end_ref": {
+    "races": 9691,
+    "logloss": 1.9807,
+    "top1": 0.302,
+    "top3": 0.6237
+   },
+   "end_final": {
+    "races": 9691,
+    "logloss": 1.9516,
+    "top1": 0.3125,
+    "top3": 0.6395
+   }
+  },
+  "2020": {
+   "mkt_final": {
+    "races": 8754,
+    "logloss": 1.9384,
+    "top1": 0.3244,
+    "top3": 0.6446
+   },
+   "mkt_ref": {
+    "races": 8754,
+    "logloss": 2.0159,
+    "top1": 0.3003,
+    "top3": 0.6185
+   },
+   "fund": {
+    "races": 8754,
+    "logloss": 1.995,
+    "top1": 0.2966,
+    "top3": 0.6118
+   },
+   "end_ref": {
+    "races": 8754,
+    "logloss": 1.9555,
+    "top1": 0.3096,
+    "top3": 0.6295
+   },
+   "end_final": {
+    "races": 8754,
+    "logloss": 1.9194,
+    "top1": 0.3283,
+    "top3": 0.6491
+   }
+  },
+  "2021": {
+   "mkt_final": {
+    "races": 10083,
+    "logloss": 1.9522,
+    "top1": 0.318,
+    "top3": 0.6334
+   },
+   "mkt_ref": {
+    "races": 10083,
+    "logloss": 2.023,
+    "top1": 0.2956,
+    "top3": 0.6061
+   },
+   "fund": {
+    "races": 10083,
+    "logloss": 1.9954,
+    "top1": 0.299,
+    "top3": 0.6095
+   },
+   "end_ref": {
+    "races": 10083,
+    "logloss": 1.9641,
+    "top1": 0.3122,
+    "top3": 0.6229
+   },
+   "end_final": {
+    "races": 10083,
+    "logloss": 1.933,
+    "top1": 0.3231,
+    "top3": 0.6387
+   }
+  },
+  "2022": {
+   "mkt_final": {
+    "races": 10206,
+    "logloss": 1.9329,
+    "top1": 0.3179,
+    "top3": 0.6449
+   },
+   "mkt_ref": {
+    "races": 10206,
+    "logloss": 2.003,
+    "top1": 0.3085,
+    "top3": 0.6177
+   },
+   "fund": {
+    "races": 10206,
+    "logloss": 1.9736,
+    "top1": 0.3061,
+    "top3": 0.6222
+   },
+   "end_ref": {
+    "races": 10206,
+    "logloss": 1.9401,
+    "top1": 0.3171,
+    "top3": 0.6367
+   },
+   "end_final": {
+    "races": 10206,
+    "logloss": 1.9128,
+    "top1": 0.3227,
+    "top3": 0.6506
+   }
+  },
+  "2023": {
+   "mkt_final": {
+    "races": 10330,
+    "logloss": 1.9411,
+    "top1": 0.3183,
+    "top3": 0.6411
+   },
+   "mkt_ref": {
+    "races": 10330,
+    "logloss": 2.0181,
+    "top1": 0.2955,
+    "top3": 0.6155
+   },
+   "fund": {
+    "races": 10330,
+    "logloss": 1.9808,
+    "top1": 0.2981,
+    "top3": 0.6175
+   },
+   "end_ref": {
+    "races": 10330,
+    "logloss": 1.9521,
+    "top1": 0.3082,
+    "top3": 0.6298
+   },
+   "end_final": {
+    "races": 10330,
+    "logloss": 1.9197,
+    "top1": 0.3237,
+    "top3": 0.6434
+   }
+  },
+  "2024": {
+   "mkt_final": {
+    "races": 10337,
+    "logloss": 1.9497,
+    "top1": 0.3207,
+    "top3": 0.6395
+   },
+   "mkt_ref": {
+    "races": 10337,
+    "logloss": 2.0322,
+    "top1": 0.2949,
+    "top3": 0.6073
+   },
+   "fund": {
+    "races": 10337,
+    "logloss": 1.996,
+    "top1": 0.2922,
+    "top3": 0.6093
+   },
+   "end_ref": {
+    "races": 10337,
+    "logloss": 1.9673,
+    "top1": 0.3035,
+    "top3": 0.6226
+   },
+   "end_final": {
+    "races": 10337,
+    "logloss": 1.9308,
+    "top1": 0.3205,
+    "top3": 0.6429
+   }
+  },
+  "2025": {
+   "mkt_final": {
+    "races": 10334,
+    "logloss": 1.9458,
+    "top1": 0.3227,
+    "top3": 0.6414
+   },
+   "mkt_ref": {
+    "races": 10334,
+    "logloss": 2.0351,
+    "top1": 0.2972,
+    "top3": 0.6114
+   },
+   "fund": {
+    "races": 10334,
+    "logloss": 1.991,
+    "top1": 0.2986,
+    "top3": 0.6127
+   },
+   "end_ref": {
+    "races": 10334,
+    "logloss": 1.9648,
+    "top1": 0.3052,
+    "top3": 0.6322
+   },
+   "end_final": {
+    "races": 10334,
+    "logloss": 1.9292,
+    "top1": 0.3212,
+    "top3": 0.6449
+   }
+  },
+  "2026": {
+   "mkt_final": {
+    "races": 3426,
+    "logloss": 1.8909,
+    "top1": 0.3506,
+    "top3": 0.6687
+   },
+   "mkt_ref": {
+    "races": 3426,
+    "logloss": 1.9863,
+    "top1": 0.3252,
+    "top3": 0.6372
+   },
+   "fund": {
+    "races": 3426,
+    "logloss": 1.9453,
+    "top1": 0.3106,
+    "top3": 0.6322
+   },
+   "end_ref": {
+    "races": 3426,
+    "logloss": 1.914,
+    "top1": 0.3292,
+    "top3": 0.6556
+   },
+   "end_final": {
+    "races": 3426,
+    "logloss": 1.8711,
+    "top1": 0.3488,
+    "top3": 0.6737
+   }
+  }
+ },
+ "calibration_test_end_ref": [
+  {
+   "end_ref": "(0.0, 0.02]",
+   "n": 39653,
+   "predicted": 0.0086,
+   "actual": 0.0082
+  },
+  {
+   "end_ref": "(0.02, 0.05]",
+   "n": 38004,
+   "predicted": 0.034,
+   "actual": 0.0337
+  },
+  {
+   "end_ref": "(0.05, 0.1]",
+   "n": 37056,
+   "predicted": 0.0722,
+   "actual": 0.0715
+  },
+  {
+   "end_ref": "(0.1, 0.15]",
+   "n": 19491,
+   "predicted": 0.1223,
+   "actual": 0.1225
+  },
+  {
+   "end_ref": "(0.15, 0.2]",
+   "n": 10684,
+   "predicted": 0.1727,
+   "actual": 0.1785
+  },
+  {
+   "end_ref": "(0.2, 0.3]",
+   "n": 10255,
+   "predicted": 0.2416,
+   "actual": 0.2419
+  },
+  {
+   "end_ref": "(0.3, 0.4]",
+   "n": 3853,
+   "predicted": 0.3421,
+   "actual": 0.3522
+  },
+  {
+   "end_ref": "(0.4, 0.6]",
+   "n": 2378,
+   "predicted": 0.4727,
+   "actual": 0.4569
+  },
+  {
+   "end_ref": "(0.6, 1.0]",
+   "n": 457,
+   "predicted": 0.6667,
+   "actual": 0.6182
+  }
+ ],
+ "betting_parimutuel": {
+  "dev": {
+   "0.0": {
+    "bets": 178229,
+    "roi": -0.032,
+    "hit": 0.1412,
+    "avg_odds": 12.05
+   },
+   "0.05": {
+    "bets": 144743,
+    "roi": -0.0208,
+    "hit": 0.1429,
+    "avg_odds": 11.88
+   },
+   "0.1": {
+    "bets": 116066,
+    "roi": -0.0147,
+    "hit": 0.1439,
+    "avg_odds": 11.76
+   },
+   "0.2": {
+    "bets": 72633,
+    "roi": 0.0034,
+    "hit": 0.1448,
+    "avg_odds": 11.69
+   },
+   "0.3": {
+    "bets": 44134,
+    "roi": 0.0268,
+    "hit": 0.1465,
+    "avg_odds": 11.71
+   }
+  },
+  "threshold_chosen_on_dev": 0.3,
+  "test": {
+   "bets": 8812,
+   "roi": 0.0239,
+   "hit": 0.1569,
+   "avg_odds": 10.71
+  },
+  "test_all_thresholds": {
+   "0.0": {
+    "bets": 34855,
+    "roi": -0.0354,
+    "hit": 0.1477,
+    "avg_odds": 11.37
+   },
+   "0.05": {
+    "bets": 28422,
+    "roi": -0.0103,
+    "hit": 0.1509,
+    "avg_odds": 11.19
+   },
+   "0.1": {
+    "bets": 22967,
+    "roi": 0.0026,
+    "hit": 0.1537,
+    "avg_odds": 11.03
+   },
+   "0.2": {
+    "bets": 14455,
+    "roi": 0.0124,
+    "hit": 0.1563,
+    "avg_odds": 10.78
+   },
+   "0.3": {
+    "bets": 8812,
+    "roi": 0.0239,
+    "hit": 0.1569,
+    "avg_odds": 10.71
+   }
+  },
+  "test_mkt_ref_cal_same_rule": {
+   "bets": 265,
+   "roi": -0.2921,
+   "hit": 0.0792,
+   "avg_odds": 37.43
+  }
+ }
+}

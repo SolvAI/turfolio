@@ -1,0 +1,283 @@
+{
+ "threshold": 0.6,
+ "holdout_2025_01..2026_05_05": {
+  "rule": {
+   "bets": 457,
+   "hits": 283,
+   "hit_rate": 0.6193,
+   "avg_payout_when_hit": 1.53,
+   "roi": -0.0536,
+   "roi_ci95": [
+    -0.1237,
+    0.0113
+   ]
+  },
+  "share_of_races_bet": 0.033,
+  "picks_that_are_the_30min_favourite": 1.0,
+  "paper_bank": {
+   "start": 1000.0,
+   "stake": 10.0,
+   "bets": 457,
+   "end": 755.0,
+   "profit": -245.0,
+   "min_bank": 753.0,
+   "max_drawdown": 249.0,
+   "months_positive": "6/17",
+   "by_month": {
+    "2025-01": -33.0,
+    "2025-02": 5.0,
+    "2025-03": -25.0,
+    "2025-04": -37.0,
+    "2025-05": -58.0,
+    "2025-06": -27.0,
+    "2025-07": 43.0,
+    "2025-08": -46.0,
+    "2025-09": 16.0,
+    "2025-10": 19.0,
+    "2025-11": 12.0,
+    "2025-12": -64.0,
+    "2026-01": -4.0,
+    "2026-02": 49.0,
+    "2026-03": -55.0,
+    "2026-04": -12.0,
+    "2026-05": -28.0
+   }
+  },
+  "every_race_top_pick": {
+   "bets": 13760,
+   "hits": 4282,
+   "hit_rate": 0.3112,
+   "avg_payout_when_hit": 2.86,
+   "roi": -0.1086,
+   "roi_ci95": [
+    -0.1302,
+    -0.0831
+   ]
+  },
+  "descriptive_curve_not_for_choice": {
+   "0.20": {
+    "bets": 11783,
+    "hits": 3961,
+    "hit_rate": 0.3362,
+    "avg_payout_when_hit": 2.69,
+    "roi": -0.0962,
+    "share_of_races": 0.856
+   },
+   "0.25": {
+    "bets": 9017,
+    "hits": 3331,
+    "hit_rate": 0.3694,
+    "avg_payout_when_hit": 2.47,
+    "roi": -0.0889,
+    "share_of_races": 0.655
+   },
+   "0.30": {
+    "bets": 6331,
+    "hits": 2610,
+    "hit_rate": 0.4123,
+    "avg_payout_when_hit": 2.25,
+    "roi": -0.0717,
+    "share_of_races": 0.46
+   },
+   "0.35": {
+    "bets": 4235,
+    "hits": 1899,
+    "hit_rate": 0.4484,
+    "avg_payout_when_hit": 2.05,
+    "roi": -0.0817,
+    "share_of_races": 0.308
+   },
+   "0.40": {
+    "bets": 2827,
+    "hits": 1368,
+    "hit_rate": 0.4839,
+    "avg_payout_when_hit": 1.88,
+    "roi": -0.0899,
+    "share_of_races": 0.205
+   },
+   "0.45": {
+    "bets": 1832,
+    "hits": 976,
+    "hit_rate": 0.5328,
+    "avg_payout_when_hit": 1.77,
+    "roi": -0.0581,
+    "share_of_races": 0.133
+   },
+   "0.50": {
+    "bets": 1156,
+    "hits": 648,
+    "hit_rate": 0.5606,
+    "avg_payout_when_hit": 1.67,
+    "roi": -0.0663,
+    "share_of_races": 0.084
+   },
+   "0.55": {
+    "bets": 719,
+    "hits": 425,
+    "hit_rate": 0.5911,
+    "avg_payout_when_hit": 1.58,
+    "roi": -0.0661,
+    "share_of_races": 0.052
+   },
+   "0.60": {
+    "bets": 457,
+    "hits": 283,
+    "hit_rate": 0.6193,
+    "avg_payout_when_hit": 1.53,
+    "roi": -0.0536,
+    "share_of_races": 0.033
+   },
+   "0.65": {
+    "bets": 241,
+    "hits": 158,
+    "hit_rate": 0.6556,
+    "avg_payout_when_hit": 1.45,
+    "roi": -0.051,
+    "share_of_races": 0.018
+   },
+   "0.70": {
+    "bets": 100,
+    "hits": 61,
+    "hit_rate": 0.61,
+    "avg_payout_when_hit": 1.34,
+    "roi": -0.183,
+    "share_of_races": 0.007
+   }
+  }
+ },
+ "fresh_2026_05_06..11_05": {
+  "rule": {
+   "bets": 199,
+   "hits": 115,
+   "hit_rate": 0.5779,
+   "avg_payout_when_hit": 1.5,
+   "roi": -0.1312,
+   "roi_ci95": [
+    -0.2349,
+    -0.0195
+   ]
+  },
+  "share_of_races_bet": 0.036,
+  "picks_that_are_the_30min_favourite": 1.0,
+  "paper_bank": {
+   "start": 1000.0,
+   "stake": 10.0,
+   "bets": 199,
+   "end": 739.0,
+   "profit": -261.0,
+   "min_bank": 739.0,
+   "max_drawdown": 302.0,
+   "months_positive": "1/7",
+   "by_month": {
+    "2026-05": 20.0,
+    "2026-06": -20.0,
+    "2026-07": -56.0,
+    "2026-08": -8.0,
+    "2026-09": -79.0,
+    "2026-10": -85.0,
+    "2026-11": -33.0
+   }
+  },
+  "every_race_top_pick": {
+   "bets": 5488,
+   "hits": 1745,
+   "hit_rate": 0.318,
+   "avg_payout_when_hit": 2.81,
+   "roi": -0.1075,
+   "roi_ci95": [
+    -0.1517,
+    -0.067
+   ]
+  },
+  "descriptive_curve_not_for_choice": {
+   "0.20": {
+    "bets": 4816,
+    "hits": 1641,
+    "hit_rate": 0.3407,
+    "avg_payout_when_hit": 2.66,
+    "roi": -0.0947,
+    "share_of_races": 0.878
+   },
+   "0.25": {
+    "bets": 3796,
+    "hits": 1413,
+    "hit_rate": 0.3722,
+    "avg_payout_when_hit": 2.46,
+    "roi": -0.0859,
+    "share_of_races": 0.692
+   },
+   "0.30": {
+    "bets": 2751,
+    "hits": 1125,
+    "hit_rate": 0.4089,
+    "avg_payout_when_hit": 2.26,
+    "roi": -0.0758,
+    "share_of_races": 0.501
+   },
+   "0.35": {
+    "bets": 1895,
+    "hits": 855,
+    "hit_rate": 0.4512,
+    "avg_payout_when_hit": 2.09,
+    "roi": -0.056,
+    "share_of_races": 0.345
+   },
+   "0.40": {
+    "bets": 1233,
+    "hits": 593,
+    "hit_rate": 0.4809,
+    "avg_payout_when_hit": 1.91,
+    "roi": -0.0808,
+    "share_of_races": 0.225
+   },
+   "0.45": {
+    "bets": 802,
+    "hits": 424,
+    "hit_rate": 0.5287,
+    "avg_payout_when_hit": 1.78,
+    "roi": -0.0607,
+    "share_of_races": 0.146
+   },
+   "0.50": {
+    "bets": 525,
+    "hits": 295,
+    "hit_rate": 0.5619,
+    "avg_payout_when_hit": 1.67,
+    "roi": -0.0602,
+    "share_of_races": 0.096
+   },
+   "0.55": {
+    "bets": 323,
+    "hits": 181,
+    "hit_rate": 0.5604,
+    "avg_payout_when_hit": 1.58,
+    "roi": -0.1127,
+    "share_of_races": 0.059
+   },
+   "0.60": {
+    "bets": 199,
+    "hits": 115,
+    "hit_rate": 0.5779,
+    "avg_payout_when_hit": 1.5,
+    "roi": -0.1312,
+    "share_of_races": 0.036
+   },
+   "0.65": {
+    "bets": 102,
+    "hits": 65,
+    "hit_rate": 0.6373,
+    "avg_payout_when_hit": 1.45,
+    "roi": -0.0784,
+    "share_of_races": 0.019
+   },
+   "0.70": {
+    "bets": 50,
+    "hits": 33,
+    "hit_rate": 0.66,
+    "avg_payout_when_hit": 1.35,
+    "roi": -0.106,
+    "share_of_races": 0.009
+   }
+  }
+ }
+}

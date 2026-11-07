@@ -1,0 +1,11 @@
+# no data is ever committed (see README: Data)
+data/
+fresh/data/
+fresh/src/
+fresh/models/
+models/v3_through_*/
+results/predictions_*.csv
+results/v3_predictions_*.csv
+fresh/results/v3_predictions_*.csv
+__pycache__/
+*.pyc

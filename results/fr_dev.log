@@ -1,0 +1,46 @@
+1,895,775 starters, 156,345 races, 157 features
+[100]	valid_0's race_ll: 2.0594
+[200]	valid_0's race_ll: 2.04433
+[300]	valid_0's race_ll: 2.04131
+[400]	valid_0's race_ll: 2.04072
+best iteration 373; 2022 race log-loss 2.0400, top-1 0.2819
+hippodromeCode            118316.0
+trn_wr_dm                  73627.0
+mus_avg5_dm                50841.0
+drv_wr_dm                  49564.0
+h_avg_pos3_dm              33172.0
+mus_avg3_dm                33048.0
+earn_per_start_rk          31024.0
+drv_n                      26760.0
+deferre                    22241.0
+categorieParticularite     19914.0
+earn_per_start_dm          19358.0
+h_class_change             17856.0
+dt_wr                      16563.0
+h_last_pos                 15039.0
+win_rate_dm                13701.0
+mus_last                   12591.0
+drv_wr_rk                  11941.0
+days_since                 11816.0
+h_best_rk3_dm              11625.0
+handicapValeur_dm          11522.0
+h_avg_mkt3_dm              11217.0
+earn_year_log_rk           11014.0
+days_since_dm              10739.0
+h_last_bl                  10234.0
+trn_wr_rk                   9771.0
+h_best_rk3_rk               8800.0
+going_intitule              8603.0
+earn_log_rk                 7606.0
+mus_avg3_rk                 7392.0
+trn_n                       7260.0
+earn_year_log_dm            7040.0
+h_last_rk_rel               6997.0
+h_avg_bl3_dm                6788.0
+trn_wr                      6617.0
+h_last_mkt_dm               6396.0
+n_starts_dm                 6178.0
+days_since_rk               6091.0
+sire_wr                     5773.0
+own_wr                      5382.0
+win_rate_rk                 5356.0

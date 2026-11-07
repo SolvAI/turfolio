@@ -1,0 +1,320 @@
+{
+ "range": [
+  "2024-09-15",
+  "2024-12-31"
+ ],
+ "races": 2943,
+ "runners": 35947,
+ "net_win_pool_eur_median": {
+  "main": 140746,
+  "internet": 15900,
+  "internet_share_median": 0.104
+ },
+ "overround_median": {
+  "main_ref": 1.201,
+  "main_final": 1.199,
+  "e_ref": 1.184,
+  "e_final": 1.183
+ },
+ "winner_logloss": {
+  "main_ref": 2.0461,
+  "e_ref": 2.0606,
+  "main_final": 1.9525,
+  "e_final": 1.9616,
+  "both_ref_geo_mean": 2.0373,
+  "both_final_geo_mean": 1.9532,
+  "model_end_ref": 1.9741
+ },
+ "gap_by_main_ref_odds": [
+  {
+   "odds": "[1.0, 2.0)",
+   "n": 481,
+   "mean_log_gap_final": -0.005,
+   "share_e_pays_more_final": 0.345,
+   "mean_log_gap_ref": 0.239,
+   "winners": 250,
+   "mean_log_official_gap_winners": -0.003
+  },
+  {
+   "odds": "[2.0, 3.0)",
+   "n": 780,
+   "mean_log_gap_final": -0.005,
+   "share_e_pays_more_final": 0.44,
+   "mean_log_gap_ref": 0.166,
+   "winners": 258,
+   "mean_log_official_gap_winners": 0.015
+  },
+  {
+   "odds": "[3.0, 5.0)",
+   "n": 2418,
+   "mean_log_gap_final": 0.002,
+   "share_e_pays_more_final": 0.467,
+   "mean_log_gap_ref": 0.096,
+   "winners": 574,
+   "mean_log_official_gap_winners": 0.006
+  },
+  {
+   "odds": "[5.0, 8.0)",
+   "n": 4463,
+   "mean_log_gap_final": 0.015,
+   "share_e_pays_more_final": 0.513,
+   "mean_log_gap_ref": 0.052,
+   "winners": 652,
+   "mean_log_official_gap_winners": 0.023
+  },
+  {
+   "odds": "[8.0, 13.0)",
+   "n": 7040,
+   "mean_log_gap_final": 0.032,
+   "share_e_pays_more_final": 0.541,
+   "mean_log_gap_ref": 0.039,
+   "winners": 616,
+   "mean_log_official_gap_winners": 0.04
+  },
+  {
+   "odds": "[13.0, 21.0)",
+   "n": 7863,
+   "mean_log_gap_final": 0.039,
+   "share_e_pays_more_final": 0.535,
+   "mean_log_gap_ref": 0.032,
+   "winners": 378,
+   "mean_log_official_gap_winners": 0.043
+  },
+  {
+   "odds": "[21.0, 40.0)",
+   "n": 7445,
+   "mean_log_gap_final": 0.03,
+   "share_e_pays_more_final": 0.532,
+   "mean_log_gap_ref": 0.038,
+   "winners": 179,
+   "mean_log_official_gap_winners": 0.039
+  },
+  {
+   "odds": "[40.0, 1000000000.0)",
+   "n": 5457,
+   "mean_log_gap_final": 0.092,
+   "share_e_pays_more_final": 0.619,
+   "mean_log_gap_ref": -0.022,
+   "winners": 40,
+   "mean_log_official_gap_winners": 0.137
+  }
+ ],
+ "gap_ref_predicts_gap_final": {
+  "corr": 0.276,
+  "sign_agreement": 0.531
+ },
+ "strategies": {
+  "all_runners": {
+   "main": {
+    "bets": 35947,
+    "hits": 2947,
+    "hit_rate": 0.082,
+    "avg_payout_when_hit": 8.89,
+    "roi": -0.271,
+    "roi_ci95": [
+     -0.3015,
+     -0.2394
+    ]
+   },
+   "internet": {
+    "bets": 35947,
+    "hits": 2947,
+    "hit_rate": 0.082,
+    "avg_payout_when_hit": 9.27,
+    "roi": -0.2399,
+    "roi_ci95": [
+     -0.271,
+     -0.2046
+    ]
+   },
+   "higher_at_30min": {
+    "bets": 35947,
+    "hits": 2947,
+    "hit_rate": 0.082,
+    "avg_payout_when_hit": 9.27,
+    "roi": -0.2401,
+    "roi_ci95": [
+     -0.2731,
+     -0.2059
+    ]
+   },
+   "oracle_higher_final_odds": {
+    "bets": 35947,
+    "hits": 2947,
+    "hit_rate": 0.082,
+    "avg_payout_when_hit": 9.84,
+    "roi": -0.1932,
+    "roi_ci95": [
+     -0.2275,
+     -0.158
+    ]
+   }
+  },
+  "value_rule": {
+   "main": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 4.97,
+    "roi": -0.1894,
+    "roi_ci95": [
+     -0.4741,
+     0.1
+    ]
+   },
+   "internet": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 5.44,
+    "roi": -0.1128,
+    "roi_ci95": [
+     -0.4175,
+     0.2114
+    ]
+   },
+   "higher_at_30min": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 4.99,
+    "roi": -0.1863,
+    "roi_ci95": [
+     -0.4561,
+     0.1082
+    ]
+   },
+   "oracle_higher_final_odds": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 5.65,
+    "roi": -0.0797,
+    "roi_ci95": [
+     -0.4012,
+     0.269
+    ]
+   }
+  },
+  "favourite_main_ref": {
+   "main": {
+    "bets": 2996,
+    "hits": 894,
+    "hit_rate": 0.2984,
+    "avg_payout_when_hit": 2.9,
+    "roi": -0.1359,
+    "roi_ci95": [
+     -0.1914,
+     -0.0772
+    ]
+   },
+   "internet": {
+    "bets": 2996,
+    "hits": 894,
+    "hit_rate": 0.2984,
+    "avg_payout_when_hit": 2.91,
+    "roi": -0.1313,
+    "roi_ci95": [
+     -0.1839,
+     -0.075
+    ]
+   },
+   "higher_at_30min": {
+    "bets": 2996,
+    "hits": 894,
+    "hit_rate": 0.2984,
+    "avg_payout_when_hit": 2.92,
+    "roi": -0.13,
+    "roi_ci95": [
+     -0.1875,
+     -0.0773
+    ]
+   },
+   "oracle_higher_final_odds": {
+    "bets": 2996,
+    "hits": 894,
+    "hit_rate": 0.2984,
+    "avg_payout_when_hit": 3.05,
+    "roi": -0.0888,
+    "roi_ci95": [
+     -0.1429,
+     -0.0289
+    ]
+   }
+  }
+ },
+ "value_rule_with_own_stake": {
+  "2eur": {
+   "main": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 4.97,
+    "roi": -0.1895,
+    "roi_ci95": [
+     -0.4706,
+     0.1347
+    ]
+   },
+   "internet": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 5.44,
+    "roi": -0.1135,
+    "roi_ci95": [
+     -0.4056,
+     0.2468
+    ]
+   }
+  },
+  "10eur": {
+   "main": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 4.97,
+    "roi": -0.1898,
+    "roi_ci95": [
+     -0.4503,
+     0.1206
+    ]
+   },
+   "internet": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 5.42,
+    "roi": -0.1164,
+    "roi_ci95": [
+     -0.4352,
+     0.2143
+    ]
+   }
+  },
+  "50eur": {
+   "main": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 4.96,
+    "roi": -0.1912,
+    "roi_ci95": [
+     -0.4715,
+     0.1211
+    ]
+   },
+   "internet": {
+    "bets": 227,
+    "hits": 37,
+    "hit_rate": 0.163,
+    "avg_payout_when_hit": 5.33,
+    "roi": -0.1305,
+    "roi_ci95": [
+     -0.4126,
+     0.1887
+    ]
+   }
+  }
+ }
+}

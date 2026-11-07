@@ -1,0 +1,4 @@
+win+rt GBM: 485 rounds on 1,801,072 starters
+built: 1,972,395 rows, 203 numeric inputs, 16 categoricals, 1,972,395 history tokens (11s)
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(

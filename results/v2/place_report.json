@@ -1,0 +1,3016 @@
+{
+ "races": {
+  "dev": 59380,
+  "test": 13756
+ },
+ "accuracy": {
+  "mkt_harv_ref": {
+   "dev": {
+    "logloss_per_horse": 0.48542,
+    "brier": 0.15894,
+    "top_pick_places": 0.57,
+    "top_pick_roi": -0.0987
+   },
+   "test": {
+    "logloss_per_horse": 0.4875,
+    "brier": 0.15979,
+    "top_pick_places": 0.5738,
+    "top_pick_roi": -0.0971
+   }
+  },
+  "mkt_disc_ref": {
+   "dev": {
+    "logloss_per_horse": 0.48468,
+    "brier": 0.15861,
+    "top_pick_places": 0.57,
+    "top_pick_roi": -0.0988
+   },
+   "test": {
+    "logloss_per_horse": 0.48663,
+    "brier": 0.15943,
+    "top_pick_places": 0.5738,
+    "top_pick_roi": -0.0966
+   }
+  },
+  "end_harv_ref": {
+   "dev": {
+    "logloss_per_horse": 0.47916,
+    "brier": 0.1569,
+    "top_pick_places": 0.5843,
+    "top_pick_roi": -0.0701
+   },
+   "test": {
+    "logloss_per_horse": 0.47848,
+    "brier": 0.15694,
+    "top_pick_places": 0.5869,
+    "top_pick_roi": -0.0784
+   }
+  },
+  "end_stage_ref": {
+   "dev": {
+    "logloss_per_horse": 0.47071,
+    "brier": 0.15445,
+    "top_pick_places": 0.5854,
+    "top_pick_roi": -0.0675
+   },
+   "test": {
+    "logloss_per_horse": 0.47018,
+    "brier": 0.15449,
+    "top_pick_places": 0.588,
+    "top_pick_roi": -0.0765
+   }
+  },
+  "mkt_harv_final": {
+   "dev": {
+    "logloss_per_horse": 0.47487,
+    "brier": 0.15536,
+    "top_pick_places": 0.5932,
+    "top_pick_roi": -0.0802
+   },
+   "test": {
+    "logloss_per_horse": 0.47368,
+    "brier": 0.15506,
+    "top_pick_places": 0.6039,
+    "top_pick_roi": -0.0728
+   }
+  },
+  "mkt_disc_final": {
+   "dev": {
+    "logloss_per_horse": 0.47216,
+    "brier": 0.15429,
+    "top_pick_places": 0.5933,
+    "top_pick_roi": -0.0802
+   },
+   "test": {
+    "logloss_per_horse": 0.47092,
+    "brier": 0.15399,
+    "top_pick_places": 0.6032,
+    "top_pick_roi": -0.0746
+   }
+  },
+  "end_harv_final": {
+   "dev": {
+    "logloss_per_horse": 0.47605,
+    "brier": 0.1556,
+    "top_pick_places": 0.596,
+    "top_pick_roi": -0.0618
+   },
+   "test": {
+    "logloss_per_horse": 0.4751,
+    "brier": 0.15534,
+    "top_pick_places": 0.6033,
+    "top_pick_roi": -0.0638
+   }
+  },
+  "end_stage_final": {
+   "dev": {
+    "logloss_per_horse": 0.46635,
+    "brier": 0.15281,
+    "top_pick_places": 0.5997,
+    "top_pick_roi": -0.0562
+   },
+   "test": {
+    "logloss_per_horse": 0.46489,
+    "brier": 0.15246,
+    "top_pick_places": 0.6063,
+    "top_pick_roi": -0.0599
+   }
+  }
+ },
+ "vs_market": {
+  "mkt_harv_ref": {
+   "logloss_diff_per_horse": 0.00087,
+   "per_race_ci95": [
+    0.0063,
+    0.014
+   ]
+  },
+  "mkt_disc_ref": {
+   "logloss_diff_per_horse": 0.0,
+   "per_race_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "end_harv_ref": {
+   "logloss_diff_per_horse": -0.00816,
+   "per_race_ci95": [
+    -0.1089,
+    -0.0824
+   ]
+  },
+  "end_stage_ref": {
+   "logloss_diff_per_horse": -0.01645,
+   "per_race_ci95": [
+    -0.2027,
+    -0.1841
+   ]
+  },
+  "mkt_harv_final": {
+   "logloss_diff_per_horse": 0.00276,
+   "per_race_ci95": [
+    0.0269,
+    0.0379
+   ]
+  },
+  "mkt_disc_final": {
+   "logloss_diff_per_horse": 0.0,
+   "per_race_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "end_harv_final": {
+   "logloss_diff_per_horse": 0.00418,
+   "per_race_ci95": [
+    0.0389,
+    0.06
+   ]
+  },
+  "end_stage_final": {
+   "logloss_diff_per_horse": -0.00603,
+   "per_race_ci95": [
+    -0.0768,
+    -0.0647
+   ]
+  }
+ },
+ "calibration_end_stage_ref": {
+  "dev": [
+   {
+    "bin": "0-0.05",
+    "n": 82876,
+    "predicted": 0.0256,
+    "actual": 0.0244
+   },
+   {
+    "bin": "0.05-0.1",
+    "n": 81768,
+    "predicted": 0.0754,
+    "actual": 0.0751
+   },
+   {
+    "bin": "0.1-0.2",
+    "n": 168513,
+    "predicted": 0.1489,
+    "actual": 0.1489
+   },
+   {
+    "bin": "0.2-0.3",
+    "n": 134495,
+    "predicted": 0.2475,
+    "actual": 0.2513
+   },
+   {
+    "bin": "0.3-0.4",
+    "n": 94792,
+    "predicted": 0.3469,
+    "actual": 0.345
+   },
+   {
+    "bin": "0.4-0.5",
+    "n": 64871,
+    "predicted": 0.4468,
+    "actual": 0.4516
+   },
+   {
+    "bin": "0.5-0.6",
+    "n": 39196,
+    "predicted": 0.5452,
+    "actual": 0.5421
+   },
+   {
+    "bin": "0.6-0.7",
+    "n": 20377,
+    "predicted": 0.6435,
+    "actual": 0.6399
+   },
+   {
+    "bin": "0.7-0.8",
+    "n": 8587,
+    "predicted": 0.7421,
+    "actual": 0.7315
+   },
+   {
+    "bin": "0.8-0.9",
+    "n": 3171,
+    "predicted": 0.841,
+    "actual": 0.8187
+   },
+   {
+    "bin": "0.9-1",
+    "n": 740,
+    "predicted": 0.9303,
+    "actual": 0.8865
+   }
+  ],
+  "test": [
+   {
+    "bin": "0-0.05",
+    "n": 18931,
+    "predicted": 0.0233,
+    "actual": 0.0218
+   },
+   {
+    "bin": "0.05-0.1",
+    "n": 19041,
+    "predicted": 0.0756,
+    "actual": 0.0745
+   },
+   {
+    "bin": "0.1-0.2",
+    "n": 38141,
+    "predicted": 0.1492,
+    "actual": 0.1487
+   },
+   {
+    "bin": "0.2-0.3",
+    "n": 31173,
+    "predicted": 0.2474,
+    "actual": 0.2474
+   },
+   {
+    "bin": "0.3-0.4",
+    "n": 22152,
+    "predicted": 0.3466,
+    "actual": 0.3508
+   },
+   {
+    "bin": "0.4-0.5",
+    "n": 15252,
+    "predicted": 0.4463,
+    "actual": 0.4507
+   },
+   {
+    "bin": "0.5-0.6",
+    "n": 9128,
+    "predicted": 0.5452,
+    "actual": 0.5406
+   },
+   {
+    "bin": "0.6-0.7",
+    "n": 4956,
+    "predicted": 0.6444,
+    "actual": 0.6513
+   },
+   {
+    "bin": "0.7-0.8",
+    "n": 2124,
+    "predicted": 0.7412,
+    "actual": 0.7269
+   },
+   {
+    "bin": "0.8-0.9",
+    "n": 765,
+    "predicted": 0.8408,
+    "actual": 0.8209
+   },
+   {
+    "bin": "0.9-1",
+    "n": 130,
+    "predicted": 0.9271,
+    "actual": 0.8385
+   }
+  ]
+ },
+ "roi_by_win_prob_final": {
+  "dev": [
+   {
+    "win_prob_final": "0-0.02",
+    "bets": 155799,
+    "hit_rate": 0.052,
+    "avg_payout_when_hit": 10.368,
+    "roi": -0.4611
+   },
+   {
+    "win_prob_final": "0.02-0.05",
+    "bets": 178082,
+    "hit_rate": 0.1459,
+    "avg_payout_when_hit": 5.161,
+    "roi": -0.2472
+   },
+   {
+    "win_prob_final": "0.05-0.1",
+    "bets": 163835,
+    "hit_rate": 0.2599,
+    "avg_payout_when_hit": 3.067,
+    "roi": -0.2028
+   },
+   {
+    "win_prob_final": "0.1-0.2",
+    "bets": 130970,
+    "hit_rate": 0.4068,
+    "avg_payout_when_hit": 2.103,
+    "roi": -0.1443
+   },
+   {
+    "win_prob_final": "0.2-0.3",
+    "bets": 45166,
+    "hit_rate": 0.5541,
+    "avg_payout_when_hit": 1.648,
+    "roi": -0.0871
+   },
+   {
+    "win_prob_final": "0.3-0.4",
+    "bets": 15883,
+    "hit_rate": 0.661,
+    "avg_payout_when_hit": 1.437,
+    "roi": -0.0501
+   },
+   {
+    "win_prob_final": "0.4-0.5",
+    "bets": 6889,
+    "hit_rate": 0.7386,
+    "avg_payout_when_hit": 1.296,
+    "roi": -0.0431
+   },
+   {
+    "win_prob_final": "0.5-0.6",
+    "bets": 2354,
+    "hit_rate": 0.8356,
+    "avg_payout_when_hit": 1.188,
+    "roi": -0.0075
+   },
+   {
+    "win_prob_final": "0.6-0.7",
+    "bets": 381,
+    "hit_rate": 0.8845,
+    "avg_payout_when_hit": 1.106,
+    "roi": -0.0215
+   },
+   {
+    "win_prob_final": "0.7-1.01",
+    "bets": 27,
+    "hit_rate": 1.0,
+    "avg_payout_when_hit": 1.083,
+    "roi": 0.0833
+   }
+  ],
+  "test": [
+   {
+    "win_prob_final": "0-0.02",
+    "bets": 37184,
+    "hit_rate": 0.0514,
+    "avg_payout_when_hit": 10.111,
+    "roi": -0.4806
+   },
+   {
+    "win_prob_final": "0.02-0.05",
+    "bets": 40246,
+    "hit_rate": 0.146,
+    "avg_payout_when_hit": 5.067,
+    "roi": -0.2605
+   },
+   {
+    "win_prob_final": "0.05-0.1",
+    "bets": 38168,
+    "hit_rate": 0.2646,
+    "avg_payout_when_hit": 3.029,
+    "roi": -0.1986
+   },
+   {
+    "win_prob_final": "0.1-0.2",
+    "bets": 29594,
+    "hit_rate": 0.4126,
+    "avg_payout_when_hit": 2.086,
+    "roi": -0.1392
+   },
+   {
+    "win_prob_final": "0.2-0.3",
+    "bets": 10286,
+    "hit_rate": 0.5596,
+    "avg_payout_when_hit": 1.642,
+    "roi": -0.0811
+   },
+   {
+    "win_prob_final": "0.3-0.4",
+    "bets": 3830,
+    "hit_rate": 0.6762,
+    "avg_payout_when_hit": 1.428,
+    "roi": -0.0341
+   },
+   {
+    "win_prob_final": "0.4-0.5",
+    "bets": 1736,
+    "hit_rate": 0.7235,
+    "avg_payout_when_hit": 1.294,
+    "roi": -0.064
+   },
+   {
+    "win_prob_final": "0.5-0.6",
+    "bets": 634,
+    "hit_rate": 0.8123,
+    "avg_payout_when_hit": 1.204,
+    "roi": -0.0218
+   },
+   {
+    "win_prob_final": "0.6-0.7",
+    "bets": 107,
+    "hit_rate": 0.8224,
+    "avg_payout_when_hit": 1.117,
+    "roi": -0.0813
+   },
+   {
+    "win_prob_final": "0.7-1.01",
+    "bets": 8,
+    "hit_rate": 1.0,
+    "avg_payout_when_hit": 1.062,
+    "roi": 0.0625
+   }
+  ]
+ },
+ "roi_by_win_prob_ref": {
+  "dev": [
+   {
+    "win_prob_ref": "0-0.02",
+    "bets": 87844,
+    "hit_rate": 0.0431,
+    "avg_payout_when_hit": 10.815,
+    "roi": -0.5344
+   },
+   {
+    "win_prob_ref": "0.02-0.05",
+    "bets": 215054,
+    "hit_rate": 0.1289,
+    "avg_payout_when_hit": 5.63,
+    "roi": -0.2741
+   },
+   {
+    "win_prob_ref": "0.05-0.1",
+    "bets": 214107,
+    "hit_rate": 0.2567,
+    "avg_payout_when_hit": 3.094,
+    "roi": -0.2057
+   },
+   {
+    "win_prob_ref": "0.1-0.2",
+    "bets": 126742,
+    "hit_rate": 0.4153,
+    "avg_payout_when_hit": 2.058,
+    "roi": -0.1452
+   },
+   {
+    "win_prob_ref": "0.2-0.3",
+    "bets": 32783,
+    "hit_rate": 0.5557,
+    "avg_payout_when_hit": 1.627,
+    "roi": -0.0957
+   },
+   {
+    "win_prob_ref": "0.3-0.4",
+    "bets": 11814,
+    "hit_rate": 0.6296,
+    "avg_payout_when_hit": 1.452,
+    "roi": -0.086
+   },
+   {
+    "win_prob_ref": "0.4-0.5",
+    "bets": 5706,
+    "hit_rate": 0.7005,
+    "avg_payout_when_hit": 1.355,
+    "roi": -0.0506
+   },
+   {
+    "win_prob_ref": "0.5-0.6",
+    "bets": 3277,
+    "hit_rate": 0.7476,
+    "avg_payout_when_hit": 1.274,
+    "roi": -0.0473
+   },
+   {
+    "win_prob_ref": "0.6-0.7",
+    "bets": 1437,
+    "hit_rate": 0.7891,
+    "avg_payout_when_hit": 1.196,
+    "roi": -0.0559
+   },
+   {
+    "win_prob_ref": "0.7-1.01",
+    "bets": 622,
+    "hit_rate": 0.8521,
+    "avg_payout_when_hit": 1.143,
+    "roi": -0.0263
+   }
+  ],
+  "test": [
+   {
+    "win_prob_ref": "0-0.02",
+    "bets": 20203,
+    "hit_rate": 0.0434,
+    "avg_payout_when_hit": 10.479,
+    "roi": -0.5451
+   },
+   {
+    "win_prob_ref": "0.02-0.05",
+    "bets": 49668,
+    "hit_rate": 0.1285,
+    "avg_payout_when_hit": 5.529,
+    "roi": -0.2893
+   },
+   {
+    "win_prob_ref": "0.05-0.1",
+    "bets": 49688,
+    "hit_rate": 0.2611,
+    "avg_payout_when_hit": 3.042,
+    "roi": -0.2056
+   },
+   {
+    "win_prob_ref": "0.1-0.2",
+    "bets": 29248,
+    "hit_rate": 0.4168,
+    "avg_payout_when_hit": 2.035,
+    "roi": -0.1516
+   },
+   {
+    "win_prob_ref": "0.2-0.3",
+    "bets": 7652,
+    "hit_rate": 0.5555,
+    "avg_payout_when_hit": 1.624,
+    "roi": -0.0976
+   },
+   {
+    "win_prob_ref": "0.3-0.4",
+    "bets": 2742,
+    "hit_rate": 0.6441,
+    "avg_payout_when_hit": 1.443,
+    "roi": -0.0706
+   },
+   {
+    "win_prob_ref": "0.4-0.5",
+    "bets": 1414,
+    "hit_rate": 0.6867,
+    "avg_payout_when_hit": 1.346,
+    "roi": -0.0757
+   },
+   {
+    "win_prob_ref": "0.5-0.6",
+    "bets": 751,
+    "hit_rate": 0.743,
+    "avg_payout_when_hit": 1.271,
+    "roi": -0.0555
+   },
+   {
+    "win_prob_ref": "0.6-0.7",
+    "bets": 308,
+    "hit_rate": 0.7727,
+    "avg_payout_when_hit": 1.212,
+    "roi": -0.0638
+   },
+   {
+    "win_prob_ref": "0.7-1.01",
+    "bets": 119,
+    "hit_rate": 0.7899,
+    "avg_payout_when_hit": 1.156,
+    "roi": -0.087
+   }
+  ]
+ },
+ "roi_by_model_place_prob_ref": {
+  "dev": [
+   {
+    "model_place_prob": "0-0.05",
+    "bets": 82876,
+    "hit_rate": 0.0244,
+    "avg_payout_when_hit": 12.61,
+    "roi": -0.6927
+   },
+   {
+    "model_place_prob": "0.05-0.1",
+    "bets": 81768,
+    "hit_rate": 0.0751,
+    "avg_payout_when_hit": 8.749,
+    "roi": -0.3428
+   },
+   {
+    "model_place_prob": "0.1-0.2",
+    "bets": 168513,
+    "hit_rate": 0.1489,
+    "avg_payout_when_hit": 5.244,
+    "roi": -0.219
+   },
+   {
+    "model_place_prob": "0.2-0.3",
+    "bets": 134495,
+    "hit_rate": 0.2513,
+    "avg_payout_when_hit": 3.289,
+    "roi": -0.1735
+   },
+   {
+    "model_place_prob": "0.3-0.4",
+    "bets": 94792,
+    "hit_rate": 0.345,
+    "avg_payout_when_hit": 2.428,
+    "roi": -0.1625
+   },
+   {
+    "model_place_prob": "0.4-0.5",
+    "bets": 64871,
+    "hit_rate": 0.4516,
+    "avg_payout_when_hit": 1.971,
+    "roi": -0.1097
+   },
+   {
+    "model_place_prob": "0.5-0.6",
+    "bets": 39196,
+    "hit_rate": 0.5421,
+    "avg_payout_when_hit": 1.682,
+    "roi": -0.0881
+   },
+   {
+    "model_place_prob": "0.6-0.7",
+    "bets": 20377,
+    "hit_rate": 0.6399,
+    "avg_payout_when_hit": 1.479,
+    "roi": -0.0535
+   },
+   {
+    "model_place_prob": "0.7-0.8",
+    "bets": 8587,
+    "hit_rate": 0.7315,
+    "avg_payout_when_hit": 1.323,
+    "roi": -0.0323
+   },
+   {
+    "model_place_prob": "0.8-0.9",
+    "bets": 3171,
+    "hit_rate": 0.8187,
+    "avg_payout_when_hit": 1.212,
+    "roi": -0.008
+   },
+   {
+    "model_place_prob": "0.9-1.01",
+    "bets": 740,
+    "hit_rate": 0.8865,
+    "avg_payout_when_hit": 1.134,
+    "roi": 0.0049
+   }
+  ],
+  "test": [
+   {
+    "model_place_prob": "0-0.05",
+    "bets": 18931,
+    "hit_rate": 0.0218,
+    "avg_payout_when_hit": 12.599,
+    "roi": -0.7258
+   },
+   {
+    "model_place_prob": "0.05-0.1",
+    "bets": 19041,
+    "hit_rate": 0.0745,
+    "avg_payout_when_hit": 8.864,
+    "roi": -0.3394
+   },
+   {
+    "model_place_prob": "0.1-0.2",
+    "bets": 38141,
+    "hit_rate": 0.1487,
+    "avg_payout_when_hit": 5.209,
+    "roi": -0.2252
+   },
+   {
+    "model_place_prob": "0.2-0.3",
+    "bets": 31173,
+    "hit_rate": 0.2474,
+    "avg_payout_when_hit": 3.263,
+    "roi": -0.1927
+   },
+   {
+    "model_place_prob": "0.3-0.4",
+    "bets": 22152,
+    "hit_rate": 0.3508,
+    "avg_payout_when_hit": 2.411,
+    "roi": -0.154
+   },
+   {
+    "model_place_prob": "0.4-0.5",
+    "bets": 15252,
+    "hit_rate": 0.4507,
+    "avg_payout_when_hit": 1.961,
+    "roi": -0.1164
+   },
+   {
+    "model_place_prob": "0.5-0.6",
+    "bets": 9128,
+    "hit_rate": 0.5406,
+    "avg_payout_when_hit": 1.678,
+    "roi": -0.0931
+   },
+   {
+    "model_place_prob": "0.6-0.7",
+    "bets": 4956,
+    "hit_rate": 0.6513,
+    "avg_payout_when_hit": 1.469,
+    "roi": -0.0433
+   },
+   {
+    "model_place_prob": "0.7-0.8",
+    "bets": 2124,
+    "hit_rate": 0.7269,
+    "avg_payout_when_hit": 1.322,
+    "roi": -0.039
+   },
+   {
+    "model_place_prob": "0.8-0.9",
+    "bets": 765,
+    "hit_rate": 0.8209,
+    "avg_payout_when_hit": 1.2,
+    "roi": -0.0149
+   },
+   {
+    "model_place_prob": "0.9-1.01",
+    "bets": 130,
+    "hit_rate": 0.8385,
+    "avg_payout_when_hit": 1.118,
+    "roi": -0.0623
+   }
+  ]
+ },
+ "roi_by_edge_ref": {
+  "dev": [
+   {
+    "model_over_market": "0-0.67",
+    "bets": 137187,
+    "hit_rate": 0.0584,
+    "avg_payout_when_hit": 7.012,
+    "roi": -0.5904
+   },
+   {
+    "model_over_market": "0.67-0.8",
+    "bets": 65942,
+    "hit_rate": 0.1739,
+    "avg_payout_when_hit": 3.967,
+    "roi": -0.31
+   },
+   {
+    "model_over_market": "0.8-0.9",
+    "bets": 76331,
+    "hit_rate": 0.2585,
+    "avg_payout_when_hit": 2.95,
+    "roi": -0.2372
+   },
+   {
+    "model_over_market": "0.9-0.95",
+    "bets": 45724,
+    "hit_rate": 0.2997,
+    "avg_payout_when_hit": 2.668,
+    "roi": -0.2004
+   },
+   {
+    "model_over_market": "0.95-1.05",
+    "bets": 96337,
+    "hit_rate": 0.3156,
+    "avg_payout_when_hit": 2.65,
+    "roi": -0.1636
+   },
+   {
+    "model_over_market": "1.05-1.1",
+    "bets": 45541,
+    "hit_rate": 0.3179,
+    "avg_payout_when_hit": 2.676,
+    "roi": -0.1491
+   },
+   {
+    "model_over_market": "1.1-1.25",
+    "bets": 113224,
+    "hit_rate": 0.3221,
+    "avg_payout_when_hit": 2.694,
+    "roi": -0.1322
+   },
+   {
+    "model_over_market": "1.25-1.5",
+    "bets": 90170,
+    "hit_rate": 0.326,
+    "avg_payout_when_hit": 2.821,
+    "roi": -0.0806
+   },
+   {
+    "model_over_market": "1.5-2",
+    "bets": 27489,
+    "hit_rate": 0.3182,
+    "avg_payout_when_hit": 3.152,
+    "roi": 0.003
+   },
+   {
+    "model_over_market": "2-1e+09",
+    "bets": 1441,
+    "hit_rate": 0.3248,
+    "avg_payout_when_hit": 3.871,
+    "roi": 0.2573
+   }
+  ],
+  "test": [
+   {
+    "model_over_market": "0-0.67",
+    "bets": 31898,
+    "hit_rate": 0.0561,
+    "avg_payout_when_hit": 6.881,
+    "roi": -0.6138
+   },
+   {
+    "model_over_market": "0.67-0.8",
+    "bets": 15599,
+    "hit_rate": 0.1742,
+    "avg_payout_when_hit": 3.86,
+    "roi": -0.3274
+   },
+   {
+    "model_over_market": "0.8-0.9",
+    "bets": 17553,
+    "hit_rate": 0.2598,
+    "avg_payout_when_hit": 2.965,
+    "roi": -0.2297
+   },
+   {
+    "model_over_market": "0.9-0.95",
+    "bets": 10440,
+    "hit_rate": 0.2922,
+    "avg_payout_when_hit": 2.731,
+    "roi": -0.2018
+   },
+   {
+    "model_over_market": "0.95-1.05",
+    "bets": 21803,
+    "hit_rate": 0.3118,
+    "avg_payout_when_hit": 2.658,
+    "roi": -0.1713
+   },
+   {
+    "model_over_market": "1.05-1.1",
+    "bets": 10685,
+    "hit_rate": 0.3235,
+    "avg_payout_when_hit": 2.665,
+    "roi": -0.1377
+   },
+   {
+    "model_over_market": "1.1-1.25",
+    "bets": 25546,
+    "hit_rate": 0.3294,
+    "avg_payout_when_hit": 2.645,
+    "roi": -0.1287
+   },
+   {
+    "model_over_market": "1.25-1.5",
+    "bets": 21046,
+    "hit_rate": 0.3361,
+    "avg_payout_when_hit": 2.726,
+    "roi": -0.0837
+   },
+   {
+    "model_over_market": "1.5-2",
+    "bets": 6867,
+    "hit_rate": 0.3392,
+    "avg_payout_when_hit": 2.912,
+    "roi": -0.0124
+   },
+   {
+    "model_over_market": "2-1e+09",
+    "bets": 356,
+    "hit_rate": 0.3258,
+    "avg_payout_when_hit": 3.184,
+    "roi": 0.0376
+   }
+  ]
+ },
+ "roi_by_model_place_prob_final": {
+  "dev": [
+   {
+    "model_place_prob": "0-0.05",
+    "bets": 86652,
+    "hit_rate": 0.0248,
+    "avg_payout_when_hit": 13.601,
+    "roi": -0.6624
+   },
+   {
+    "model_place_prob": "0.05-0.1",
+    "bets": 83716,
+    "hit_rate": 0.0728,
+    "avg_payout_when_hit": 8.948,
+    "roi": -0.3487
+   },
+   {
+    "model_place_prob": "0.1-0.2",
+    "bets": 168501,
+    "hit_rate": 0.1492,
+    "avg_payout_when_hit": 5.25,
+    "roi": -0.2169
+   },
+   {
+    "model_place_prob": "0.2-0.3",
+    "bets": 128040,
+    "hit_rate": 0.2512,
+    "avg_payout_when_hit": 3.274,
+    "roi": -0.1775
+   },
+   {
+    "model_place_prob": "0.3-0.4",
+    "bets": 92053,
+    "hit_rate": 0.3445,
+    "avg_payout_when_hit": 2.422,
+    "roi": -0.1657
+   },
+   {
+    "model_place_prob": "0.4-0.5",
+    "bets": 64016,
+    "hit_rate": 0.4491,
+    "avg_payout_when_hit": 1.974,
+    "roi": -0.1133
+   },
+   {
+    "model_place_prob": "0.5-0.6",
+    "bets": 41402,
+    "hit_rate": 0.5456,
+    "avg_payout_when_hit": 1.684,
+    "roi": -0.0811
+   },
+   {
+    "model_place_prob": "0.6-0.7",
+    "bets": 21395,
+    "hit_rate": 0.6452,
+    "avg_payout_when_hit": 1.477,
+    "roi": -0.0473
+   },
+   {
+    "model_place_prob": "0.7-0.8",
+    "bets": 9419,
+    "hit_rate": 0.7368,
+    "avg_payout_when_hit": 1.316,
+    "roi": -0.0305
+   },
+   {
+    "model_place_prob": "0.8-0.9",
+    "bets": 3577,
+    "hit_rate": 0.8353,
+    "avg_payout_when_hit": 1.194,
+    "roi": -0.0029
+   },
+   {
+    "model_place_prob": "0.9-1.01",
+    "bets": 615,
+    "hit_rate": 0.8976,
+    "avg_payout_when_hit": 1.111,
+    "roi": -0.0025
+   }
+  ],
+  "test": [
+   {
+    "model_place_prob": "0-0.05",
+    "bets": 20725,
+    "hit_rate": 0.024,
+    "avg_payout_when_hit": 13.411,
+    "roi": -0.6777
+   },
+   {
+    "model_place_prob": "0.05-0.1",
+    "bets": 19748,
+    "hit_rate": 0.0727,
+    "avg_payout_when_hit": 8.99,
+    "roi": -0.3468
+   },
+   {
+    "model_place_prob": "0.1-0.2",
+    "bets": 36937,
+    "hit_rate": 0.1491,
+    "avg_payout_when_hit": 5.168,
+    "roi": -0.2295
+   },
+   {
+    "model_place_prob": "0.2-0.3",
+    "bets": 29803,
+    "hit_rate": 0.2471,
+    "avg_payout_when_hit": 3.259,
+    "roi": -0.1948
+   },
+   {
+    "model_place_prob": "0.3-0.4",
+    "bets": 21448,
+    "hit_rate": 0.3496,
+    "avg_payout_when_hit": 2.428,
+    "roi": -0.1511
+   },
+   {
+    "model_place_prob": "0.4-0.5",
+    "bets": 14719,
+    "hit_rate": 0.4489,
+    "avg_payout_when_hit": 1.974,
+    "roi": -0.114
+   },
+   {
+    "model_place_prob": "0.5-0.6",
+    "bets": 9483,
+    "hit_rate": 0.5466,
+    "avg_payout_when_hit": 1.688,
+    "roi": -0.0776
+   },
+   {
+    "model_place_prob": "0.6-0.7",
+    "bets": 5286,
+    "hit_rate": 0.6487,
+    "avg_payout_when_hit": 1.475,
+    "roi": -0.0434
+   },
+   {
+    "model_place_prob": "0.7-0.8",
+    "bets": 2506,
+    "hit_rate": 0.7354,
+    "avg_payout_when_hit": 1.322,
+    "roi": -0.028
+   },
+   {
+    "model_place_prob": "0.8-0.9",
+    "bets": 962,
+    "hit_rate": 0.8243,
+    "avg_payout_when_hit": 1.199,
+    "roi": -0.0119
+   },
+   {
+    "model_place_prob": "0.9-1.01",
+    "bets": 176,
+    "hit_rate": 0.8523,
+    "avg_payout_when_hit": 1.113,
+    "roi": -0.0511
+   }
+  ]
+ },
+ "roi_by_edge_final": {
+  "dev": [
+   {
+    "model_over_market": "0-0.67",
+    "bets": 93138,
+    "hit_rate": 0.037,
+    "avg_payout_when_hit": 8.339,
+    "roi": -0.6916
+   },
+   {
+    "model_over_market": "0.67-0.8",
+    "bets": 49287,
+    "hit_rate": 0.1376,
+    "avg_payout_when_hit": 4.351,
+    "roi": -0.4013
+   },
+   {
+    "model_over_market": "0.8-0.9",
+    "bets": 80566,
+    "hit_rate": 0.2431,
+    "avg_payout_when_hit": 2.948,
+    "roi": -0.2834
+   },
+   {
+    "model_over_market": "0.9-0.95",
+    "bets": 62915,
+    "hit_rate": 0.3083,
+    "avg_payout_when_hit": 2.532,
+    "roi": -0.2195
+   },
+   {
+    "model_over_market": "0.95-1.05",
+    "bets": 148402,
+    "hit_rate": 0.3374,
+    "avg_payout_when_hit": 2.447,
+    "roi": -0.1743
+   },
+   {
+    "model_over_market": "1.05-1.1",
+    "bets": 66029,
+    "hit_rate": 0.3173,
+    "avg_payout_when_hit": 2.665,
+    "roi": -0.1543
+   },
+   {
+    "model_over_market": "1.1-1.25",
+    "bets": 127621,
+    "hit_rate": 0.2852,
+    "avg_payout_when_hit": 3.1,
+    "roi": -0.1159
+   },
+   {
+    "model_over_market": "1.25-1.5",
+    "bets": 60914,
+    "hit_rate": 0.2332,
+    "avg_payout_when_hit": 4.108,
+    "roi": -0.042
+   },
+   {
+    "model_over_market": "1.5-2",
+    "bets": 10356,
+    "hit_rate": 0.1936,
+    "avg_payout_when_hit": 5.717,
+    "roi": 0.1069
+   },
+   {
+    "model_over_market": "2-1e+09",
+    "bets": 158,
+    "hit_rate": 0.2342,
+    "avg_payout_when_hit": 7.124,
+    "roi": 0.6684
+   }
+  ],
+  "test": [
+   {
+    "model_over_market": "0-0.67",
+    "bets": 20364,
+    "hit_rate": 0.0304,
+    "avg_payout_when_hit": 9.051,
+    "roi": -0.7244
+   },
+   {
+    "model_over_market": "0.67-0.8",
+    "bets": 10857,
+    "hit_rate": 0.1277,
+    "avg_payout_when_hit": 4.522,
+    "roi": -0.4228
+   },
+   {
+    "model_over_market": "0.8-0.9",
+    "bets": 18420,
+    "hit_rate": 0.2337,
+    "avg_payout_when_hit": 2.95,
+    "roi": -0.3105
+   },
+   {
+    "model_over_market": "0.9-0.95",
+    "bets": 15250,
+    "hit_rate": 0.3047,
+    "avg_payout_when_hit": 2.526,
+    "roi": -0.2303
+   },
+   {
+    "model_over_market": "0.95-1.05",
+    "bets": 36832,
+    "hit_rate": 0.3349,
+    "avg_payout_when_hit": 2.473,
+    "roi": -0.1717
+   },
+   {
+    "model_over_market": "1.05-1.1",
+    "bets": 16343,
+    "hit_rate": 0.3191,
+    "avg_payout_when_hit": 2.674,
+    "roi": -0.1467
+   },
+   {
+    "model_over_market": "1.1-1.25",
+    "bets": 29992,
+    "hit_rate": 0.2863,
+    "avg_payout_when_hit": 3.084,
+    "roi": -0.117
+   },
+   {
+    "model_over_market": "1.25-1.5",
+    "bets": 12346,
+    "hit_rate": 0.2364,
+    "avg_payout_when_hit": 4.073,
+    "roi": -0.0372
+   },
+   {
+    "model_over_market": "1.5-2",
+    "bets": 1381,
+    "hit_rate": 0.2114,
+    "avg_payout_when_hit": 5.087,
+    "roi": 0.0756
+   },
+   {
+    "model_over_market": "2-1e+09",
+    "bets": 8,
+    "hit_rate": 0.25,
+    "avg_payout_when_hit": 6.15,
+    "roi": 0.5375
+   }
+  ]
+ },
+ "value_rule": {
+  "ref": {
+   "roi_by_estimated_ev": {
+    "dev": [
+     {
+      "est_ev": "-1--0.2",
+      "bets": 393086,
+      "hit_rate": 0.136,
+      "avg_payout_when_hit": 4.694,
+      "roi": -0.3615
+     },
+     {
+      "est_ev": "-0.2--0.1",
+      "bets": 156237,
+      "hit_rate": 0.3232,
+      "avg_payout_when_hit": 2.693,
+      "roi": -0.1297
+     },
+     {
+      "est_ev": "-0.1--0.05",
+      "bets": 62859,
+      "hit_rate": 0.4108,
+      "avg_payout_when_hit": 2.185,
+      "roi": -0.1024
+     },
+     {
+      "est_ev": "-0.05-0",
+      "bets": 43969,
+      "hit_rate": 0.4662,
+      "avg_payout_when_hit": 1.996,
+      "roi": -0.0692
+     },
+     {
+      "est_ev": "0-0.05",
+      "bets": 25345,
+      "hit_rate": 0.5046,
+      "avg_payout_when_hit": 1.889,
+      "roi": -0.047
+     },
+     {
+      "est_ev": "0.05-0.1",
+      "bets": 11486,
+      "hit_rate": 0.536,
+      "avg_payout_when_hit": 1.838,
+      "roi": -0.0146
+     },
+     {
+      "est_ev": "0.1-0.2",
+      "bets": 5844,
+      "hit_rate": 0.5652,
+      "avg_payout_when_hit": 1.803,
+      "roi": 0.0188
+     },
+     {
+      "est_ev": "0.2-1e+09",
+      "bets": 560,
+      "hit_rate": 0.6196,
+      "avg_payout_when_hit": 1.831,
+      "roi": 0.1346
+     }
+    ],
+    "test": [
+     {
+      "est_ev": "-1--0.2",
+      "bets": 91075,
+      "hit_rate": 0.1352,
+      "avg_payout_when_hit": 4.678,
+      "roi": -0.3676
+     },
+     {
+      "est_ev": "-0.2--0.1",
+      "bets": 36005,
+      "hit_rate": 0.3239,
+      "avg_payout_when_hit": 2.636,
+      "roi": -0.1463
+     },
+     {
+      "est_ev": "-0.1--0.05",
+      "bets": 14284,
+      "hit_rate": 0.4238,
+      "avg_payout_when_hit": 2.124,
+      "roi": -0.0998
+     },
+     {
+      "est_ev": "-0.05-0",
+      "bets": 10093,
+      "hit_rate": 0.4717,
+      "avg_payout_when_hit": 1.993,
+      "roi": -0.0596
+     },
+     {
+      "est_ev": "0-0.05",
+      "bets": 5884,
+      "hit_rate": 0.5173,
+      "avg_payout_when_hit": 1.839,
+      "roi": -0.0488
+     },
+     {
+      "est_ev": "0.05-0.1",
+      "bets": 2833,
+      "hit_rate": 0.5457,
+      "avg_payout_when_hit": 1.79,
+      "roi": -0.0232
+     },
+     {
+      "est_ev": "0.1-0.2",
+      "bets": 1470,
+      "hit_rate": 0.5701,
+      "avg_payout_when_hit": 1.716,
+      "roi": -0.0217
+     },
+     {
+      "est_ev": "0.2-1e+09",
+      "bets": 149,
+      "hit_rate": 0.6242,
+      "avg_payout_when_hit": 1.718,
+      "roi": 0.0725
+     }
+    ]
+   },
+   "dev": {
+    "p>=0,ev>-0.1": {
+     "bets": 150063,
+     "hits": 68918,
+     "hit_rate": 0.4593,
+     "avg_payout_when_hit": 2.02,
+     "roi": -0.071
+    },
+    "p>=0,ev>-0.05": {
+     "bets": 87204,
+     "hits": 43095,
+     "hit_rate": 0.4942,
+     "avg_payout_when_hit": 1.93,
+     "roi": -0.0484
+    },
+    "p>=0,ev>0": {
+     "bets": 43235,
+     "hits": 22595,
+     "hit_rate": 0.5226,
+     "avg_payout_when_hit": 1.86,
+     "roi": -0.0272
+    },
+    "p>=0,ev>0.05": {
+     "bets": 17890,
+     "hits": 9807,
+     "hit_rate": 0.5482,
+     "avg_payout_when_hit": 1.83,
+     "roi": 0.001
+    },
+    "p>=0,ev>0.1": {
+     "bets": 6404,
+     "hits": 3650,
+     "hit_rate": 0.57,
+     "avg_payout_when_hit": 1.81,
+     "roi": 0.0289
+    },
+    "p>=0,ev>0.2": {
+     "bets": 560,
+     "hits": 347,
+     "hit_rate": 0.6196,
+     "avg_payout_when_hit": 1.83,
+     "roi": 0.1346
+    },
+    "p>=0,ev>0.3": {
+     "bets": 33,
+     "hits": 23,
+     "hit_rate": 0.697,
+     "avg_payout_when_hit": 1.86,
+     "roi": 0.2939
+    },
+    "p>=0.2,ev>-0.1": {
+     "bets": 149112,
+     "hits": 68745,
+     "hit_rate": 0.461,
+     "avg_payout_when_hit": 2.01,
+     "roi": -0.0727
+    },
+    "p>=0.2,ev>-0.05": {
+     "bets": 87076,
+     "hits": 43066,
+     "hit_rate": 0.4946,
+     "avg_payout_when_hit": 1.92,
+     "roi": -0.049
+    },
+    "p>=0.2,ev>0": {
+     "bets": 43211,
+     "hits": 22590,
+     "hit_rate": 0.5228,
+     "avg_payout_when_hit": 1.86,
+     "roi": -0.0275
+    },
+    "p>=0.2,ev>0.05": {
+     "bets": 17879,
+     "hits": 9806,
+     "hit_rate": 0.5485,
+     "avg_payout_when_hit": 1.83,
+     "roi": 0.0013
+    },
+    "p>=0.2,ev>0.1": {
+     "bets": 6398,
+     "hits": 3649,
+     "hit_rate": 0.5703,
+     "avg_payout_when_hit": 1.8,
+     "roi": 0.029
+    },
+    "p>=0.2,ev>0.2": {
+     "bets": 559,
+     "hits": 347,
+     "hit_rate": 0.6208,
+     "avg_payout_when_hit": 1.83,
+     "roi": 0.1367
+    },
+    "p>=0.2,ev>0.3": {
+     "bets": 33,
+     "hits": 23,
+     "hit_rate": 0.697,
+     "avg_payout_when_hit": 1.86,
+     "roi": 0.2939
+    },
+    "p>=0.4,ev>-0.1": {
+     "bets": 95057,
+     "hits": 51263,
+     "hit_rate": 0.5393,
+     "avg_payout_when_hit": 1.73,
+     "roi": -0.0646
+    },
+    "p>=0.4,ev>-0.05": {
+     "bets": 66015,
+     "hits": 35972,
+     "hit_rate": 0.5449,
+     "avg_payout_when_hit": 1.75,
+     "roi": -0.0462
+    },
+    "p>=0.4,ev>0": {
+     "bets": 37264,
+     "hits": 20574,
+     "hit_rate": 0.5521,
+     "avg_payout_when_hit": 1.76,
+     "roi": -0.026
+    },
+    "p>=0.4,ev>0.05": {
+     "bets": 16692,
+     "hits": 9386,
+     "hit_rate": 0.5623,
+     "avg_payout_when_hit": 1.78,
+     "roi": -0.0016
+    },
+    "p>=0.4,ev>0.1": {
+     "bets": 6197,
+     "hits": 3571,
+     "hit_rate": 0.5762,
+     "avg_payout_when_hit": 1.78,
+     "roi": 0.0231
+    },
+    "p>=0.4,ev>0.2": {
+     "bets": 553,
+     "hits": 345,
+     "hit_rate": 0.6239,
+     "avg_payout_when_hit": 1.82,
+     "roi": 0.1371
+    },
+    "p>=0.4,ev>0.3": {
+     "bets": 33,
+     "hits": 23,
+     "hit_rate": 0.697,
+     "avg_payout_when_hit": 1.86,
+     "roi": 0.2939
+    },
+    "p>=0.6,ev>-0.1": {
+     "bets": 25193,
+     "hits": 17297,
+     "hit_rate": 0.6866,
+     "avg_payout_when_hit": 1.41,
+     "roi": -0.0303
+    },
+    "p>=0.6,ev>-0.05": {
+     "bets": 18608,
+     "hits": 12752,
+     "hit_rate": 0.6853,
+     "avg_payout_when_hit": 1.43,
+     "roi": -0.0177
+    },
+    "p>=0.6,ev>0": {
+     "bets": 11665,
+     "hits": 7905,
+     "hit_rate": 0.6777,
+     "avg_payout_when_hit": 1.47,
+     "roi": -0.006
+    },
+    "p>=0.6,ev>0.05": {
+     "bets": 6142,
+     "hits": 4098,
+     "hit_rate": 0.6672,
+     "avg_payout_when_hit": 1.51,
+     "roi": 0.0085
+    },
+    "p>=0.6,ev>0.1": {
+     "bets": 2747,
+     "hits": 1816,
+     "hit_rate": 0.6611,
+     "avg_payout_when_hit": 1.56,
+     "roi": 0.0314
+    },
+    "p>=0.6,ev>0.2": {
+     "bets": 368,
+     "hits": 244,
+     "hit_rate": 0.663,
+     "avg_payout_when_hit": 1.69,
+     "roi": 0.122
+    },
+    "p>=0.6,ev>0.3": {
+     "bets": 29,
+     "hits": 21,
+     "hit_rate": 0.7241,
+     "avg_payout_when_hit": 1.87,
+     "roi": 0.3552
+    }
+   },
+   "chosen_on_dev": "p>=0.6,ev>0.1",
+   "test_chosen": {
+    "bets": 725,
+    "hits": 493,
+    "hit_rate": 0.68,
+    "avg_payout_when_hit": 1.51,
+    "roi": 0.026,
+    "roi_ci95": [
+     -0.0281,
+     0.0793
+    ]
+   },
+   "test_all": {
+    "p>=0,ev>-0.1": {
+     "bets": 34713,
+     "hits": 16335,
+     "hit_rate": 0.4706,
+     "avg_payout_when_hit": 1.98,
+     "roi": -0.0692,
+     "roi_ci95": [
+      -0.0788,
+      -0.0593
+     ]
+    },
+    "p>=0,ev>-0.05": {
+     "bets": 20429,
+     "hits": 10282,
+     "hit_rate": 0.5033,
+     "avg_payout_when_hit": 1.89,
+     "roi": -0.0478,
+     "roi_ci95": [
+      -0.0596,
+      -0.0347
+     ]
+    },
+    "p>=0,ev>0": {
+     "bets": 10336,
+     "hits": 5521,
+     "hit_rate": 0.5342,
+     "avg_payout_when_hit": 1.8,
+     "roi": -0.0362,
+     "roi_ci95": [
+      -0.0553,
+      -0.0189
+     ]
+    },
+    "p>=0,ev>0.05": {
+     "bets": 4452,
+     "hits": 2477,
+     "hit_rate": 0.5564,
+     "avg_payout_when_hit": 1.76,
+     "roi": -0.0195,
+     "roi_ci95": [
+      -0.0489,
+      0.0089
+     ]
+    },
+    "p>=0,ev>0.1": {
+     "bets": 1619,
+     "hits": 931,
+     "hit_rate": 0.575,
+     "avg_payout_when_hit": 1.72,
+     "roi": -0.0131,
+     "roi_ci95": [
+      -0.0605,
+      0.0314
+     ]
+    },
+    "p>=0,ev>0.2": {
+     "bets": 149,
+     "hits": 93,
+     "hit_rate": 0.6242,
+     "avg_payout_when_hit": 1.72,
+     "roi": 0.0725,
+     "roi_ci95": [
+      -0.0699,
+      0.211
+     ]
+    },
+    "p>=0,ev>0.3": {
+     "bets": 9,
+     "hits": 5,
+     "hit_rate": 0.5556,
+     "avg_payout_when_hit": 1.56,
+     "roi": -0.1333
+    },
+    "p>=0.2,ev>-0.1": {
+     "bets": 34546,
+     "hits": 16300,
+     "hit_rate": 0.4718,
+     "avg_payout_when_hit": 1.97,
+     "roi": -0.07,
+     "roi_ci95": [
+      -0.08,
+      -0.0603
+     ]
+    },
+    "p>=0.2,ev>-0.05": {
+     "bets": 20413,
+     "hits": 10275,
+     "hit_rate": 0.5034,
+     "avg_payout_when_hit": 1.89,
+     "roi": -0.0488,
+     "roi_ci95": [
+      -0.0622,
+      -0.0353
+     ]
+    },
+    "p>=0.2,ev>0": {
+     "bets": 10332,
+     "hits": 5519,
+     "hit_rate": 0.5342,
+     "avg_payout_when_hit": 1.8,
+     "roi": -0.0366,
+     "roi_ci95": [
+      -0.0554,
+      -0.018
+     ]
+    },
+    "p>=0.2,ev>0.05": {
+     "bets": 4451,
+     "hits": 2477,
+     "hit_rate": 0.5565,
+     "avg_payout_when_hit": 1.76,
+     "roi": -0.0193,
+     "roi_ci95": [
+      -0.0473,
+      0.0083
+     ]
+    },
+    "p>=0.2,ev>0.1": {
+     "bets": 1619,
+     "hits": 931,
+     "hit_rate": 0.575,
+     "avg_payout_when_hit": 1.72,
+     "roi": -0.0131,
+     "roi_ci95": [
+      -0.0579,
+      0.0308
+     ]
+    },
+    "p>=0.2,ev>0.2": {
+     "bets": 149,
+     "hits": 93,
+     "hit_rate": 0.6242,
+     "avg_payout_when_hit": 1.72,
+     "roi": 0.0725,
+     "roi_ci95": [
+      -0.0694,
+      0.2153
+     ]
+    },
+    "p>=0.2,ev>0.3": {
+     "bets": 9,
+     "hits": 5,
+     "hit_rate": 0.5556,
+     "avg_payout_when_hit": 1.56,
+     "roi": -0.1333
+    },
+    "p>=0.4,ev>-0.1": {
+     "bets": 22448,
+     "hits": 12278,
+     "hit_rate": 0.547,
+     "avg_payout_when_hit": 1.71,
+     "roi": -0.0633,
+     "roi_ci95": [
+      -0.0733,
+      -0.0527
+     ]
+    },
+    "p>=0.4,ev>-0.05": {
+     "bets": 15618,
+     "hits": 8597,
+     "hit_rate": 0.5505,
+     "avg_payout_when_hit": 1.72,
+     "roi": -0.0529,
+     "roi_ci95": [
+      -0.0657,
+      -0.0394
+     ]
+    },
+    "p>=0.4,ev>0": {
+     "bets": 8994,
+     "hits": 5045,
+     "hit_rate": 0.5609,
+     "avg_payout_when_hit": 1.72,
+     "roi": -0.0349,
+     "roi_ci95": [
+      -0.0538,
+      -0.0165
+     ]
+    },
+    "p>=0.4,ev>0.05": {
+     "bets": 4191,
+     "hits": 2380,
+     "hit_rate": 0.5679,
+     "avg_payout_when_hit": 1.73,
+     "roi": -0.0198,
+     "roi_ci95": [
+      -0.0463,
+      0.0089
+     ]
+    },
+    "p>=0.4,ev>0.1": {
+     "bets": 1584,
+     "hits": 917,
+     "hit_rate": 0.5789,
+     "avg_payout_when_hit": 1.71,
+     "roi": -0.0127,
+     "roi_ci95": [
+      -0.0584,
+      0.0294
+     ]
+    },
+    "p>=0.4,ev>0.2": {
+     "bets": 148,
+     "hits": 92,
+     "hit_rate": 0.6216,
+     "avg_payout_when_hit": 1.72,
+     "roi": 0.0662,
+     "roi_ci95": [
+      -0.0771,
+      0.2157
+     ]
+    },
+    "p>=0.4,ev>0.3": {
+     "bets": 9,
+     "hits": 5,
+     "hit_rate": 0.5556,
+     "avg_payout_when_hit": 1.56,
+     "roi": -0.1333
+    },
+    "p>=0.6,ev>-0.1": {
+     "bets": 6264,
+     "hits": 4357,
+     "hit_rate": 0.6956,
+     "avg_payout_when_hit": 1.4,
+     "roi": -0.0251,
+     "roi_ci95": [
+      -0.0423,
+      -0.0088
+     ]
+    },
+    "p>=0.6,ev>-0.05": {
+     "bets": 4663,
+     "hits": 3235,
+     "hit_rate": 0.6938,
+     "avg_payout_when_hit": 1.42,
+     "roi": -0.0156,
+     "roi_ci95": [
+      -0.0357,
+      0.0029
+     ]
+    },
+    "p>=0.6,ev>0": {
+     "bets": 2970,
+     "hits": 2067,
+     "hit_rate": 0.696,
+     "avg_payout_when_hit": 1.44,
+     "roi": 0.0054,
+     "roi_ci95": [
+      -0.0204,
+      0.0313
+     ]
+    },
+    "p>=0.6,ev>0.05": {
+     "bets": 1613,
+     "hits": 1107,
+     "hit_rate": 0.6863,
+     "avg_payout_when_hit": 1.49,
+     "roi": 0.0231,
+     "roi_ci95": [
+      -0.0102,
+      0.0573
+     ]
+    },
+    "p>=0.6,ev>0.1": {
+     "bets": 725,
+     "hits": 493,
+     "hit_rate": 0.68,
+     "avg_payout_when_hit": 1.51,
+     "roi": 0.026,
+     "roi_ci95": [
+      -0.0281,
+      0.0793
+     ]
+    },
+    "p>=0.6,ev>0.2": {
+     "bets": 97,
+     "hits": 64,
+     "hit_rate": 0.6598,
+     "avg_payout_when_hit": 1.53,
+     "roi": 0.0124,
+     "roi_ci95": [
+      -0.1376,
+      0.1505
+     ]
+    },
+    "p>=0.6,ev>0.3": {
+     "bets": 8,
+     "hits": 5,
+     "hit_rate": 0.625,
+     "avg_payout_when_hit": 1.56,
+     "roi": -0.025
+    }
+   },
+   "by_place_pool": {
+    "dev": [
+     {
+      "net_place_pool_eur": "0-54,322",
+      "bets": 587,
+      "hits": 383,
+      "hit_rate": 0.6525,
+      "avg_payout_when_hit": 1.67,
+      "roi": 0.0907
+     },
+     {
+      "net_place_pool_eur": "54,322-76,018",
+      "bets": 461,
+      "hits": 309,
+      "hit_rate": 0.6703,
+      "avg_payout_when_hit": 1.53,
+      "roi": 0.0282
+     },
+     {
+      "net_place_pool_eur": "76,018-96,852",
+      "bets": 513,
+      "hits": 329,
+      "hit_rate": 0.6413,
+      "avg_payout_when_hit": 1.54,
+      "roi": -0.0154
+     },
+     {
+      "net_place_pool_eur": "96,852-123,564",
+      "bets": 583,
+      "hits": 358,
+      "hit_rate": 0.6141,
+      "avg_payout_when_hit": 1.56,
+      "roi": -0.0427
+     },
+     {
+      "net_place_pool_eur": "123,564-max",
+      "bets": 603,
+      "hits": 437,
+      "hit_rate": 0.7247,
+      "avg_payout_when_hit": 1.5,
+      "roi": 0.0877
+     }
+    ],
+    "test": [
+     {
+      "net_place_pool_eur": "0-54,322",
+      "bets": 138,
+      "hits": 90,
+      "hit_rate": 0.6522,
+      "avg_payout_when_hit": 1.63,
+      "roi": 0.0616
+     },
+     {
+      "net_place_pool_eur": "54,322-76,018",
+      "bets": 126,
+      "hits": 80,
+      "hit_rate": 0.6349,
+      "avg_payout_when_hit": 1.46,
+      "roi": -0.0762
+     },
+     {
+      "net_place_pool_eur": "76,018-96,852",
+      "bets": 177,
+      "hits": 131,
+      "hit_rate": 0.7401,
+      "avg_payout_when_hit": 1.51,
+      "roi": 0.1203
+     },
+     {
+      "net_place_pool_eur": "96,852-123,564",
+      "bets": 162,
+      "hits": 109,
+      "hit_rate": 0.6728,
+      "avg_payout_when_hit": 1.45,
+      "roi": -0.0262
+     },
+     {
+      "net_place_pool_eur": "123,564-max",
+      "bets": 122,
+      "hits": 83,
+      "hit_rate": 0.6803,
+      "avg_payout_when_hit": 1.5,
+      "roi": 0.0238
+     }
+    ]
+   },
+   "pool_cap_chosen_on_dev_eur": 76018.0,
+   "small_pools": {
+    "dev": {
+     "no_stake_effect": {
+      "bets": 1048,
+      "hits": 692,
+      "hit_rate": 0.6603,
+      "avg_payout_when_hit": 1.61,
+      "roi": 0.0632,
+      "roi_ci95": [
+       0.015,
+       0.1111
+      ]
+     },
+     "stake_10eur": {
+      "bets": 1048,
+      "hits": 692,
+      "hit_rate": 0.6603,
+      "avg_payout_when_hit": 1.57,
+      "roi": 0.0372,
+      "roi_ci95": [
+       -0.0091,
+       0.0811
+      ]
+     },
+     "stake_50eur": {
+      "bets": 1048,
+      "hits": 692,
+      "hit_rate": 0.6603,
+      "avg_payout_when_hit": 1.54,
+      "roi": 0.0143,
+      "roi_ci95": [
+       -0.0353,
+       0.058
+      ]
+     }
+    },
+    "test": {
+     "no_stake_effect": {
+      "bets": 264,
+      "hits": 170,
+      "hit_rate": 0.6439,
+      "avg_payout_when_hit": 1.55,
+      "roi": -0.0042,
+      "roi_ci95": [
+       -0.1004,
+       0.0864
+      ]
+     },
+     "stake_10eur": {
+      "bets": 264,
+      "hits": 170,
+      "hit_rate": 0.6439,
+      "avg_payout_when_hit": 1.51,
+      "roi": -0.0284,
+      "roi_ci95": [
+       -0.1212,
+       0.0646
+      ]
+     },
+     "stake_50eur": {
+      "bets": 264,
+      "hits": 170,
+      "hit_rate": 0.6439,
+      "avg_payout_when_hit": 1.48,
+      "roi": -0.0445,
+      "roi_ci95": [
+       -0.1253,
+       0.0423
+      ]
+     }
+    }
+   }
+  },
+  "final": {
+   "roi_by_estimated_ev": {
+    "dev": [
+     {
+      "est_ev": "-1--0.2",
+      "bets": 345643,
+      "hit_rate": 0.1443,
+      "avg_payout_when_hit": 4.129,
+      "roi": -0.4042
+     },
+     {
+      "est_ev": "-0.2--0.1",
+      "bets": 176546,
+      "hit_rate": 0.3126,
+      "avg_payout_when_hit": 2.724,
+      "roi": -0.1487
+     },
+     {
+      "est_ev": "-0.1--0.05",
+      "bets": 75395,
+      "hit_rate": 0.3758,
+      "avg_payout_when_hit": 2.433,
+      "roi": -0.0857
+     },
+     {
+      "est_ev": "-0.05-0",
+      "bets": 51339,
+      "hit_rate": 0.3971,
+      "avg_payout_when_hit": 2.421,
+      "roi": -0.0388
+     },
+     {
+      "est_ev": "0-0.05",
+      "bets": 28113,
+      "hit_rate": 0.4015,
+      "avg_payout_when_hit": 2.48,
+      "roi": -0.0041
+     },
+     {
+      "est_ev": "0.05-0.1",
+      "bets": 13044,
+      "hit_rate": 0.3747,
+      "avg_payout_when_hit": 2.73,
+      "roi": 0.0231
+     },
+     {
+      "est_ev": "0.1-0.2",
+      "bets": 7638,
+      "hit_rate": 0.3299,
+      "avg_payout_when_hit": 3.394,
+      "roi": 0.1196
+     },
+     {
+      "est_ev": "0.2-1e+09",
+      "bets": 1668,
+      "hit_rate": 0.244,
+      "avg_payout_when_hit": 4.833,
+      "roi": 0.1792
+     }
+    ],
+    "test": [
+     {
+      "est_ev": "-1--0.2",
+      "bets": 82939,
+      "hit_rate": 0.1412,
+      "avg_payout_when_hit": 4.179,
+      "roi": -0.4102
+     },
+     {
+      "est_ev": "-0.2--0.1",
+      "bets": 41571,
+      "hit_rate": 0.3187,
+      "avg_payout_when_hit": 2.747,
+      "roi": -0.1245
+     },
+     {
+      "est_ev": "-0.1--0.05",
+      "bets": 17346,
+      "hit_rate": 0.3922,
+      "avg_payout_when_hit": 2.336,
+      "roi": -0.0838
+     },
+     {
+      "est_ev": "-0.05-0",
+      "bets": 11242,
+      "hit_rate": 0.4251,
+      "avg_payout_when_hit": 2.206,
+      "roi": -0.0622
+     },
+     {
+      "est_ev": "0-0.05",
+      "bets": 5529,
+      "hit_rate": 0.4543,
+      "avg_payout_when_hit": 2.253,
+      "roi": 0.0236
+     },
+     {
+      "est_ev": "0.05-0.1",
+      "bets": 2155,
+      "hit_rate": 0.4135,
+      "avg_payout_when_hit": 2.377,
+      "roi": -0.017
+     },
+     {
+      "est_ev": "0.1-0.2",
+      "bets": 918,
+      "hit_rate": 0.3595,
+      "avg_payout_when_hit": 2.945,
+      "roi": 0.0588
+     },
+     {
+      "est_ev": "0.2-1e+09",
+      "bets": 93,
+      "hit_rate": 0.3763,
+      "avg_payout_when_hit": 4.023,
+      "roi": 0.514
+     }
+    ]
+   },
+   "dev": {
+    "p>=0,ev>-0.1": {
+     "bets": 177197,
+     "hits": 67824,
+     "hit_rate": 0.3828,
+     "avg_payout_when_hit": 2.51,
+     "roi": -0.0398
+    },
+    "p>=0,ev>-0.05": {
+     "bets": 101802,
+     "hits": 39487,
+     "hit_rate": 0.3879,
+     "avg_payout_when_hit": 2.56,
+     "roi": -0.0058
+    },
+    "p>=0,ev>0": {
+     "bets": 50463,
+     "hits": 19102,
+     "hit_rate": 0.3785,
+     "avg_payout_when_hit": 2.71,
+     "roi": 0.0277
+    },
+    "p>=0,ev>0.05": {
+     "bets": 22350,
+     "hits": 7815,
+     "hit_rate": 0.3497,
+     "avg_payout_when_hit": 3.05,
+     "roi": 0.0677
+    },
+    "p>=0,ev>0.1": {
+     "bets": 9306,
+     "hits": 2927,
+     "hit_rate": 0.3145,
+     "avg_payout_when_hit": 3.59,
+     "roi": 0.1303
+    },
+    "p>=0,ev>0.2": {
+     "bets": 1668,
+     "hits": 407,
+     "hit_rate": 0.244,
+     "avg_payout_when_hit": 4.83,
+     "roi": 0.1792
+    },
+    "p>=0,ev>0.3": {
+     "bets": 314,
+     "hits": 78,
+     "hit_rate": 0.2484,
+     "avg_payout_when_hit": 6.11,
+     "roi": 0.5182
+    },
+    "p>=0.2,ev>-0.1": {
+     "bets": 141589,
+     "hits": 62867,
+     "hit_rate": 0.444,
+     "avg_payout_when_hit": 2.14,
+     "roi": -0.0504
+    },
+    "p>=0.2,ev>-0.05": {
+     "bets": 80693,
+     "hits": 36530,
+     "hit_rate": 0.4527,
+     "avg_payout_when_hit": 2.16,
+     "roi": -0.0209
+    },
+    "p>=0.2,ev>0": {
+     "bets": 38699,
+     "hits": 17511,
+     "hit_rate": 0.4525,
+     "avg_payout_when_hit": 2.24,
+     "roi": 0.0141
+    },
+    "p>=0.2,ev>0.05": {
+     "bets": 15951,
+     "hits": 6973,
+     "hit_rate": 0.4372,
+     "avg_payout_when_hit": 2.41,
+     "roi": 0.0546
+    },
+    "p>=0.2,ev>0.1": {
+     "bets": 5973,
+     "hits": 2486,
+     "hit_rate": 0.4162,
+     "avg_payout_when_hit": 2.7,
+     "roi": 0.1221
+    },
+    "p>=0.2,ev>0.2": {
+     "bets": 810,
+     "hits": 309,
+     "hit_rate": 0.3815,
+     "avg_payout_when_hit": 3.5,
+     "roi": 0.3354
+    },
+    "p>=0.2,ev>0.3": {
+     "bets": 133,
+     "hits": 53,
+     "hit_rate": 0.3985,
+     "avg_payout_when_hit": 4.46,
+     "roi": 0.7767
+    },
+    "p>=0.4,ev>-0.1": {
+     "bets": 80397,
+     "hits": 44799,
+     "hit_rate": 0.5572,
+     "avg_payout_when_hit": 1.71,
+     "roi": -0.0465
+    },
+    "p>=0.4,ev>-0.05": {
+     "bets": 47866,
+     "hits": 26880,
+     "hit_rate": 0.5616,
+     "avg_payout_when_hit": 1.73,
+     "roi": -0.0283
+    },
+    "p>=0.4,ev>0": {
+     "bets": 23131,
+     "hits": 13036,
+     "hit_rate": 0.5636,
+     "avg_payout_when_hit": 1.77,
+     "roi": -0.001
+    },
+    "p>=0.4,ev>0.05": {
+     "bets": 9011,
+     "hits": 5018,
+     "hit_rate": 0.5569,
+     "avg_payout_when_hit": 1.84,
+     "roi": 0.0251
+    },
+    "p>=0.4,ev>0.1": {
+     "bets": 3016,
+     "hits": 1656,
+     "hit_rate": 0.5491,
+     "avg_payout_when_hit": 1.96,
+     "roi": 0.0735
+    },
+    "p>=0.4,ev>0.2": {
+     "bets": 293,
+     "hits": 161,
+     "hit_rate": 0.5495,
+     "avg_payout_when_hit": 2.28,
+     "roi": 0.2529
+    },
+    "p>=0.4,ev>0.3": {
+     "bets": 32,
+     "hits": 23,
+     "hit_rate": 0.7188,
+     "avg_payout_when_hit": 2.55,
+     "roi": 0.8344
+    },
+    "p>=0.6,ev>-0.1": {
+     "bets": 26707,
+     "hits": 18685,
+     "hit_rate": 0.6996,
+     "avg_payout_when_hit": 1.4,
+     "roi": -0.0223
+    },
+    "p>=0.6,ev>-0.05": {
+     "bets": 17436,
+     "hits": 12224,
+     "hit_rate": 0.7011,
+     "avg_payout_when_hit": 1.41,
+     "roi": -0.0093
+    },
+    "p>=0.6,ev>0": {
+     "bets": 8697,
+     "hits": 6112,
+     "hit_rate": 0.7028,
+     "avg_payout_when_hit": 1.44,
+     "roi": 0.0118
+    },
+    "p>=0.6,ev>0.05": {
+     "bets": 3328,
+     "hits": 2346,
+     "hit_rate": 0.7049,
+     "avg_payout_when_hit": 1.49,
+     "roi": 0.0515
+    },
+    "p>=0.6,ev>0.1": {
+     "bets": 1011,
+     "hits": 695,
+     "hit_rate": 0.6874,
+     "avg_payout_when_hit": 1.57,
+     "roi": 0.0825
+    },
+    "p>=0.6,ev>0.2": {
+     "bets": 69,
+     "hits": 50,
+     "hit_rate": 0.7246,
+     "avg_payout_when_hit": 1.87,
+     "roi": 0.3551
+    },
+    "p>=0.6,ev>0.3": {
+     "bets": 5,
+     "hits": 4,
+     "hit_rate": 0.8,
+     "avg_payout_when_hit": 2.0,
+     "roi": 0.6
+    }
+   },
+   "chosen_on_dev": "p>=0,ev>0.2",
+   "test_chosen": {
+    "bets": 93,
+    "hits": 35,
+    "hit_rate": 0.3763,
+    "avg_payout_when_hit": 4.02,
+    "roi": 0.514,
+    "roi_ci95": [
+     0.0625,
+     0.9824
+    ]
+   },
+   "test_all": {
+    "p>=0,ev>-0.1": {
+     "bets": 37283,
+     "hits": 15350,
+     "hit_rate": 0.4117,
+     "avg_payout_when_hit": 2.3,
+     "roi": -0.0525,
+     "roi_ci95": [
+      -0.0654,
+      -0.0394
+     ]
+    },
+    "p>=0,ev>-0.05": {
+     "bets": 19937,
+     "hits": 8547,
+     "hit_rate": 0.4287,
+     "avg_payout_when_hit": 2.27,
+     "roi": -0.0252,
+     "roi_ci95": [
+      -0.0455,
+      -0.0051
+     ]
+    },
+    "p>=0,ev>0": {
+     "bets": 8695,
+     "hits": 3768,
+     "hit_rate": 0.4334,
+     "avg_payout_when_hit": 2.36,
+     "roi": 0.0225,
+     "roi_ci95": [
+      -0.0068,
+      0.0527
+     ]
+    },
+    "p>=0,ev>0.05": {
+     "bets": 3166,
+     "hits": 1256,
+     "hit_rate": 0.3967,
+     "avg_payout_when_hit": 2.57,
+     "roi": 0.0206,
+     "roi_ci95": [
+      -0.0325,
+      0.0748
+     ]
+    },
+    "p>=0,ev>0.1": {
+     "bets": 1011,
+     "hits": 365,
+     "hit_rate": 0.361,
+     "avg_payout_when_hit": 3.05,
+     "roi": 0.1007,
+     "roi_ci95": [
+      -0.0205,
+      0.2216
+     ]
+    },
+    "p>=0,ev>0.2": {
+     "bets": 93,
+     "hits": 35,
+     "hit_rate": 0.3763,
+     "avg_payout_when_hit": 4.02,
+     "roi": 0.514,
+     "roi_ci95": [
+      0.0625,
+      0.9824
+     ]
+    },
+    "p>=0,ev>0.3": {
+     "bets": 11,
+     "hits": 2,
+     "hit_rate": 0.1818,
+     "avg_payout_when_hit": 6.5,
+     "roi": 0.1818
+    },
+    "p>=0.2,ev>-0.1": {
+     "bets": 31860,
+     "hits": 14597,
+     "hit_rate": 0.4582,
+     "avg_payout_when_hit": 2.07,
+     "roi": -0.0535,
+     "roi_ci95": [
+      -0.0654,
+      -0.0427
+     ]
+    },
+    "p>=0.2,ev>-0.05": {
+     "bets": 17273,
+     "hits": 8173,
+     "hit_rate": 0.4732,
+     "avg_payout_when_hit": 2.05,
+     "roi": -0.0305,
+     "roi_ci95": [
+      -0.047,
+      -0.0132
+     ]
+    },
+    "p>=0.2,ev>0": {
+     "bets": 7487,
+     "hits": 3589,
+     "hit_rate": 0.4794,
+     "avg_payout_when_hit": 2.11,
+     "roi": 0.0099,
+     "roi_ci95": [
+      -0.0176,
+      0.0373
+     ]
+    },
+    "p>=0.2,ev>0.05": {
+     "bets": 2640,
+     "hits": 1188,
+     "hit_rate": 0.45,
+     "avg_payout_when_hit": 2.27,
+     "roi": 0.0224,
+     "roi_ci95": [
+      -0.0242,
+      0.0673
+     ]
+    },
+    "p>=0.2,ev>0.1": {
+     "bets": 807,
+     "hits": 339,
+     "hit_rate": 0.4201,
+     "avg_payout_when_hit": 2.66,
+     "roi": 0.116,
+     "roi_ci95": [
+      0.0125,
+      0.219
+     ]
+    },
+    "p>=0.2,ev>0.2": {
+     "bets": 72,
+     "hits": 30,
+     "hit_rate": 0.4167,
+     "avg_payout_when_hit": 3.55,
+     "roi": 0.4806,
+     "roi_ci95": [
+      0.0124,
+      1.0197
+     ]
+    },
+    "p>=0.2,ev>0.3": {
+     "bets": 8,
+     "hits": 2,
+     "hit_rate": 0.25,
+     "avg_payout_when_hit": 6.5,
+     "roi": 0.625
+    },
+    "p>=0.4,ev>-0.1": {
+     "bets": 19038,
+     "hits": 10780,
+     "hit_rate": 0.5662,
+     "avg_payout_when_hit": 1.68,
+     "roi": -0.047,
+     "roi_ci95": [
+      -0.0594,
+      -0.0349
+     ]
+    },
+    "p>=0.4,ev>-0.05": {
+     "bets": 11008,
+     "hits": 6361,
+     "hit_rate": 0.5779,
+     "avg_payout_when_hit": 1.69,
+     "roi": -0.0245,
+     "roi_ci95": [
+      -0.0411,
+      -0.0093
+     ]
+    },
+    "p>=0.4,ev>0": {
+     "bets": 4834,
+     "hits": 2829,
+     "hit_rate": 0.5852,
+     "avg_payout_when_hit": 1.72,
+     "roi": 0.0088,
+     "roi_ci95": [
+      -0.0156,
+      0.0328
+     ]
+    },
+    "p>=0.4,ev>0.05": {
+     "bets": 1634,
+     "hits": 907,
+     "hit_rate": 0.5551,
+     "avg_payout_when_hit": 1.81,
+     "roi": 0.0026,
+     "roi_ci95": [
+      -0.0384,
+      0.0445
+     ]
+    },
+    "p>=0.4,ev>0.1": {
+     "bets": 440,
+     "hits": 231,
+     "hit_rate": 0.525,
+     "avg_payout_when_hit": 1.94,
+     "roi": 0.02,
+     "roi_ci95": [
+      -0.0759,
+      0.1178
+     ]
+    },
+    "p>=0.4,ev>0.2": {
+     "bets": 29,
+     "hits": 17,
+     "hit_rate": 0.5862,
+     "avg_payout_when_hit": 2.26,
+     "roi": 0.3241
+    },
+    "p>=0.4,ev>0.3": {
+     "bets": 1,
+     "hits": 0,
+     "hit_rate": 0.0,
+     "avg_payout_when_hit": null,
+     "roi": -1.0
+    },
+    "p>=0.6,ev>-0.1": {
+     "bets": 7044,
+     "hits": 4945,
+     "hit_rate": 0.702,
+     "avg_payout_when_hit": 1.39,
+     "roi": -0.0228,
+     "roi_ci95": [
+      -0.0384,
+      -0.0084
+     ]
+    },
+    "p>=0.6,ev>-0.05": {
+     "bets": 4553,
+     "hits": 3227,
+     "hit_rate": 0.7088,
+     "avg_payout_when_hit": 1.4,
+     "roi": -0.0059,
+     "roi_ci95": [
+      -0.0227,
+      0.0127
+     ]
+    },
+    "p>=0.6,ev>0": {
+     "bets": 2081,
+     "hits": 1495,
+     "hit_rate": 0.7184,
+     "avg_payout_when_hit": 1.43,
+     "roi": 0.0287,
+     "roi_ci95": [
+      -0.0016,
+      0.0563
+     ]
+    },
+    "p>=0.6,ev>0.05": {
+     "bets": 673,
+     "hits": 467,
+     "hit_rate": 0.6939,
+     "avg_payout_when_hit": 1.5,
+     "roi": 0.0438,
+     "roi_ci95": [
+      -0.0036,
+      0.0939
+     ]
+    },
+    "p>=0.6,ev>0.1": {
+     "bets": 165,
+     "hits": 109,
+     "hit_rate": 0.6606,
+     "avg_payout_when_hit": 1.58,
+     "roi": 0.0448,
+     "roi_ci95": [
+      -0.0642,
+      0.1654
+     ]
+    },
+    "p>=0.6,ev>0.2": {
+     "bets": 9,
+     "hits": 7,
+     "hit_rate": 0.7778,
+     "avg_payout_when_hit": 1.77,
+     "roi": 0.3778
+    },
+    "p>=0.6,ev>0.3": {
+     "bets": 0
+    }
+   },
+   "by_place_pool": {
+    "dev": [
+     {
+      "net_place_pool_eur": "0-54,322",
+      "bets": 383,
+      "hits": 134,
+      "hit_rate": 0.3499,
+      "avg_payout_when_hit": 4.18,
+      "roi": 0.4624
+     },
+     {
+      "net_place_pool_eur": "54,322-76,018",
+      "bets": 269,
+      "hits": 65,
+      "hit_rate": 0.2416,
+      "avg_payout_when_hit": 5.08,
+      "roi": 0.2275
+     },
+     {
+      "net_place_pool_eur": "76,018-96,852",
+      "bets": 283,
+      "hits": 71,
+      "hit_rate": 0.2509,
+      "avg_payout_when_hit": 5.55,
+      "roi": 0.3922
+     },
+     {
+      "net_place_pool_eur": "96,852-123,564",
+      "bets": 345,
+      "hits": 65,
+      "hit_rate": 0.1884,
+      "avg_payout_when_hit": 4.85,
+      "roi": -0.0864
+     },
+     {
+      "net_place_pool_eur": "123,564-max",
+      "bets": 388,
+      "hits": 72,
+      "hit_rate": 0.1856,
+      "avg_payout_when_hit": 5.1,
+      "roi": -0.0531
+     }
+    ],
+    "test": [
+     {
+      "net_place_pool_eur": "0-54,322",
+      "bets": 33,
+      "hits": 11,
+      "hit_rate": 0.3333,
+      "avg_payout_when_hit": 3.11,
+      "roi": 0.0364
+     },
+     {
+      "net_place_pool_eur": "54,322-76,018",
+      "bets": 19,
+      "hits": 6,
+      "hit_rate": 0.3158,
+      "avg_payout_when_hit": 4.7,
+      "roi": 0.4842
+     },
+     {
+      "net_place_pool_eur": "76,018-96,852",
+      "bets": 12,
+      "hits": 5,
+      "hit_rate": 0.4167,
+      "avg_payout_when_hit": 5.2,
+      "roi": 1.1667
+     },
+     {
+      "net_place_pool_eur": "96,852-123,564",
+      "bets": 16,
+      "hits": 6,
+      "hit_rate": 0.375,
+      "avg_payout_when_hit": 4.03,
+      "roi": 0.5125
+     },
+     {
+      "net_place_pool_eur": "123,564-max",
+      "bets": 13,
+      "hits": 7,
+      "hit_rate": 0.5385,
+      "avg_payout_when_hit": 4.03,
+      "roi": 1.1692
+     }
+    ]
+   },
+   "pool_cap_chosen_on_dev_eur": 96852.0,
+   "small_pools": {
+    "dev": {
+     "no_stake_effect": {
+      "bets": 935,
+      "hits": 270,
+      "hit_rate": 0.2888,
+      "avg_payout_when_hit": 4.76,
+      "roi": 0.3736,
+      "roi_ci95": [
+       0.2077,
+       0.5648
+      ]
+     },
+     "stake_10eur": {
+      "bets": 935,
+      "hits": 270,
+      "hit_rate": 0.2888,
+      "avg_payout_when_hit": 4.5,
+      "roi": 0.2991,
+      "roi_ci95": [
+       0.141,
+       0.46
+      ]
+     },
+     "stake_50eur": {
+      "bets": 935,
+      "hits": 270,
+      "hit_rate": 0.2888,
+      "avg_payout_when_hit": 4.23,
+      "roi": 0.222,
+      "roi_ci95": [
+       0.0691,
+       0.3797
+      ]
+     }
+    },
+    "test": {
+     "no_stake_effect": {
+      "bets": 64,
+      "hits": 22,
+      "hit_rate": 0.3438,
+      "avg_payout_when_hit": 4.02,
+      "roi": 0.3813,
+      "roi_ci95": [
+       -0.1907,
+       0.964
+      ]
+     },
+     "stake_10eur": {
+      "bets": 64,
+      "hits": 22,
+      "hit_rate": 0.3438,
+      "avg_payout_when_hit": 3.87,
+      "roi": 0.3297,
+      "roi_ci95": [
+       -0.1635,
+       0.9287
+      ]
+     },
+     "stake_50eur": {
+      "bets": 64,
+      "hits": 22,
+      "hit_rate": 0.3438,
+      "avg_payout_when_hit": 3.64,
+      "roi": 0.25,
+      "roi_ci95": [
+       -0.228,
+       0.7714
+      ]
+     }
+    }
+   }
+  }
+ },
+ "heavy_favourites": {
+  "ref": {
+   "win_prob>=0.4_dev": {
+    "bets": 11042,
+    "hits": 8111,
+    "hit_rate": 0.7346,
+    "avg_payout_when_hit": 1.29,
+    "roi": -0.0489,
+    "roi_ci95": [
+     -0.0597,
+     -0.0378
+    ],
+    "share_paid_minimum": 0.2472
+   },
+   "win_prob>=0.4_test": {
+    "bets": 2592,
+    "hits": 1861,
+    "hit_rate": 0.718,
+    "avg_payout_when_hit": 1.3,
+    "roi": -0.0689,
+    "roi_ci95": [
+     -0.0933,
+     -0.0438
+    ],
+    "share_paid_minimum": 0.2198
+   },
+   "win_prob>=0.5_dev": {
+    "bets": 5336,
+    "hits": 4114,
+    "hit_rate": 0.771,
+    "avg_payout_when_hit": 1.24,
+    "roi": -0.0471,
+    "roi_ci95": [
+     -0.0625,
+     -0.0339
+    ],
+    "share_paid_minimum": 0.3651
+   },
+   "win_prob>=0.5_test": {
+    "bets": 1178,
+    "hits": 890,
+    "hit_rate": 0.7555,
+    "avg_payout_when_hit": 1.24,
+    "roi": -0.0608,
+    "roi_ci95": [
+     -0.091,
+     -0.0317
+    ],
+    "share_paid_minimum": 0.3124
+   },
+   "win_prob>=0.6_dev": {
+    "bets": 2059,
+    "hits": 1664,
+    "hit_rate": 0.8082,
+    "avg_payout_when_hit": 1.18,
+    "roi": -0.0469,
+    "roi_ci95": [
+     -0.0685,
+     -0.0268
+    ],
+    "share_paid_minimum": 0.5222
+   },
+   "win_prob>=0.6_test": {
+    "bets": 427,
+    "hits": 332,
+    "hit_rate": 0.7775,
+    "avg_payout_when_hit": 1.2,
+    "roi": -0.0703,
+    "roi_ci95": [
+     -0.1168,
+     -0.0242
+    ],
+    "share_paid_minimum": 0.4337
+   },
+   "win_prob>=0.7_dev": {
+    "bets": 622,
+    "hits": 530,
+    "hit_rate": 0.8521,
+    "avg_payout_when_hit": 1.14,
+    "roi": -0.0263,
+    "roi_ci95": [
+     -0.0588,
+     0.0072
+    ],
+    "share_paid_minimum": 0.6943
+   },
+   "win_prob>=0.7_test": {
+    "bets": 119,
+    "hits": 94,
+    "hit_rate": 0.7899,
+    "avg_payout_when_hit": 1.16,
+    "roi": -0.087,
+    "roi_ci95": [
+     -0.1732,
+     0.0021
+    ],
+    "share_paid_minimum": 0.6489
+   }
+  },
+  "final": {
+   "win_prob>=0.4_dev": {
+    "bets": 9651,
+    "hits": 7419,
+    "hit_rate": 0.7687,
+    "avg_payout_when_hit": 1.26,
+    "roi": -0.0332,
+    "roi_ci95": [
+     -0.0437,
+     -0.0227
+    ],
+    "share_paid_minimum": 0.2793
+   },
+   "win_prob>=0.4_test": {
+    "bets": 2485,
+    "hits": 1867,
+    "hit_rate": 0.7513,
+    "avg_payout_when_hit": 1.26,
+    "roi": -0.0536,
+    "roi_ci95": [
+     -0.075,
+     -0.032
+    ],
+    "share_paid_minimum": 0.2426
+   },
+   "win_prob>=0.5_dev": {
+    "bets": 2762,
+    "hits": 2331,
+    "hit_rate": 0.844,
+    "avg_payout_when_hit": 1.17,
+    "roi": -0.0085,
+    "roi_ci95": [
+     -0.0259,
+     0.0079
+    ],
+    "share_paid_minimum": 0.5212
+   },
+   "win_prob>=0.5_test": {
+    "bets": 749,
+    "hits": 611,
+    "hit_rate": 0.8158,
+    "avg_payout_when_hit": 1.19,
+    "roi": -0.0294,
+    "roi_ci95": [
+     -0.0612,
+     0.0016
+    ],
+    "share_paid_minimum": 0.4255
+   },
+   "win_prob>=0.6_dev": {
+    "bets": 408,
+    "hits": 364,
+    "hit_rate": 0.8922,
+    "avg_payout_when_hit": 1.1,
+    "roi": -0.0146,
+    "roi_ci95": [
+     -0.0496,
+     0.0197
+    ],
+    "share_paid_minimum": 0.8681
+   },
+   "win_prob>=0.6_test": {
+    "bets": 115,
+    "hits": 96,
+    "hit_rate": 0.8348,
+    "avg_payout_when_hit": 1.11,
+    "roi": -0.0713,
+    "roi_ci95": [
+     -0.1446,
+     0.0018
+    ],
+    "share_paid_minimum": 0.7812
+   },
+   "win_prob>=0.7_dev": {
+    "bets": 27,
+    "hits": 27,
+    "hit_rate": 1.0,
+    "avg_payout_when_hit": 1.08,
+    "roi": 0.0833,
+    "share_paid_minimum": 0.963
+   },
+   "win_prob>=0.7_test": {
+    "bets": 8,
+    "hits": 8,
+    "hit_rate": 1.0,
+    "avg_payout_when_hit": 1.06,
+    "roi": 0.0625,
+    "share_paid_minimum": 1.0
+   }
+  }
+ },
+ "pool_model": {
+  "ref": {
+   "payout_fit_dev": {
+    "structural_log_ratio_mean": 0.0076,
+    "corrected_log_ratio_mean": -0.0342,
+    "corrected_log_ratio_sd": 0.2379
+   },
+   "payout_fit_test": {
+    "structural_log_ratio_mean": 0.001,
+    "corrected_log_ratio_mean": -0.0374,
+    "corrected_log_ratio_sd": 0.2351
+   },
+   "gamma_trot": 0.7449,
+   "gamma_flat": 0.8374,
+   "return_rate_trot": 0.8047,
+   "return_rate_flat": 0.812,
+   "payout_regression_const_logEhatm1_logEdge_trot_logField": [
+    0.1645,
+    0.9834,
+    -0.7247,
+    0.0443,
+    -0.0695
+   ],
+   "smearing": 1.099
+  },
+  "final": {
+   "payout_fit_dev": {
+    "structural_log_ratio_mean": -0.0067,
+    "corrected_log_ratio_mean": -0.0203,
+    "corrected_log_ratio_sd": 0.1702
+   },
+   "payout_fit_test": {
+    "structural_log_ratio_mean": -0.0021,
+    "corrected_log_ratio_mean": -0.0153,
+    "corrected_log_ratio_sd": 0.1664
+   },
+   "gamma_trot": 0.7168,
+   "gamma_flat": 0.8583,
+   "return_rate_trot": 0.8437,
+   "return_rate_flat": 0.8548,
+   "payout_regression_const_logEhatm1_logEdge_trot_logField": [
+    -0.1156,
+    1.011,
+    -0.1989,
+    0.022,
+    0.0282
+   ],
+   "smearing": 1.0566
+  }
+ }
+}

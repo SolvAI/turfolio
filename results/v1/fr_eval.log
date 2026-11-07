@@ -1,0 +1,153 @@
+races with both markets and out-of-fold predictions: 94,652 (2017-01-01 .. 2026-05-05)
+[100]	valid_0's race_ll: 1.96429
+[200]	valid_0's race_ll: 1.96307
+[300]	valid_0's race_ll: 1.96262
+[400]	valid_0's race_ll: 1.96244
+  residual booster on combo_ref: 377 rounds
+[100]	valid_0's race_ll: 1.92268
+[200]	valid_0's race_ll: 1.92173
+[300]	valid_0's race_ll: 1.92118
+[400]	valid_0's race_ll: 1.92063
+[500]	valid_0's race_ll: 1.92031
+[600]	valid_0's race_ll: 1.92018
+[700]	valid_0's race_ll: 1.91994
+[800]	valid_0's race_ll: 1.91979
+[900]	valid_0's race_ll: 1.91968
+[1000]	valid_0's race_ll: 1.91987
+  residual booster on combo_final: 914 rounds
+  2018 done
+  2019 done
+  2020 done
+  2021 done
+  2022 done
+  2023 done
+  2024 done
+  2025 done
+  2026 done
+
+dev_2018_2024
+  mkt_final      races 70,279  log-loss 1.9494  top-1 0.3180  top-3 0.6385
+  mkt_ref        races 70,279  log-loss 2.0223  top-1 0.2996  top-3 0.6127
+  mkt_ref_cal    races 70,279  log-loss 2.0186  top-1 0.2996  top-3 0.6127
+  mkt_final_cal  races 70,279  log-loss 1.9455  top-1 0.3180  top-3 0.6385
+  fund           races 70,279  log-loss 2.0527  top-1 0.2766  top-3 0.5862
+  combo_ref      races 70,279  log-loss 1.9905  top-1 0.3029  top-3 0.6203
+  end_ref        races 70,279  log-loss 1.9831  top-1 0.3027  top-3 0.6205
+  combo_final    races 70,279  log-loss 1.9433  top-1 0.3183  top-3 0.6390
+  end_final      races 70,279  log-loss 1.9394  top-1 0.3177  top-3 0.6407
+  fund         vs_market_final: log-loss +0.1033 [0.0995, 0.1068]  top-1 -0.0415 [-0.0446, -0.0381]
+  end_ref      vs_market_final: log-loss +0.0337 [0.0314, 0.0358]  top-1 -0.0153 [-0.0177, -0.0127]
+  end_final    vs_market_final: log-loss -0.0100 [-0.0114, -0.0085]  top-1 -0.0004 [-0.0022, 0.0014]
+  combo_ref    vs_market_final: log-loss +0.0411 [0.0388, 0.0435]  top-1 -0.0151 [-0.0175, -0.0128]
+  fund         vs_market_ref: log-loss +0.0303 [0.0262, 0.0344]  top-1 -0.0231 [-0.0265, -0.0198]
+  end_ref      vs_market_ref: log-loss -0.0392 [-0.0412, -0.0374]  top-1 +0.0031 [0.0011, 0.0052]
+  mkt_ref_cal  vs_market_ref: log-loss -0.0037 [-0.0043, -0.0031]  top-1 +0.0000 [0.0, 0.0]
+
+test_2025_2026
+  mkt_final      races 13,760  log-loss 1.9321  top-1 0.3297  top-3 0.6482
+  mkt_ref        races 13,760  log-loss 2.0230  top-1 0.3041  top-3 0.6178
+  mkt_ref_cal    races 13,760  log-loss 2.0199  top-1 0.3041  top-3 0.6178
+  mkt_final_cal  races 13,760  log-loss 1.9280  top-1 0.3297  top-3 0.6482
+  fund           races 13,760  log-loss 2.0378  top-1 0.2802  top-3 0.5943
+  combo_ref      races 13,760  log-loss 1.9883  top-1 0.3047  top-3 0.6277
+  end_ref        races 13,760  log-loss 1.9794  top-1 0.3092  top-3 0.6292
+  combo_final    races 13,760  log-loss 1.9270  top-1 0.3286  top-3 0.6475
+  end_final      races 13,760  log-loss 1.9214  top-1 0.3299  top-3 0.6495
+  fund         vs_market_final: log-loss +0.1056 [0.0976, 0.1135]  top-1 -0.0494 [-0.0566, -0.0421]
+  end_ref      vs_market_final: log-loss +0.0472 [0.0416, 0.053]  top-1 -0.0205 [-0.0261, -0.0146]
+  end_final    vs_market_final: log-loss -0.0107 [-0.0132, -0.008]  top-1 +0.0003 [-0.0035, 0.004]
+  combo_ref    vs_market_final: log-loss +0.0562 [0.0504, 0.0619]  top-1 -0.0250 [-0.031, -0.0195]
+  fund         vs_market_ref: log-loss +0.0148 [0.0063, 0.0229]  top-1 -0.0239 [-0.0308, -0.0172]
+  end_ref      vs_market_ref: log-loss -0.0436 [-0.0476, -0.0395]  top-1 +0.0050 [0.0004, 0.0099]
+  mkt_ref_cal  vs_market_ref: log-loss -0.0030 [-0.0043, -0.0018]  top-1 +0.0000 [0.0, 0.0]
+
+betting (pari-mutuel, decide at ref odds, paid final odds): {
+ "dev": {
+  "0.0": {
+   "bets": 148545,
+   "roi": -0.0946,
+   "hit": 0.1356,
+   "avg_odds": 11.06
+  },
+  "0.05": {
+   "bets": 110612,
+   "roi": -0.0841,
+   "hit": 0.1365,
+   "avg_odds": 10.88
+  },
+  "0.1": {
+   "bets": 80301,
+   "roi": -0.0853,
+   "hit": 0.1364,
+   "avg_odds": 10.8
+  },
+  "0.2": {
+   "bets": 40469,
+   "roi": -0.0467,
+   "hit": 0.1387,
+   "avg_odds": 10.77
+  },
+  "0.3": {
+   "bets": 19490,
+   "roi": -0.0274,
+   "hit": 0.1375,
+   "avg_odds": 10.9
+  }
+ },
+ "threshold_chosen_on_dev": 0.3,
+ "test": {
+  "bets": 3422,
+  "roi": -0.0347,
+  "hit": 0.152,
+  "avg_odds": 10.57
+ },
+ "test_all_thresholds": {
+  "0.0": {
+   "bets": 28092,
+   "roi": -0.0711,
+   "hit": 0.1429,
+   "avg_odds": 10.48
+  },
+  "0.05": {
+   "bets": 20589,
+   "roi": -0.0619,
+   "hit": 0.1456,
+   "avg_odds": 10.28
+  },
+  "0.1": {
+   "bets": 14709,
+   "roi": -0.0672,
+   "hit": 0.1464,
+   "avg_odds": 10.07
+  },
+  "0.2": {
+   "bets": 7240,
+   "roi": -0.05,
+   "hit": 0.1494,
+   "avg_odds": 10.0
+  },
+  "0.3": {
+   "bets": 3422,
+   "roi": -0.0347,
+   "hit": 0.152,
+   "avg_odds": 10.57
+  }
+ },
+ "test_mkt_ref_cal_same_rule": {
+  "bets": 265,
+  "roi": -0.2921,
+  "hit": 0.0792,
+  "avg_odds": 37.43
+ }
+}
+
+TOP PICK, 1 unit per race at final odds (test):
+  mkt_final      hit 0.330 avg odds  3.06 ROI -0.106 | agrees with fav 1.00; when it differs: n=0 hit 0.000 odds 0.00 ROI +0.000
+  mkt_ref        hit 0.304 avg odds  3.50 ROI -0.124 | agrees with fav 0.72; when it differs: n=3805 hit 0.176 odds 5.24 ROI -0.168
+  mkt_ref_cal    hit 0.304 avg odds  3.50 ROI -0.124 | agrees with fav 0.72; when it differs: n=3805 hit 0.176 odds 5.24 ROI -0.168
+  mkt_final_cal  hit 0.330 avg odds  3.06 ROI -0.106 | agrees with fav 1.00; when it differs: n=0 hit 0.000 odds 0.00 ROI +0.000
+  fund           hit 0.280 avg odds  4.16 ROI -0.118 | agrees with fav 0.58; when it differs: n=5743 hit 0.165 odds 6.09 ROI -0.137
+  combo_ref      hit 0.305 avg odds  3.42 ROI -0.134 | agrees with fav 0.74; when it differs: n=3602 hit 0.174 odds 5.02 ROI -0.200
+  end_ref        hit 0.309 avg odds  3.43 ROI -0.113 | agrees with fav 0.73; when it differs: n=3676 hit 0.183 odds 5.05 ROI -0.151
+  combo_final    hit 0.329 avg odds  3.07 ROI -0.107 | agrees with fav 0.95; when it differs: n=714 hit 0.209 odds 4.23 ROI -0.161
+  end_final      hit 0.330 avg odds  3.12 ROI -0.092 | agrees with fav 0.88; when it differs: n=1707 hit 0.213 odds 4.53 ROI -0.101

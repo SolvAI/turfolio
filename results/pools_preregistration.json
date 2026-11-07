@@ -1,0 +1,9 @@
+{
+ "written": "2026-11-06T09:39:13.778435",
+ "choice_made_on": "dev 2018-01-01..2024-12-31 (results/pools_dev_2018-01-01_2024-12-31.json)",
+ "rule": "value rule of src/fr_value.py: p = end_ref, EV = p * E[final odds | win] - 1 (payout model fitted on dev winners), bet if 0.15 < EV < 1",
+ "pool": "always the internet pool (E_SIMPLE_GAGNANT), paid at the official e-dividend",
+ "headline": "hold-out 2025-01..2026-05 ROI in the internet pool with our own 10 EUR stake included, 95% CI by day bootstrap",
+ "also_reported": "main pool on the same bets, own stake 2 and 50 EUR",
+ "dev_evidence": "internet minus main ROI on the same bets: +6.9 pts overall, positive in all 7 dev years (+1.2..+13.2)"
+}

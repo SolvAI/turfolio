@@ -1,0 +1,304 @@
+{
+ "trained_through": "2026-11-05",
+ "variants": [
+  "win+rt",
+  "nn_L20",
+  "nn_L20_mus"
+ ],
+ "blend": {
+  "w_full": [
+   0.18448509488475318,
+   0.06369579557064435,
+   0.3580233070107636,
+   -0.032249186378895456,
+   0.5442207963092357,
+   0.09621706327938573
+  ],
+  "w_first_only": [
+   0.9435904695919145,
+   0.039453347390357704
+  ],
+  "order": "s_j, s_j*trot for j in variants"
+ },
+ "end_ref": {
+  "combo_ref_weights": [
+   0.4448522291154785,
+   0.1253431523561291,
+   0.6938226347139842,
+   -0.10691111984821143
+  ],
+  "resid_rounds": 438,
+  "resid_features": [
+   "f_score",
+   "lmr",
+   "mr_rank",
+   "mkt_overr",
+   "field",
+   "specialite",
+   "discipline",
+   "quinte",
+   "autostart",
+   "hour",
+   "avisEntraineur",
+   "deferre",
+   "supplement",
+   "driverChange",
+   "days_since",
+   "mus_avg3",
+   "h_avg_mkt3",
+   "h_last_mkt",
+   "drv_wr",
+   "trn_wr",
+   "drv_ae",
+   "trn_ae",
+   "earn_per_start_rk",
+   "win_rate_rk",
+   "numPmu",
+   "dist_handicap",
+   "placeCorde",
+   "handicapValeur_dm",
+   "prize_log",
+   "numReunion"
+  ],
+  "resid_categories": {
+   "specialite": [
+    "OBSTACLE",
+    "PLAT",
+    "TROT_ATTELE",
+    "TROT_MONTE"
+   ],
+   "discipline": [
+    "ATTELE",
+    "CROSS",
+    "HAIE",
+    "MONTE",
+    "PLAT",
+    "STEEPLECHASE"
+   ],
+   "avisEntraineur": [
+    "NEGATIF",
+    "NEUTRE",
+    "POSITIF"
+   ],
+   "deferre": [
+    "DEFERRE_ANTERIEURS",
+    "DEFERRE_ANTERIEURS_POSTERIEURS",
+    "DEFERRE_ANTERIEURS_PROTEGE_POSTERIEURS",
+    "DEFERRE_POSTERIEURS",
+    "PROTEGE_ANTERIEURS",
+    "PROTEGE_ANTERIEURS_DEFERRRE_POSTERIEURS",
+    "PROTEGE_ANTERIEURS_POSTERIEURS",
+    "PROTEGE_POSTERIEURS",
+    "REFERRE_ANTERIEURS_POSTERIEURS"
+   ]
+  }
+ },
+ "place": {
+  "stage2": {
+   "w_full": [
+    0.44498068114144906,
+    0.3468920817517845,
+    0.3528945427591185,
+    -0.30434877091991,
+    0.07059557334911394,
+    -0.24073981755743074
+   ],
+   "w_mdisc": [
+    0.8910766543387215,
+    -0.021656859089456863
+   ],
+   "rounds": 227,
+   "features": [
+    "f_score",
+    "lmr",
+    "mr_rank",
+    "mkt_overr",
+    "field",
+    "specialite",
+    "discipline",
+    "quinte",
+    "autostart",
+    "hour",
+    "avisEntraineur",
+    "deferre",
+    "supplement",
+    "driverChange",
+    "days_since",
+    "mus_avg3",
+    "h_avg_mkt3",
+    "h_last_mkt",
+    "drv_wr",
+    "trn_wr",
+    "drv_ae",
+    "trn_ae",
+    "earn_per_start_rk",
+    "win_rate_rk",
+    "numPmu",
+    "dist_handicap",
+    "placeCorde",
+    "handicapValeur_dm",
+    "prize_log",
+    "numReunion",
+    "place_rate",
+    "place_rate_rk",
+    "mus_top3_5",
+    "mus_dq5",
+    "h_dq3",
+    "mus_fail5",
+    "nombrePlacesSecond",
+    "nombrePlacesTroisieme",
+    "n_starts",
+    "mus_last",
+    "h_last_pos",
+    "h_avg_pos3",
+    "lp",
+    "p_rank"
+   ],
+   "categories": {
+    "specialite": [
+     "OBSTACLE",
+     "PLAT",
+     "TROT_ATTELE",
+     "TROT_MONTE"
+    ],
+    "discipline": [
+     "ATTELE",
+     "CROSS",
+     "HAIE",
+     "MONTE",
+     "PLAT",
+     "STEEPLECHASE"
+    ],
+    "avisEntraineur": [
+     "NEGATIF",
+     "NEUTRE",
+     "POSITIF"
+    ],
+    "deferre": [
+     "DEFERRE_ANTERIEURS",
+     "DEFERRE_ANTERIEURS_POSTERIEURS",
+     "DEFERRE_ANTERIEURS_PROTEGE_POSTERIEURS",
+     "DEFERRE_POSTERIEURS",
+     "PROTEGE_ANTERIEURS",
+     "PROTEGE_ANTERIEURS_DEFERRRE_POSTERIEURS",
+     "PROTEGE_ANTERIEURS_POSTERIEURS",
+     "PROTEGE_POSTERIEURS",
+     "REFERRE_ANTERIEURS_POSTERIEURS"
+    ]
+   }
+  },
+  "stage3": {
+   "w_full": [
+    0.2976267239189888,
+    0.348908164010498,
+    0.354576708686042,
+    -0.32467700631940916,
+    0.08034746476763727,
+    -0.3195598146158326
+   ],
+   "w_mdisc": [
+    0.7803770220275656,
+    -0.12543681408970675
+   ],
+   "rounds": 344,
+   "features": [
+    "f_score",
+    "lmr",
+    "mr_rank",
+    "mkt_overr",
+    "field",
+    "specialite",
+    "discipline",
+    "quinte",
+    "autostart",
+    "hour",
+    "avisEntraineur",
+    "deferre",
+    "supplement",
+    "driverChange",
+    "days_since",
+    "mus_avg3",
+    "h_avg_mkt3",
+    "h_last_mkt",
+    "drv_wr",
+    "trn_wr",
+    "drv_ae",
+    "trn_ae",
+    "earn_per_start_rk",
+    "win_rate_rk",
+    "numPmu",
+    "dist_handicap",
+    "placeCorde",
+    "handicapValeur_dm",
+    "prize_log",
+    "numReunion",
+    "place_rate",
+    "place_rate_rk",
+    "mus_top3_5",
+    "mus_dq5",
+    "h_dq3",
+    "mus_fail5",
+    "nombrePlacesSecond",
+    "nombrePlacesTroisieme",
+    "n_starts",
+    "mus_last",
+    "h_last_pos",
+    "h_avg_pos3",
+    "lp",
+    "p_rank"
+   ],
+   "categories": {
+    "specialite": [
+     "OBSTACLE",
+     "PLAT",
+     "TROT_ATTELE",
+     "TROT_MONTE"
+    ],
+    "discipline": [
+     "ATTELE",
+     "CROSS",
+     "HAIE",
+     "MONTE",
+     "PLAT",
+     "STEEPLECHASE"
+    ],
+    "avisEntraineur": [
+     "NEGATIF",
+     "NEUTRE",
+     "POSITIF"
+    ],
+    "deferre": [
+     "DEFERRE_ANTERIEURS",
+     "DEFERRE_ANTERIEURS_POSTERIEURS",
+     "DEFERRE_ANTERIEURS_PROTEGE_POSTERIEURS",
+     "DEFERRE_POSTERIEURS",
+     "PROTEGE_ANTERIEURS",
+     "PROTEGE_ANTERIEURS_DEFERRRE_POSTERIEURS",
+     "PROTEGE_ANTERIEURS_POSTERIEURS",
+     "PROTEGE_POSTERIEURS",
+     "REFERRE_ANTERIEURS_POSTERIEURS"
+    ]
+   }
+  },
+  "pool": {
+   "gamma_trot": 0.7449399905661956,
+   "gamma_flat": 0.8373707822516011,
+   "R_trot": 0.8046947472025671,
+   "R_flat": 0.8119746728165604,
+   "beta": [
+    0.16581629103923812,
+    0.9859877067794598,
+    -0.7187725434878095,
+    0.045315947038852944,
+    -0.07058907052391117
+   ],
+   "smear": 1.099037011588167,
+   "fitted_on": "dev 2019-2024 placed horses"
+  },
+  "rule_B": {
+   "p_place_min": 0.6,
+   "ev_min": 0.1,
+   "min_payout": 1.05
+  }
+ }
+}

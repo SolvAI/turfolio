@@ -1,0 +1,25 @@
+HK runner rows 273,993, after dropping duplicate horse-race rows 273,993
+races 24,006 (1977-05-07 .. 2018-06-27); median field 12
+races with exactly one winner 0.960, none 0.038, dead heats 0.002
+clean races (one winner, odds for all) 23,042; sum of 1/odds median 1.227 (IQR 1.221-1.233)
+  1979-1999: races 10,238  favourite wins 0.275  market log-loss (winner) 2.0278  uniform 2.3614
+  2000-2009: races  6,124  favourite wins 0.298  market log-loss (winner) 2.0185  uniform 2.4297
+  2010-2018: races  6,680  favourite wins 0.299  market log-loss (winner) 2.0338  uniform 2.5132
+  calibration of the market 2010-18 (favourite-longshot bias check):
+                  n  market  actual
+pm                                 
+(0.0, 0.02]   19997  0.0115  0.0084
+(0.02, 0.05]  19470  0.0334  0.0335
+(0.05, 0.1]   21224  0.0725  0.0686
+(0.1, 0.15]    9879  0.1221  0.1226
+(0.15, 0.2]    5223  0.1728  0.1850
+(0.2, 0.3]     4807  0.2421  0.2546
+(0.3, 0.4]     1658  0.3397  0.3366
+(0.4, 0.6]      863  0.4611  0.4820
+(0.6, 1.0]       42  0.6615  0.7143
+rating timing: corr(rating change t->t+1, placing in race t) -0.634, with placing in race t+1 -0.220  (pre-race rating => the first is the strong one)
+winners' next rating change: mean +6.66 vs others -1.36
+live odds: 1,519 races, snapshots per race median 171
+  matched 18,441 runners; last snapshot == final odds for 0.891; median |log ratio| first vs final 1.305
+  first snapshot taken (hours after midnight of race day; negative = day before): median -19.9
+-> hk_runners.parquet 273,993 rows

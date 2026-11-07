@@ -1,0 +1,71 @@
+ref naive_ref_odds: chosen p>=0.1,ev>0.5; dev {'bets': 10642, 'hits': 1941, 'hit_rate': 0.1824, 'avg_payout_when_hit': 5.77, 'roi': 0.0515}; test {'bets': 3219, 'hits': 663, 'hit_rate': 0.206, 'avg_payout_when_hit': 4.99, 'roi': 0.0269, 'roi_ci95': [-0.0525, 0.1085]}
+ref predicted_final_odds: chosen p>=0,ev>0.5; dev {'bets': 6586, 'hits': 1009, 'hit_rate': 0.1532, 'avg_payout_when_hit': 7.9, 'roi': 0.2103}; test {'bets': 2224, 'hits': 355, 'hit_rate': 0.1596, 'avg_payout_when_hit': 6.82, 'roi': 0.0881, 'roi_ci95': [-0.0656, 0.2639]}
+ref predicted_final_odds_given_win: chosen p>=0,ev>0.2; dev {'bets': 2488, 'hits': 470, 'hit_rate': 0.1889, 'avg_payout_when_hit': 6.74, 'roi': 0.2724}; test {'bets': 1492, 'hits': 233, 'hit_rate': 0.1562, 'avg_payout_when_hit': 6.15, 'roi': -0.0395, 'roi_ci95': [-0.218, 0.1674]}
+fund naive_ref_odds: chosen p>=0.1,ev>0.5; dev {'bets': 32331, 'hits': 4900, 'hit_rate': 0.1516, 'avg_payout_when_hit': 6.53, 'roi': -0.0102}; test {'bets': 9072, 'hits': 1444, 'hit_rate': 0.1592, 'avg_payout_when_hit': 5.93, 'roi': -0.0565, 'roi_ci95': [-0.1062, -0.0056]}
+fund predicted_final_odds: chosen p>=0.1,ev>0.5; dev {'bets': 31616, 'hits': 4526, 'hit_rate': 0.1432, 'avg_payout_when_hit': 7.05, 'roi': 0.0093}; test {'bets': 8855, 'hits': 1298, 'hit_rate': 0.1466, 'avg_payout_when_hit': 6.5, 'roi': -0.0472, 'roi_ci95': [-0.1037, 0.0087]}
+fund predicted_final_odds_given_win: chosen p>=0.05,ev>0.5; dev {'bets': 19781, 'hits': 1956, 'hit_rate': 0.0989, 'avg_payout_when_hit': 10.41, 'roi': 0.0295}; test {'bets': 5520, 'hits': 644, 'hit_rate': 0.1167, 'avg_payout_when_hit': 9.15, 'roi': 0.0676, 'roi_ci95': [-0.0342, 0.1865]}
+{
+"2018": {
+"bets": 713,
+"hits": 121,
+"hit_rate": 0.1697,
+"avg_payout_when_hit": 7.26,
+"roi": 0.232
+},
+"2019": {
+"bets": 295,
+"hits": 61,
+"hit_rate": 0.2068,
+"avg_payout_when_hit": 5.5,
+"roi": 0.1366
+},
+"2020": {
+"bets": 212,
+"hits": 41,
+"hit_rate": 0.1934,
+"avg_payout_when_hit": 7.08,
+"roi": 0.3689
+},
+"2021": {
+"bets": 285,
+"hits": 53,
+"hit_rate": 0.186,
+"avg_payout_when_hit": 11.55,
+"roi": 1.1488
+},
+"2022": {
+"bets": 284,
+"hits": 61,
+"hit_rate": 0.2148,
+"avg_payout_when_hit": 5.5,
+"roi": 0.1803
+},
+"2023": {
+"bets": 316,
+"hits": 67,
+"hit_rate": 0.212,
+"avg_payout_when_hit": 4.85,
+"roi": 0.0282
+},
+"2024": {
+"bets": 383,
+"hits": 66,
+"hit_rate": 0.1723,
+"avg_payout_when_hit": 5.9,
+"roi": 0.0167
+},
+"2025": {
+"bets": 451,
+"hits": 100,
+"hit_rate": 0.2217,
+"avg_payout_when_hit": 5.04,
+"roi": 0.1166
+},
+"2026": {
+"bets": 1041,
+"hits": 133,
+"hit_rate": 0.1278,
+"avg_payout_when_hit": 6.99,
+"roi": -0.1072
+}
+}

@@ -1,0 +1,24 @@
+win+rt GBM: 485 rounds on 1,725,326 starters
+built: 1,972,395 rows, 203 numeric inputs, 16 categoricals, 1,972,395 history tokens (11s)
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+  nn_L20 seed 0: 142,707 races, 10 epochs (59s)
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+  nn_L20 seed 1: 142,707 races, 10 epochs (106s)
+  nn_L20 seed 2: 142,707 races, 10 epochs (154s)
+  nn_L20 seed 3: 142,707 races, 10 epochs (201s)
+built: 1,972,395 rows, 203 numeric inputs, 16 categoricals, 1,972,395 history tokens (17s)
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+  nn_L20_mus seed 0: 142,707 races, 10 epochs (67s)
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+  nn_L20_mus seed 1: 142,707 races, 10 epochs (114s)
+  nn_L20_mus seed 2: 142,707 races, 10 epochs (162s)
+  nn_L20_mus seed 3: 142,707 races, 10 epochs (210s)
+blend weights [0.181, 0.068, 0.356, -0.035, 0.55, 0.094]
+end model: combo weights [0.447, 0.128, 0.692, -0.108], residual 438 rounds on 94,652 races
+place stage 2: 83,741 races
+place stage 3: 83,518 races
+-> models/v3_through_2026-05-05

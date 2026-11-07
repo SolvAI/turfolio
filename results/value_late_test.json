@@ -1,0 +1,84 @@
+{
+ "payout_model_v3": {
+  "chosen_on_dev": "p>=0,ev>0.15",
+  "test_snapshot_odds": {
+   "bets": 1299,
+   "hits": 253,
+   "hit_rate": 0.1948,
+   "avg_payout_when_hit": 5.43,
+   "roi": 0.0569,
+   "roi_ci95": [
+    -0.1169,
+    0.2536
+   ]
+  },
+  "test_official_dividends": {
+   "bets": 1299,
+   "hits": 253,
+   "hit_rate": 0.1948,
+   "avg_payout_when_hit": 5.45,
+   "roi": 0.0613,
+   "roi_ci95": [
+    -0.1183,
+    0.2526
+   ]
+  },
+  "test_by_year": {
+   "2025": {
+    "bets": 841,
+    "hits": 180,
+    "hit_rate": 0.214,
+    "avg_payout_when_hit": 5.21,
+    "roi": 0.115
+   },
+   "2026": {
+    "bets": 458,
+    "hits": 73,
+    "hit_rate": 0.1594,
+    "avg_payout_when_hit": 5.96,
+    "roi": -0.0498
+   }
+  }
+ },
+ "with_late_head": {
+  "chosen_on_dev": "p>=0,ev>0.3",
+  "test_snapshot_odds": {
+   "bets": 591,
+   "hits": 127,
+   "hit_rate": 0.2149,
+   "avg_payout_when_hit": 4.16,
+   "roi": -0.1063,
+   "roi_ci95": [
+    -0.279,
+    0.0761
+   ]
+  },
+  "test_official_dividends": {
+   "bets": 591,
+   "hits": 127,
+   "hit_rate": 0.2149,
+   "avg_payout_when_hit": 4.18,
+   "roi": -0.1025,
+   "roi_ci95": [
+    -0.291,
+    0.0789
+   ]
+  },
+  "test_by_year": {
+   "2025": {
+    "bets": 365,
+    "hits": 94,
+    "hit_rate": 0.2575,
+    "avg_payout_when_hit": 3.9,
+    "roi": 0.0049
+   },
+   "2026": {
+    "bets": 226,
+    "hits": 33,
+    "hit_rate": 0.146,
+    "avg_payout_when_hit": 4.89,
+    "roi": -0.2858
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+win+rt: 1,971,521 rows, 166 features
+  best iteration 441 (2022 race log-loss 2.0252) -> 485 rounds (85s)
+  2017: race log-loss 2.1031, top-1 0.2714 (102s)
+  2018: race log-loss 2.0500, top-1 0.2815 (123s)
+  2019: race log-loss 2.0754, top-1 0.2655 (149s)
+  2020: race log-loss 2.0431, top-1 0.2873 (179s)
+  2021: race log-loss 2.0557, top-1 0.2774 (209s)
+  2022: race log-loss 2.0263, top-1 0.2866 (245s)
+  2023: race log-loss 2.0234, top-1 0.2902 (286s)
+  2024: race log-loss 2.0424, top-1 0.2767 (330s)
+  top features (last fold): rt_sum_dm 0.181, hippodromeCode 0.101, rt_sum_rk 0.059, rt_p 0.051, deferre 0.023, categorieParticularite 0.019, h_class_change 0.015, trn_wr_dm 0.014, drv_n 0.013, earn_per_start_rk 0.013, earn_per_start_dm 0.012, mus_avg5_dm 0.012, drv_wr_dm 0.011, mus_avg3_dm 0.011, days_since_dm 0.010
+-> exp/win+rt.parquet (435s)

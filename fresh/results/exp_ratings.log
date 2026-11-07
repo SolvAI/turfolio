@@ -1,0 +1,20 @@
+  eta_h 0.8 eta_people 0.2 rho 1.0 kmax 3: winner log-loss 2016-17 2.2385
+  eta_h 0.8 eta_people 0.2 rho 0.8 kmax 3: winner log-loss 2016-17 2.2336
+  eta_h 0.8 eta_people 0.35 rho 1.0 kmax 3: winner log-loss 2016-17 2.2402
+  eta_h 0.8 eta_people 0.35 rho 0.8 kmax 3: winner log-loss 2016-17 2.2294
+  eta_h 0.8 eta_people 0.6 rho 1.0 kmax 3: winner log-loss 2016-17 2.2660
+  eta_h 0.8 eta_people 0.6 rho 0.8 kmax 3: winner log-loss 2016-17 2.2436
+  eta_h 1.2 eta_people 0.2 rho 1.0 kmax 3: winner log-loss 2016-17 2.2467
+  eta_h 1.2 eta_people 0.2 rho 0.8 kmax 3: winner log-loss 2016-17 2.2317
+  eta_h 1.2 eta_people 0.35 rho 1.0 kmax 3: winner log-loss 2016-17 2.2517
+  eta_h 1.2 eta_people 0.35 rho 0.8 kmax 3: winner log-loss 2016-17 2.2298
+  eta_h 1.2 eta_people 0.6 rho 1.0 kmax 3: winner log-loss 2016-17 2.2827
+  eta_h 1.2 eta_people 0.6 rho 0.8 kmax 3: winner log-loss 2016-17 2.2471
+  eta_h 2.0 eta_people 0.2 rho 1.0 kmax 3: winner log-loss 2016-17 2.3144
+  eta_h 2.0 eta_people 0.2 rho 0.8 kmax 3: winner log-loss 2016-17 2.2670
+  eta_h 2.0 eta_people 0.35 rho 1.0 kmax 3: winner log-loss 2016-17 2.3279
+  eta_h 2.0 eta_people 0.35 rho 0.8 kmax 3: winner log-loss 2016-17 2.2708
+  eta_h 2.0 eta_people 0.6 rho 1.0 kmax 3: winner log-loss 2016-17 2.3725
+  eta_h 2.0 eta_people 0.6 rho 0.8 kmax 3: winner log-loss 2016-17 2.2964
+chosen (2.2294327422742133, 0.8, 0.35, 0.8, 3) (8s)
+-> fr_ratings.parquet (9s)

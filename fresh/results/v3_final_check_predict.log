@@ -1,0 +1,13 @@
+built: 1,972,395 rows, 203 numeric inputs, 16 categoricals, 1,972,395 history tokens (9s)
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+built: 1,972,395 rows, 203 numeric inputs, 16 categoricals, 1,972,395 history tokens (15s)
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+fresh/src/fr_v3_final.py:186: RuntimeWarning: invalid value encountered in log
+  X = np.c_[np.ones(n), np.log(Ehat - 1 + 1e-3), np.log(P / Pm), tr_, np.log(np.repeat(ez, ez))]
+fresh/src/fr_v3_final.py:186: RuntimeWarning: invalid value encountered in divide
+  X = np.c_[np.ones(n), np.log(Ehat - 1 + 1e-3), np.log(P / Pm), tr_, np.log(np.repeat(ez, ez))]
+-> fresh/results/v3_predictions_2026-05-06_2026-11-05.csv: 6571 races, 275 rule-B place bets

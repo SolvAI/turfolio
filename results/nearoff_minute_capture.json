@@ -1,0 +1,275 @@
+{
+ "races_captured": 325,
+ "lag_0min": {
+  "races": 183,
+  "days": 21,
+  "logloss": {
+   "final_market": 2.0228,
+   "market_at_lag": 2.0472,
+   "end_ref_model": 2.0959,
+   "model+lag": 2.0602,
+   "model+ref+lag": 2.0602,
+   "final+model": 2.0288
+  },
+  "model+lag_minus_final": [
+   0.0373,
+   [
+    0.0187,
+    0.0607
+   ]
+  ],
+  "model+lag_minus_lag": [
+   0.013,
+   [
+    -0.001,
+    0.0299
+   ]
+  ],
+  "lag_minus_final": [
+   0.0243,
+   [
+    0.0078,
+    0.0439
+   ]
+  ],
+  "median_abs_log_odds_vs_final": 0.0496
+ },
+ "lag_0.5min": {
+  "races": 189,
+  "days": 21,
+  "logloss": {
+   "final_market": 1.9966,
+   "market_at_lag": 2.0396,
+   "end_ref_model": 2.0469,
+   "model+lag": 2.03,
+   "model+ref+lag": 2.0379,
+   "final+model": 1.9962
+  },
+  "model+lag_minus_final": [
+   0.0334,
+   [
+    0.0115,
+    0.0547
+   ]
+  ],
+  "model+lag_minus_lag": [
+   -0.0096,
+   [
+    -0.0329,
+    0.0171
+   ]
+  ],
+  "lag_minus_final": [
+   0.043,
+   [
+    0.0188,
+    0.0655
+   ]
+  ],
+  "median_abs_log_odds_vs_final": 0.0822
+ },
+ "lag_1min": {
+  "races": 199,
+  "days": 21,
+  "logloss": {
+   "final_market": 2.0099,
+   "market_at_lag": 2.0591,
+   "end_ref_model": 2.0628,
+   "model+lag": 2.0527,
+   "model+ref+lag": 2.0688,
+   "final+model": 2.0097
+  },
+  "model+lag_minus_final": [
+   0.0428,
+   [
+    0.0177,
+    0.0675
+   ]
+  ],
+  "model+lag_minus_lag": [
+   -0.0065,
+   [
+    -0.0345,
+    0.0231
+   ]
+  ],
+  "lag_minus_final": [
+   0.0493,
+   [
+    0.0254,
+    0.0736
+   ]
+  ],
+  "median_abs_log_odds_vs_final": 0.1076
+ },
+ "lag_2min": {
+  "races": 250,
+  "days": 21,
+  "logloss": {
+   "final_market": 1.9998,
+   "market_at_lag": 2.0644,
+   "end_ref_model": 2.0635,
+   "model+lag": 2.0524,
+   "model+ref+lag": 2.0543,
+   "final+model": 2.0015
+  },
+  "model+lag_minus_final": [
+   0.0527,
+   [
+    0.0331,
+    0.0748
+   ]
+  ],
+  "model+lag_minus_lag": [
+   -0.012,
+   [
+    -0.0337,
+    0.0141
+   ]
+  ],
+  "lag_minus_final": [
+   0.0647,
+   [
+    0.0413,
+    0.0887
+   ]
+  ],
+  "median_abs_log_odds_vs_final": 0.1411
+ },
+ "lag_3min": {
+  "races": 254,
+  "days": 21,
+  "logloss": {
+   "final_market": 2.0268,
+   "market_at_lag": 2.0939,
+   "end_ref_model": 2.0907,
+   "model+lag": 2.0847,
+   "model+ref+lag": 2.091,
+   "final+model": 2.0276
+  },
+  "model+lag_minus_final": [
+   0.0579,
+   [
+    0.0336,
+    0.0851
+   ]
+  ],
+  "model+lag_minus_lag": [
+   -0.0092,
+   [
+    -0.0317,
+    0.0189
+   ]
+  ],
+  "lag_minus_final": [
+   0.0671,
+   [
+    0.0413,
+    0.0921
+   ]
+  ],
+  "median_abs_log_odds_vs_final": 0.1733
+ },
+ "lag_5min": {
+  "races": 284,
+  "days": 21,
+  "logloss": {
+   "final_market": 2.0306,
+   "market_at_lag": 2.1154,
+   "end_ref_model": 2.0843,
+   "model+lag": 2.0852,
+   "model+ref+lag": 2.0882,
+   "final+model": 2.0323
+  },
+  "model+lag_minus_final": [
+   0.0546,
+   [
+    0.0299,
+    0.0838
+   ]
+  ],
+  "model+lag_minus_lag": [
+   -0.0302,
+   [
+    -0.0618,
+    0.0036
+   ]
+  ],
+  "lag_minus_final": [
+   0.0848,
+   [
+    0.0571,
+    0.1163
+   ]
+  ],
+  "median_abs_log_odds_vs_final": 0.1976
+ },
+ "lag_8min": {
+  "races": 294,
+  "days": 21,
+  "logloss": {
+   "final_market": 2.0736,
+   "market_at_lag": 2.1586,
+   "end_ref_model": 2.1369,
+   "model+lag": 2.1382,
+   "model+ref+lag": 2.1401,
+   "final+model": 2.0783
+  },
+  "model+lag_minus_final": [
+   0.0646,
+   [
+    0.0392,
+    0.0935
+   ]
+  ],
+  "model+lag_minus_lag": [
+   -0.0204,
+   [
+    -0.0537,
+    0.0177
+   ]
+  ],
+  "lag_minus_final": [
+   0.085,
+   [
+    0.0557,
+    0.1169
+   ]
+  ],
+  "median_abs_log_odds_vs_final": 0.23
+ },
+ "lag_12min": {
+  "races": 298,
+  "days": 21,
+  "logloss": {
+   "final_market": 2.054,
+   "market_at_lag": 2.1429,
+   "end_ref_model": 2.1161,
+   "model+lag": 2.1313,
+   "model+ref+lag": 2.1314,
+   "final+model": 2.0592
+  },
+  "model+lag_minus_final": [
+   0.0773,
+   [
+    0.0479,
+    0.106
+   ]
+  ],
+  "model+lag_minus_lag": [
+   -0.0116,
+   [
+    -0.0554,
+    0.0384
+   ]
+  ],
+  "lag_minus_final": [
+   0.0889,
+   [
+    0.0526,
+    0.1277
+   ]
+  ],
+  "median_abs_log_odds_vs_final": 0.2421
+ }
+}

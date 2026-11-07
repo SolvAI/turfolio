@@ -1,0 +1,16 @@
+built: 1,895,775 rows, 203 numeric inputs, 16 categoricals, 1,896,509 history tokens (14s)
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+  2017: winner log-loss 2.0473 (42s)
+  2018: winner log-loss 2.0080 (81s)
+  2019: winner log-loss 2.0319 (126s)
+  2020: winner log-loss 2.0096 (125s)
+  2021: winner log-loss 2.0137 (152s)
+  2022: winner log-loss 1.9940 (206s)
+  2023: winner log-loss 1.9922 (255s)
+  2024: winner log-loss 2.0074 (287s)
+  2025: winner log-loss 1.9957 (318s)
+  2026: winner log-loss 1.9637 (350s)
+-> exp/nn_L20.parquet

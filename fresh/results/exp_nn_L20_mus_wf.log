@@ -1,0 +1,12 @@
+built: 1,971,521 rows, 203 numeric inputs, 16 categoricals, 1,972,395 history tokens (17s)
+  2017: winner log-loss 2.0488 (36s)
+  2018: winner log-loss 2.0095 (54s)
+  2019: winner log-loss 2.0312 (71s)
+  2020: winner log-loss 2.0101 (87s)
+  2021: winner log-loss 2.0145 (100s)
+  2022: winner log-loss 1.9946 (117s)
+  2023: winner log-loss 1.9922 (134s)
+  2024: winner log-loss 2.0078 (151s)
+  2025: winner log-loss 1.9961 (168s)
+  2026: winner log-loss 1.9582 (186s)
+-> exp/nn_L20_mus.parquet

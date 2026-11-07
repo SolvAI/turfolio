@@ -1,0 +1,108 @@
+{
+ "field_mean_prior_starts": [
+  {
+   "bin": "0-2",
+   "races": 8493,
+   "gbm": 1.9789,
+   "nn_minus_gbm": -0.0263,
+   "gbm_rt_minus_gbm": -0.0105
+  },
+  {
+   "bin": "2-4",
+   "races": 8803,
+   "gbm": 1.9119,
+   "nn_minus_gbm": -0.0312,
+   "gbm_rt_minus_gbm": -0.0084
+  },
+  {
+   "bin": "4-7",
+   "races": 10986,
+   "gbm": 1.9998,
+   "nn_minus_gbm": -0.0473,
+   "gbm_rt_minus_gbm": -0.0134
+  },
+  {
+   "bin": "7-10",
+   "races": 7952,
+   "gbm": 2.0452,
+   "nn_minus_gbm": -0.038,
+   "gbm_rt_minus_gbm": -0.0059
+  },
+  {
+   "bin": "10-15",
+   "races": 9411,
+   "gbm": 2.0772,
+   "nn_minus_gbm": -0.0479,
+   "gbm_rt_minus_gbm": -0.0141
+  },
+  {
+   "bin": "15-100",
+   "races": 40447,
+   "gbm": 2.1153,
+   "nn_minus_gbm": -0.0499,
+   "gbm_rt_minus_gbm": -0.013
+  }
+ ],
+ "winner_prior_starts": [
+  {
+   "bin": "0-1",
+   "races": 5298,
+   "gbm": 2.1202,
+   "nn_minus_gbm": 0.0221,
+   "gbm_rt_minus_gbm": -0.0056
+  },
+  {
+   "bin": "1-3",
+   "races": 10361,
+   "gbm": 1.8791,
+   "nn_minus_gbm": -0.0227,
+   "gbm_rt_minus_gbm": -0.0088
+  },
+  {
+   "bin": "3-6",
+   "races": 12188,
+   "gbm": 1.9227,
+   "nn_minus_gbm": -0.0261,
+   "gbm_rt_minus_gbm": -0.0132
+  },
+  {
+   "bin": "6-10",
+   "races": 11975,
+   "gbm": 2.0037,
+   "nn_minus_gbm": -0.0377,
+   "gbm_rt_minus_gbm": -0.016
+  },
+  {
+   "bin": "10-20",
+   "races": 18198,
+   "gbm": 2.0736,
+   "nn_minus_gbm": -0.0443,
+   "gbm_rt_minus_gbm": -0.0098
+  },
+  {
+   "bin": "20-1000",
+   "races": 28072,
+   "gbm": 2.177,
+   "nn_minus_gbm": -0.0747,
+   "gbm_rt_minus_gbm": -0.0129
+  }
+ ],
+ "by_specialite": {
+  "OBSTACLE": {
+   "races": 9307,
+   "nn_minus_gbm": -0.045
+  },
+  "PLAT": {
+   "races": 28150,
+   "nn_minus_gbm": -0.0436
+  },
+  "TROT_ATTELE": {
+   "races": 41249,
+   "nn_minus_gbm": -0.0436
+  },
+  "TROT_MONTE": {
+   "races": 7386,
+   "nn_minus_gbm": -0.0468
+  }
+ }
+}

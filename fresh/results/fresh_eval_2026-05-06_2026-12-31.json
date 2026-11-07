@@ -1,0 +1,50 @@
+{
+ "window": [
+  "2026-05-06",
+  "2026-12-31"
+ ],
+ "races": 5488,
+ "days": 184,
+ "logloss": {
+  "mkt_ref": 1.9841,
+  "mkt_final": 1.8836,
+  "fund": 1.942,
+  "end_ref": 1.9135,
+  "end_final": 1.8684
+ },
+ "top_pick_hit": {
+  "mkt_ref": 0.3028,
+  "mkt_final": 0.3353,
+  "fund": 0.3096,
+  "end_ref": 0.318,
+  "end_final": 0.3344
+ },
+ "fund_minus_mkt_ref": {
+  "diff": -0.0421,
+  "ci95": [
+   -0.0555,
+   -0.0288
+  ]
+ },
+ "end_ref_minus_mkt_ref": {
+  "diff": -0.0706,
+  "ci95": [
+   -0.0788,
+   -0.0618
+  ]
+ },
+ "end_ref_minus_mkt_final": {
+  "diff": 0.0299,
+  "ci95": [
+   0.0223,
+   0.0378
+  ]
+ },
+ "end_final_minus_mkt_final": {
+  "diff": -0.0152,
+  "ci95": [
+   -0.0196,
+   -0.0105
+  ]
+ }
+}

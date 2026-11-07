@@ -1,0 +1,15 @@
+73,136 races with valid place dividends (2019-01-01 .. 2026-05-05), 861,179 starters; dev 59,380 test 13,756
+  P(place) sums to m: min 1.0000 max 1.0000
+  mkt_harv_ref     test {'logloss_per_horse': 0.4875, 'brier': 0.15979, 'top_pick_places': 0.5738, 'top_pick_roi': -0.0971}
+  mkt_disc_ref     test {'logloss_per_horse': 0.48663, 'brier': 0.15943, 'top_pick_places': 0.5738, 'top_pick_roi': -0.0966}
+  end_harv_ref     test {'logloss_per_horse': 0.48387, 'brier': 0.15861, 'top_pick_places': 0.58, 'top_pick_roi': -0.0899}
+  end_stage_ref    test {'logloss_per_horse': 0.47545, 'brier': 0.15616, 'top_pick_places': 0.5803, 'top_pick_roi': -0.0892}
+  mkt_harv_final   test {'logloss_per_horse': 0.47368, 'brier': 0.15506, 'top_pick_places': 0.6039, 'top_pick_roi': -0.0728}
+  mkt_disc_final   test {'logloss_per_horse': 0.47092, 'brier': 0.15399, 'top_pick_places': 0.6032, 'top_pick_roi': -0.0746}
+  end_harv_final   test {'logloss_per_horse': 0.47752, 'brier': 0.15592, 'top_pick_places': 0.6032, 'top_pick_roi': -0.0633}
+  end_stage_final  test {'logloss_per_horse': 0.46683, 'brier': 0.15295, 'top_pick_places': 0.6069, 'top_pick_roi': -0.0612}
+  pool ref: {'payout_fit_dev': {'structural_log_ratio_mean': 0.0068, 'corrected_log_ratio_mean': -0.0346, 'corrected_log_ratio_sd': 0.2405}, 'payout_fit_test': {'structural_log_ratio_mean': 0.0002, 'corrected_log_ratio_mean': -0.0383, 'corrected_log_ratio_sd': 0.2418}, 'gamma_trot': 0.7449, 'gamma_flat': 0.8374, 'return_rate_trot': 0.8047, 'return_rate_flat': 0.812, 'payout_regression_const_logEhatm1_logEdge_trot_logField': [0.1445, 0.9775, -0.8663, 0.0446, -0.064], 'smearing': 1.101}
+  value rule ref: chosen p>=0.6,ev>0.05; dev {'bets': 1892, 'hits': 1290, 'hit_rate': 0.6818, 'avg_payout_when_hit': 1.49, 'roi': 0.0142}; test {'bets': 404, 'hits': 268, 'hit_rate': 0.6634, 'avg_payout_when_hit': 1.49, 'roi': -0.0105, 'roi_ci95': [-0.0833, 0.0568]}
+  pool final: {'payout_fit_dev': {'structural_log_ratio_mean': -0.0074, 'corrected_log_ratio_mean': -0.0202, 'corrected_log_ratio_sd': 0.1704}, 'payout_fit_test': {'structural_log_ratio_mean': -0.0023, 'corrected_log_ratio_mean': -0.0147, 'corrected_log_ratio_sd': 0.1668}, 'gamma_trot': 0.7168, 'gamma_flat': 0.8583, 'return_rate_trot': 0.8437, 'return_rate_flat': 0.8548, 'payout_regression_const_logEhatm1_logEdge_trot_logField': [-0.1156, 1.0112, -0.263, 0.0218, 0.0273], 'smearing': 1.0567}
+  value rule final: chosen p>=0.2,ev>0.1; dev {'bets': 1090, 'hits': 502, 'hit_rate': 0.4606, 'avg_payout_when_hit': 2.48, 'roi': 0.1422}; test {'bets': 113, 'hits': 52, 'hit_rate': 0.4602, 'avg_payout_when_hit': 2.26, 'roi': 0.0381, 'roi_ci95': [-0.1869, 0.2913]}
+done in 8s -> results/place_report.json

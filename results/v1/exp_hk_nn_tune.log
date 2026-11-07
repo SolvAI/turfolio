@@ -1,0 +1,16 @@
+<site-packages>/numpy/lib/_nanfunctions_impl.py:1634: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+src/hk_nn.py:40: RuntimeWarning: Mean of empty slice
+  mu, sd = np.nanmean(np.clip(R, lo, hi), 0), np.nanstd(np.clip(R, lo, hi), 0) + 1e-6
+<site-packages>/numpy/lib/_nanfunctions_impl.py:2035: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+built: 266,370 rows, 126 numeric, 5 categoricals (2s)
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+  4 epochs: validation (2010) winner log-loss 2.1309
+<site-packages>/torch/nn/modules/transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+  7 epochs: validation (2010) winner log-loss 2.1259
+  10 epochs: validation (2010) winner log-loss 2.1291
+  14 epochs: validation (2010) winner log-loss 2.1281
+best epochs 7
